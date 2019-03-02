@@ -1,0 +1,1662 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+-fields	Makefile	/^	ctags    -R --fields=+lS$/;"	m	language:Make
+ALL	Makefile	/^ALL = $(FS) $(TTY) $(MM) $(KERNEL) $(BIN) $(TST) $/;"	m	language:Make
+ALT_L	term/keys.h	42;"	d	language:C++
+ALT_R	term/keys.h	43;"	d	language:C++
+APPS	term/keys.h	35;"	d	language:C++
+AR	lib/Makefile	/^AR			= ar$/;"	m	language:Make
+ARDStruct	boot/loader.asm	/^	ARDStruct		        equ	_ARDStruct	    + BaseOfLoader * 16$/;"	d	language:Asm
+ARFLAGS	lib/Makefile	/^ARFLAGS		= rcs$/;"	m	language:Make
+ASM	bin/Makefile	/^ASM		    = nasm$/;"	m	language:Make
+ASM	boot/Makefile	/^ASM		    = nasm$/;"	m	language:Make
+ASM	fs/Makefile	/^ASM		    = nasm$/;"	m	language:Make
+ASM	kernel/Makefile	/^ASM		    = nasm$/;"	m	language:Make
+ASM	lib/Makefile	/^ASM		    = nasm$/;"	m	language:Make
+ASM	mm/Makefile	/^ASM		    = nasm$/;"	m	language:Make
+ASM	shell/Makefile	/^ASM		    = nasm$/;"	m	language:Make
+ASM	term/Makefile	/^ASM		    = nasm$/;"	m	language:Make
+ASMKFLAGS	bin/Makefile	/^ASMKFLAGS	= -I ..\/include\/ -f elf$/;"	m	language:Make
+ASMKFLAGS	fs/Makefile	/^ASMKFLAGS	= -I ..\/include\/ -f elf$/;"	m	language:Make
+ASMKFLAGS	kernel/Makefile	/^ASMKFLAGS	= -I ..\/include\/ -f elf$/;"	m	language:Make
+ASMKFLAGS	lib/Makefile	/^ASMKFLAGS	= -I ..\/include\/ -f elf$/;"	m	language:Make
+ASMKFLAGS	mm/Makefile	/^ASMKFLAGS	= -I ..\/include\/ -f elf$/;"	m	language:Make
+ASMKFLAGS	shell/Makefile	/^ASMKFLAGS	= -I ..\/include\/ -f elf$/;"	m	language:Make
+ASMKFLAGS	term/Makefile	/^ASMKFLAGS	= -I ..\/include\/ -f elf$/;"	m	language:Make
+ASSERT	include/assert.h	11;"	d	language:C++
+ATA_IDENTIFY	include/casey/hdcntl.h	56;"	d	language:C++
+ATA_READ	include/casey/hdcntl.h	57;"	d	language:C++
+ATA_WRITE	include/casey/hdcntl.h	58;"	d	language:C++
+Attr	include/casey/dtcntl.h	/^	__u8	Attr;                           \/\/P (1 bits) DPL (2 bits) DT (1 bits) TYPE (4 bits)$/;"	m	language:C++	struct:tagGATE
+Attr	include/casey/dtcntl.h	/^	__u8 	Attr;                           \/\/Attribute G (1 bits ),DPL(2bits),DT(3bits),TYPE(4 bits)$/;"	m	language:C++	struct:tagDESCRIPTOR
+B0	term/ttys.h	162;"	d	language:C++
+B110	term/ttys.h	165;"	d	language:C++
+B1200	term/ttys.h	171;"	d	language:C++
+B134	term/ttys.h	166;"	d	language:C++
+B150	term/ttys.h	167;"	d	language:C++
+B1800	term/ttys.h	172;"	d	language:C++
+B19200	term/ttys.h	176;"	d	language:C++
+B200	term/ttys.h	168;"	d	language:C++
+B2400	term/ttys.h	173;"	d	language:C++
+B300	term/ttys.h	169;"	d	language:C++
+B38400	term/ttys.h	177;"	d	language:C++
+B4800	term/ttys.h	174;"	d	language:C++
+B50	term/ttys.h	163;"	d	language:C++
+B600	term/ttys.h	170;"	d	language:C++
+B75	term/ttys.h	164;"	d	language:C++
+B9600	term/ttys.h	175;"	d	language:C++
+BACKSPACE	term/keys.h	31;"	d	language:C++
+BIN	Makefile	/^BIN			= shell.bin$/;"	m	language:Make
+BIN	bin/Makefile	/^BIN			= ..\/bin.bin$/;"	m	language:Make
+BIN	shell/Makefile	/^BIN			= ..\/shell.bin$/;"	m	language:Make
+BINOBJS	bin/Makefile	/^BINOBJS		= entry.o hello.o\\$/;"	m	language:Make
+BINOBJS	shell/Makefile	/^BINOBJS		= entry.o shell.o\\$/;"	m	language:Make
+BLK_SIZE	fs/fs.h	122;"	d	language:C++
+BOOTSECT	Makefile	/^BOOTSECT	= boots.bin$/;"	m	language:Make
+BOOTSECT	boot/Makefile	/^BOOTSECT	= ..\/boots.bin$/;"	m	language:Make
+BRKINT	term/ttys.h	113;"	d	language:C++
+BS0	term/ttys.h	151;"	d	language:C++
+BS1	term/ttys.h	152;"	d	language:C++
+BSDLY	term/ttys.h	150;"	d	language:C++
+BUFFER_HEAD	fs/fs.h	/^}BUFFER_HEAD,*LPBUFFER_HEAD;$/;"	t	language:C++	typeref:struct:tagBUFFER_HEAD
+BUF_END	fs/buffer.c	10;"	d	language:C	file:
+BUF_START	fs/buffer.c	9;"	d	language:C	file:
+BaseHigh	include/casey/dtcntl.h	/^	__u8 	BaseHigh;                       \/\/Base High 8 bits$/;"	m	language:C++	struct:tagDESCRIPTOR
+BaseLow	include/casey/dtcntl.h	/^	__u16 	BaseLow;                        \/\/Base Low 16 bits$/;"	m	language:C++	struct:tagDESCRIPTOR
+BaseMid	include/casey/dtcntl.h	/^	__u8	BaseMid;                        \/\/Base 	Mid 8 bits$/;"	m	language:C++	struct:tagDESCRIPTOR
+BaseOfKernel	boot/loader.asm	/^	BaseOfKernel	equ	07D00h	    ;$/;"	d	language:Asm
+BaseOfLoader	boot/boots.asm	/^	BaseOfLoader		equ	09D00h	;$/;"	d	language:Asm
+BaseOfLoader	boot/loader.asm	/^	BaseOfLoader	equ	09D00h	    ;$/;"	d	language:Asm
+BootMsg	boot/boots.asm	/^	BootMsg		        db	"Booting..."$/;"	d	language:Asm
+BootMsgLen	boot/boots.asm	/^	BootMsgLen	        equ	$ - BootMsg$/;"	d	language:Asm
+CAPS_LOCK	term/keys.h	46;"	d	language:C++
+CASEY_MAGIC	fs/fs.h	136;"	d	language:C++
+CBAUD	term/ttys.h	161;"	d	language:C++
+CC	bin/Makefile	/^CC	    	= gcc$/;"	m	language:Make
+CC	fs/Makefile	/^CC	    	= gcc$/;"	m	language:Make
+CC	kernel/Makefile	/^CC	    	= gcc$/;"	m	language:Make
+CC	lib/Makefile	/^CC	    	= gcc$/;"	m	language:Make
+CC	mm/Makefile	/^CC	    	= gcc$/;"	m	language:Make
+CC	shell/Makefile	/^CC	    	= gcc$/;"	m	language:Make
+CC	term/Makefile	/^CC	    	= gcc$/;"	m	language:Make
+CFLAGS	bin/Makefile	/^CFLAGS		= -s -I ..\/include\/ -fno-builtin -fno-stack-protector -c$/;"	m	language:Make
+CFLAGS	fs/Makefile	/^CFLAGS		= -s -I ..\/include\/ -fno-builtin -fno-stack-protector -c$/;"	m	language:Make
+CFLAGS	kernel/Makefile	/^CFLAGS		= -g -I ..\/include\/ -fno-builtin -fno-stack-protector -c$/;"	m	language:Make
+CFLAGS	lib/Makefile	/^CFLAGS		= -I ..\/include\/ -fno-builtin -fno-stack-protector -c$/;"	m	language:Make
+CFLAGS	mm/Makefile	/^CFLAGS		= -I ..\/include\/ -fno-builtin -fno-stack-protector -c -Wall$/;"	m	language:Make
+CFLAGS	shell/Makefile	/^CFLAGS		= -s -I ..\/include\/ -fno-builtin -fno-stack-protector -c$/;"	m	language:Make
+CFLAGS	term/Makefile	/^CFLAGS		= -I ..\/include\/ -fno-builtin -fno-stack-protector -c$/;"	m	language:Make
+CHAR_BUF	include/casey/termio.h	/^}CHAR_BUF;$/;"	t	language:C++	typeref:struct:tagCHAR_BUF
+CIBAUD	term/ttys.h	191;"	d	language:C++
+CLOCAL	term/ttys.h	190;"	d	language:C++
+CMBOX	include/casey/mm.h	18;"	d	language:C++
+CODE32_START	boot/loader.asm	/^CODE32_START:$/;"	l	language:Asm
+CONSOLE	include/casey/termio.h	/^}CONSOLE;$/;"	t	language:C++	typeref:struct:__anon2
+COOKED	include/casey/termio.h	/^}COOKED;$/;"	t	language:C++	typeref:struct:tagCOOKED_BUF
+CPARENB	term/ttys.h	187;"	d	language:C++
+CPARODD	term/ttys.h	188;"	d	language:C++
+CR0	term/ttys.h	140;"	d	language:C++
+CR1	term/ttys.h	141;"	d	language:C++
+CR2	term/ttys.h	142;"	d	language:C++
+CR3	term/ttys.h	143;"	d	language:C++
+CRDLY	term/ttys.h	139;"	d	language:C++
+CREAD	term/ttys.h	186;"	d	language:C++
+CRTSCTS	term/ttys.h	192;"	d	language:C++
+CRT_ADDR	include/casey/termio.h	35;"	d	language:C++
+CRT_CURPOS_H	include/casey/termio.h	39;"	d	language:C++
+CRT_CURPOS_L	include/casey/termio.h	40;"	d	language:C++
+CRT_DATA	include/casey/termio.h	36;"	d	language:C++
+CRT_START_H	include/casey/termio.h	37;"	d	language:C++
+CRT_START_L	include/casey/termio.h	38;"	d	language:C++
+CS5	term/ttys.h	181;"	d	language:C++
+CS6	term/ttys.h	182;"	d	language:C++
+CS7	term/ttys.h	183;"	d	language:C++
+CS8	term/ttys.h	184;"	d	language:C++
+CSIZE	term/ttys.h	180;"	d	language:C++
+CSInit	kernel/kernel.asm	/^CSInit:        $/;"	l	language:Asm
+CSTOPB	term/ttys.h	185;"	d	language:C++
+CTRL_L	term/keys.h	40;"	d	language:C++
+CTRL_R	term/keys.h	41;"	d	language:C++
+DATA32_START	boot/loader.asm	/^	DATA32_START:$/;"	l	language:Asm
+DA_32	include/casey/dtcntl.h	44;"	d	language:C++
+DA_386CGate	include/casey/dtcntl.h	63;"	d	language:C++
+DA_386IGate	include/casey/dtcntl.h	64;"	d	language:C++
+DA_386TGate	include/casey/dtcntl.h	65;"	d	language:C++
+DA_386TSS	include/casey/dtcntl.h	62;"	d	language:C++
+DA_C	include/casey/dtcntl.h	55;"	d	language:C++
+DA_CCO	include/casey/dtcntl.h	57;"	d	language:C++
+DA_CCOR	include/casey/dtcntl.h	58;"	d	language:C++
+DA_CR	include/casey/dtcntl.h	56;"	d	language:C++
+DA_DPL0	include/casey/dtcntl.h	46;"	d	language:C++
+DA_DPL1	include/casey/dtcntl.h	47;"	d	language:C++
+DA_DPL2	include/casey/dtcntl.h	48;"	d	language:C++
+DA_DPL3	include/casey/dtcntl.h	49;"	d	language:C++
+DA_DR	include/casey/dtcntl.h	52;"	d	language:C++
+DA_DRW	include/casey/dtcntl.h	53;"	d	language:C++
+DA_DRWA	include/casey/dtcntl.h	54;"	d	language:C++
+DA_LDT	include/casey/dtcntl.h	60;"	d	language:C++
+DA_LIMIT_4K	include/casey/dtcntl.h	45;"	d	language:C++
+DA_TaskGate	include/casey/dtcntl.h	61;"	d	language:C++
+DCount	include/casey/dtcntl.h	/^	__u8 	DCount;                         \/\/used in call gate$/;"	m	language:C++	struct:tagGATE
+DELETE	term/keys.h	68;"	d	language:C++
+DESCRIPTOR	include/casey/dtcntl.h	/^}DESCRIPTOR,*LPDESCRIPTOR;$/;"	t	language:C++	typeref:struct:tagDESCRIPTOR
+DEV_FD	include/casey/config.h	12;"	d	language:C++
+DEV_HD	include/casey/config.h	13;"	d	language:C++
+DEV_INODE	fs/fs.h	/^}DEV_INODE,*LPDEV_INODE;$/;"	t	language:C++	typeref:struct:tagDEV_INODE
+DEV_LP	include/casey/config.h	16;"	d	language:C++
+DEV_MEM	include/casey/config.h	11;"	d	language:C++
+DEV_NULL	include/casey/config.h	10;"	d	language:C++
+DEV_SUPER_BLOCK	fs/fs.h	/^}DEV_SUPER_BLOCK,*LPDEV_SUPER_BLOCK;$/;"	t	language:C++	typeref:struct:tagDEV_SUPER_BLOCK
+DEV_TTY	include/casey/config.h	15;"	d	language:C++
+DEV_TTYX	include/casey/config.h	14;"	d	language:C++
+DIR_ENTRY	fs/fs.h	/^}DIR_ENTRY,*LPDIR_ENTRY;$/;"	t	language:C++	typeref:struct:tagDIR_ENTRY
+DOWN	term/keys.h	74;"	d	language:C++
+Data32Len	boot/loader.asm	/^	Data32Len	equ $	- DATA32_START$/;"	d	language:Asm
+ECHO	term/ttys.h	201;"	d	language:C++
+ECHOCTL	term/ttys.h	207;"	d	language:C++
+ECHOE	term/ttys.h	202;"	d	language:C++
+ECHOK	term/ttys.h	203;"	d	language:C++
+ECHOKE	term/ttys.h	209;"	d	language:C++
+ECHONL	term/ttys.h	204;"	d	language:C++
+ECHOPRT	term/ttys.h	208;"	d	language:C++
+END	term/keys.h	70;"	d	language:C++
+ENTER	term/keys.h	30;"	d	language:C++
+ENTRIES_PER_BLK	fs/fs.h	126;"	d	language:C++
+ENTRYPOINT	bin/Makefile	/^ENTRYPOINT	= 0x0$/;"	m	language:Make
+ENTRYPOINT	fs/Makefile	/^ENTRYPOINT	= 0x0$/;"	m	language:Make
+ENTRYPOINT	kernel/Makefile	/^ENTRYPOINT  = 0x115000$/;"	m	language:Make
+ENTRYPOINT	mm/Makefile	/^ENTRYPOINT	= 0x0$/;"	m	language:Make
+ENTRYPOINT	shell/Makefile	/^ENTRYPOINT	= 0x1000$/;"	m	language:Make
+ENTRYPOINT	term/Makefile	/^ENTRYPOINT	= 0x00$/;"	m	language:Make
+EOI	include/casey/dtcntl.h	155;"	d	language:C++
+ESC	term/keys.h	28;"	d	language:C++
+EXTA	term/ttys.h	178;"	d	language:C++
+EXTB	term/ttys.h	179;"	d	language:C++
+EXTENED	include/casey/hdcntl.h	76;"	d	language:C++
+F1	term/keys.h	51;"	d	language:C++
+F10	term/keys.h	60;"	d	language:C++
+F11	term/keys.h	61;"	d	language:C++
+F12	term/keys.h	62;"	d	language:C++
+F2	term/keys.h	52;"	d	language:C++
+F3	term/keys.h	53;"	d	language:C++
+F4	term/keys.h	54;"	d	language:C++
+F5	term/keys.h	55;"	d	language:C++
+F6	term/keys.h	56;"	d	language:C++
+F7	term/keys.h	57;"	d	language:C++
+F8	term/keys.h	58;"	d	language:C++
+F9	term/keys.h	59;"	d	language:C++
+FALSE	include/casey/types.h	33;"	d	language:C++
+FATTabBase	boot/boots.asm	/^	FATTabBase		    equ	50h     ; FAT tab Base$/;"	d	language:Asm
+FATTabBase	boot/loader.asm	/^	FATTabBase		equ	50h         ; FAT tab Base$/;"	d	language:Asm
+FATTabLen	boot/boots.asm	/^    FATTabLen           equ 0x1200  ; FAT tab length$/;"	d	language:Asm
+FATTabLen	boot/loader.asm	/^    FATTabLen       equ 0x1200      ; FAT tab length (total 4.5KB)$/;"	d	language:Asm
+FATTabOffset	boot/boots.asm	/^	FATTabOffset		equ	0h	    ; FAT tab Offset$/;"	d	language:Asm
+FATTabOffset	boot/loader.asm	/^	FATTabOffset	equ	0h	        ; FAT tab Offset$/;"	d	language:Asm
+FF0	term/ttys.h	157;"	d	language:C++
+FF1	term/ttys.h	158;"	d	language:C++
+FFDLY	term/ttys.h	156;"	d	language:C++
+FILE_STRUCT	fs/fs.h	/^}FILE_STRUCT,*PFILE_STRUCT;$/;"	t	language:C++	typeref:struct:tagFILE_STRUCT
+FILPS_BUF	include/casey/mm.h	23;"	d	language:C++
+FLAG_ALT_L	term/keys.h	15;"	d	language:C++
+FLAG_ALT_R	term/keys.h	16;"	d	language:C++
+FLAG_BREAK	term/keys.h	9;"	d	language:C++
+FLAG_CTRL_L	term/keys.h	13;"	d	language:C++
+FLAG_CTRL_R	term/keys.h	14;"	d	language:C++
+FLAG_EXT	term/keys.h	10;"	d	language:C++
+FLAG_PAD	term/keys.h	17;"	d	language:C++
+FLAG_SHIFT_L	term/keys.h	11;"	d	language:C++
+FLAG_SHIFT_R	term/keys.h	12;"	d	language:C++
+FLAT_C	boot/loader.asm	/^	FLAT_C:		    Descriptor	0	    ,   0FFFFFH	,	DA_CR |DA_32|DA_LIMIT_4K    ; 0~4G code$/;"	l	language:Asm
+FLOPPY	Makefile	/^FLOPPY		= \/mnt\/floppy\/$/;"	m	language:Make
+FLUSHO	term/ttys.h	210;"	d	language:C++
+FMAP	fs/Makefile	/^FMAP        =  fs_map.map$/;"	m	language:Make
+FS	Makefile	/^FS			= fsmain.bin$/;"	m	language:Make
+FS	fs/Makefile	/^FS			=  ..\/fsmain.bin$/;"	m	language:Make
+FS	include/casey/sched.h	33;"	d	language:C++
+FSBUF	include/casey/mm.h	22;"	d	language:C++
+FSM_EXEC	include/sys/msgno.h	78;"	d	language:C++
+FSM_OK	include/sys/msgno.h	75;"	d	language:C++
+FSM_READ	include/sys/msgno.h	76;"	d	language:C++
+FSM_WRITE	include/sys/msgno.h	77;"	d	language:C++
+FSOBJS	fs/Makefile	/^FSOBJS		= entry.o fmain.o buffer.o blk_drv.o bitmap.o super.o inode.o blk_rw.o\\$/;"	m	language:Make
+FS_MAIN	fs/fs.h	129;"	d	language:C++
+FS_ROCK	include/casey/kernel.h	19;"	d	language:C++
+FS_SYNC	fs/fs.h	130;"	d	language:C++
+FindOutInRoot	boot/boots.asm	/^FindOutInRoot:$/;"	l	language:Asm
+FindOutInSects	boot/boots.asm	/^FindOutInSects:$/;"	l	language:Asm
+FoundStr	boot/boots.asm	/^	FoundStr	        db	"Loader OK"$/;"	d	language:Asm
+FoundStrLen	boot/boots.asm	/^	FoundStrLen	        equ	$ - FoundStr$/;"	d	language:Asm
+GATE	include/casey/dtcntl.h	/^}GATE,*LPGATE;$/;"	t	language:C++	typeref:struct:tagGATE
+GDT	boot/loader.asm	/^	GDT:		    Descriptor	0	    ,	0	    ,   0$/;"	l	language:Asm
+GDT	kernel/dtcntl.c	/^DESCRIPTOR 	GDT[MAX_GDT_NUM];   \/\/NEW GDT$/;"	v	language:C
+GUI_L	term/keys.h	33;"	d	language:C++
+GUI_R	term/keys.h	34;"	d	language:C++
+GdtLen	boot/loader.asm	/^	GdtLen		    equ	$ - GDT$/;"	d	language:Asm
+GdtPtr	boot/loader.asm	/^	GdtPtr		    dw	GdtLen - 1  ; GdtLimit$/;"	d	language:Asm
+GdtPtr	kernel/dtcntl.c	/^__u8 		GdtPtr[6];      	\/\/Low 16 bits <-- limit,high 32 bits <-- base $/;"	v	language:C
+GetMemSize	boot/loader.asm	/^GetMemSize:$/;"	l	language:Asm
+HDCMD	include/casey/hdcntl.h	/^}HDCMD,*LPHDCMD;$/;"	t	language:C++	typeref:struct:tagHDCMD
+HDINFO	include/casey/hdcntl.h	/^}HDINFO,*LPHDINFO;$/;"	t	language:C++	typeref:struct:tagHDINFO
+HDIOCTL	include/casey/hdcntl.h	/^}HDIOCTL,*LPHDIOCTL;$/;"	t	language:C++	typeref:struct:tagHDIOCTL
+HDRW	include/casey/hdcntl.h	/^}HDRW,*LPHDRW;$/;"	t	language:C++	typeref:struct:tagHDRW
+HD_NUM_ADDR	include/casey/hdcntl.h	23;"	d	language:C++
+HOME	term/keys.h	69;"	d	language:C++
+HUPCL	term/ttys.h	189;"	d	language:C++
+HZ	fs/blk_drv.c	12;"	d	language:C	file:
+HZ	include/casey/sched.h	14;"	d	language:C++
+HZ	lib/syscalls.c	7;"	d	language:C	file:
+ICANON	term/ttys.h	199;"	d	language:C++
+ICRNL	term/ttys.h	120;"	d	language:C++
+IDT	kernel/dtcntl.c	/^GATE        IDT[MAX_IDT_NUM];$/;"	v	language:C
+IEXTEN	term/ttys.h	212;"	d	language:C++
+IGNBRK	term/ttys.h	112;"	d	language:C++
+IGNCR	term/ttys.h	119;"	d	language:C++
+IGNPAR	term/ttys.h	114;"	d	language:C++
+IMAP_SLOTS	fs/fs.h	88;"	d	language:C++
+IMAXBEL	term/ttys.h	125;"	d	language:C++
+IMG	Makefile	/^IMG	    	= boot.img$/;"	m	language:Make
+INDEX_CS	include/casey/dtcntl.h	95;"	d	language:C++
+INDEX_DS	include/casey/dtcntl.h	97;"	d	language:C++
+INDEX_DUMMY	include/casey/dtcntl.h	93;"	d	language:C++
+INDEX_FLAT_C	include/casey/dtcntl.h	94;"	d	language:C++
+INDEX_FLAT_RW	include/casey/dtcntl.h	96;"	d	language:C++
+INDEX_GS	include/casey/dtcntl.h	99;"	d	language:C++
+INDEX_LDT_C	include/casey/dtcntl.h	102;"	d	language:C++
+INDEX_LDT_FIRST	include/casey/dtcntl.h	101;"	d	language:C++
+INDEX_LDT_RW	include/casey/dtcntl.h	103;"	d	language:C++
+INDEX_TSS	include/casey/dtcntl.h	100;"	d	language:C++
+INDEX_VIDEO	include/casey/dtcntl.h	98;"	d	language:C++
+INIT	include/casey/sched.h	32;"	d	language:C++
+INLCR	term/ttys.h	118;"	d	language:C++
+INODES_PER_BLK	fs/fs.h	125;"	d	language:C++
+INPCK	term/ttys.h	116;"	d	language:C++
+INSERT	term/keys.h	67;"	d	language:C++
+INT_VECT_BP	include/casey/dtcntl.h	125;"	d	language:C++
+INT_VECT_BR	include/casey/dtcntl.h	127;"	d	language:C++
+INT_VECT_DB	include/casey/dtcntl.h	123;"	d	language:C++
+INT_VECT_DE	include/casey/dtcntl.h	122;"	d	language:C++
+INT_VECT_DF	include/casey/dtcntl.h	130;"	d	language:C++
+INT_VECT_GP	include/casey/dtcntl.h	135;"	d	language:C++
+INT_VECT_IR0	include/casey/dtcntl.h	140;"	d	language:C++
+INT_VECT_IR8	include/casey/dtcntl.h	141;"	d	language:C++
+INT_VECT_MF	include/casey/dtcntl.h	137;"	d	language:C++
+INT_VECT_MSG	include/casey/dtcntl.h	159;"	d	language:C++
+INT_VECT_NM	include/casey/dtcntl.h	129;"	d	language:C++
+INT_VECT_NMI	include/casey/dtcntl.h	124;"	d	language:C++
+INT_VECT_NP	include/casey/dtcntl.h	133;"	d	language:C++
+INT_VECT_OF	include/casey/dtcntl.h	126;"	d	language:C++
+INT_VECT_OVRR	include/casey/dtcntl.h	131;"	d	language:C++
+INT_VECT_PF	include/casey/dtcntl.h	136;"	d	language:C++
+INT_VECT_SS	include/casey/dtcntl.h	134;"	d	language:C++
+INT_VECT_SYS	include/casey/dtcntl.h	158;"	d	language:C++
+INT_VECT_TSS	include/casey/dtcntl.h	132;"	d	language:C++
+INT_VECT_UD	include/casey/dtcntl.h	128;"	d	language:C++
+IPC	kernel/Makefile	/^IPC			= send.o post.o pick.o reply.o msgcall.o$/;"	m	language:Make
+IRQ_CASCADE	include/casey/dtcntl.h	146;"	d	language:C++
+IRQ_CLK	include/casey/dtcntl.h	144;"	d	language:C++
+IRQ_HD	include/casey/dtcntl.h	147;"	d	language:C++
+IRQ_KBD	include/casey/dtcntl.h	145;"	d	language:C++
+ISIG	term/ttys.h	198;"	d	language:C++
+ISTRIP	term/ttys.h	117;"	d	language:C++
+IUCLC	term/ttys.h	121;"	d	language:C++
+IXANY	term/ttys.h	123;"	d	language:C++
+IXOFF	term/ttys.h	124;"	d	language:C++
+IXON	term/ttys.h	122;"	d	language:C++
+I_BLOCK_SPECIAL	include/sys/stat.h	44;"	d	language:C++
+I_CHAR_SPECIAL	include/sys/stat.h	45;"	d	language:C++
+I_DIRECTORY	include/sys/stat.h	42;"	d	language:C++
+I_NAMED_PIPE	include/sys/stat.h	46;"	d	language:C++
+I_REGULAR	include/sys/stat.h	43;"	d	language:C++
+I_SET_GID_BIT	include/sys/stat.h	48;"	d	language:C++
+I_SET_UID_BIT	include/sys/stat.h	47;"	d	language:C++
+I_TYPE	include/sys/stat.h	41;"	d	language:C++
+IdtPtr	kernel/dtcntl.c	/^__u8        IdtPtr[6] = {0};$/;"	v	language:C
+Init8253	kernel/sched.c	/^static void Init8253 ( void )$/;"	f	language:C	file:	signature:( void )
+Init8259A	kernel/dtcntl.c	/^static void Init8259A ( void )$/;"	f	language:C	file:	signature:( void )
+InitDT	kernel/dtcntl.c	/^void InitDT ( DESCRIPTOR *pDesc,$/;"	f	language:C	signature:( DESCRIPTOR *pDesc, __u32 base, __u32 limit, __u16 attri )
+InitFS	fs/fmain.c	26;"	d	language:C	file:
+InitGDTPtr	kernel/dtcntl.c	/^static void InitGDTPtr ( void ) $/;"	f	language:C	file:	signature:( void )
+InitIDTDesc	kernel/dtcntl.c	/^static void InitIDTDesc ( __u8 vectno,		          \/\/vect num$/;"	f	language:C	file:	signature:( __u8 vectno, __u8 desctype, PRC PRC, __u8 dpl )
+InitIDTPtr	kernel/dtcntl.c	/^static void InitIDTPtr ( void ) $/;"	f	language:C	file:	signature:( void )
+InitIRQPrc	kernel/dtcntl.c	/^static void InitIRQPrc ( void )$/;"	f	language:C	file:	signature:( void )
+InitIntPrc	kernel/dtcntl.c	/^static void InitIntPrc ( void ) $/;"	f	language:C	file:	signature:( void )
+InitKernel	boot/loader.asm	/^InitKernel:$/;"	l	language:Asm
+InitKernelStr	boot/loader.asm	/^	InitKernelStr		    equ	_InitKernelStr	+ BaseOfLoader * 16$/;"	d	language:Asm
+InitProcsLdt	kernel/dtcntl.c	/^void InitProcsLdt ( PROCESS *procs_p  ) $/;"	f	language:C	signature:( PROCESS *procs_p )
+InitReady	boot/loader.asm	/^	InitReady		        equ	_InitReady	    + BaseOfLoader * 16$/;"	d	language:Asm
+InitTSS	kernel/dtcntl.c	/^static void InitTSS ( void ) $/;"	f	language:C	file:	signature:( void )
+Init_TTY	term/rw_con.c	/^void Init_TTY ( void ) $/;"	f	language:C	signature:( void )
+KBDATA_PORT	term/keys.h	4;"	d	language:C++
+KBD_QUE	include/casey/termio.h	/^}KBD_QUE;$/;"	t	language:C++	typeref:struct:tagKBD_QUE
+KB_BUF_LEN	include/casey/termio.h	62;"	d	language:C++
+KERNEL	Makefile	/^KERNEL		= kernel.bin$/;"	m	language:Make
+KERNEL	kernel/Makefile	/^KERNEL		= ..\/kernel.bin$/;"	m	language:Make
+KLIB	kernel/Makefile	/^KLIB		= ..\/lib\/klib\/klib.a$/;"	m	language:Make
+KLIB	lib/Makefile	/^KLIB		=  klib\/klib.a$/;"	m	language:Make
+KLIBOBJS	lib/Makefile	/^KLIBOBJS	= klib\/kstring.o string.o port.o syscalls.o$/;"	m	language:Make
+KMAP	kernel/Makefile	/^KMAP		= kernel.map$/;"	m	language:Make
+KOBJS	kernel/Makefile	/^KOBJS		= kernel.o dtcntl.o kmain.o excpcalls.o irq.o  sched.o exceptn.o syscall.o \\$/;"	m	language:Make
+KSTRIP	Makefile	/^KSTRIP		= kernel.bin.s$/;"	m	language:Make
+K_VGA_START	include/casey/kernel.h	15;"	d	language:C++
+KernelEntry	boot/loader.asm	/^	KernelEntry		equ	115000h     ; 1M + 84K for kernel space $/;"	d	language:Asm
+KernelStack	kernel/kernel.asm	/^        KernelStack:$/;"	l	language:Asm
+KillMotor	boot/loader.asm	/^KillMotor:$/;"	l	language:Asm
+LBAhigh	include/casey/hdcntl.h	/^    __u8    LBAhigh;$/;"	m	language:C++	struct:tagHDCMD
+LBAlow	include/casey/hdcntl.h	/^    __u8    LBAlow;$/;"	m	language:C++	struct:tagHDCMD
+LBAmid	include/casey/hdcntl.h	/^    __u8    LBAmid;$/;"	m	language:C++	struct:tagHDCMD
+LD	bin/Makefile	/^LD		    = ld$/;"	m	language:Make
+LD	fs/Makefile	/^LD		    = ld$/;"	m	language:Make
+LD	kernel/Makefile	/^LD		    = ld$/;"	m	language:Make
+LD	mm/Makefile	/^LD		    = ld$/;"	m	language:Make
+LD	shell/Makefile	/^LD		    = ld$/;"	m	language:Make
+LD	term/Makefile	/^LD		    = ld$/;"	m	language:Make
+LDFLAGS	bin/Makefile	/^LDFLAGS		= -s -Ttext $(ENTRYPOINT)$/;"	m	language:Make
+LDFLAGS	fs/Makefile	/^LDFLAGS		= -s -Ttext $(ENTRYPOINT)$/;"	m	language:Make
+LDFLAGS	kernel/Makefile	/^LDFLAGS		= -g -Ttext $(ENTRYPOINT)$/;"	m	language:Make
+LDFLAGS	mm/Makefile	/^LDFLAGS		= -Ttext $(ENTRYPOINT)$/;"	m	language:Make
+LDFLAGS	shell/Makefile	/^LDFLAGS		= -s -Ttext $(ENTRYPOINT)$/;"	m	language:Make
+LDFLAGS	term/Makefile	/^LDFLAGS		= -Ttext $(ENTRYPOINT)$/;"	m	language:Make
+LEFT	lib/string.c	160;"	d	language:C	file:
+LEFT	term/keys.h	75;"	d	language:C++
+LIB	lib/Makefile	/^LIB			=  lib.a$/;"	m	language:Make
+LIBOBJS	lib/Makefile	/^LIBOBJS		= string.o assert.o printf.o syscalls.o libc.o$/;"	m	language:Make
+LOADER	Makefile	/^LOADER		= loader.bin$/;"	m	language:Make
+LOADER	boot/Makefile	/^LOADER		= ..\/loader.bin$/;"	m	language:Make
+LOGIC_PART_TABLE	include/casey/hdcntl.h	/^}LOGIC_PART_TABLE;$/;"	t	language:C++	typeref:struct:tagLOGIC_PART_TABLE
+LOW_MEM	include/casey/kernel.h	53;"	d	language:C++
+LPBUFFER_HEAD	fs/fs.h	/^}BUFFER_HEAD,*LPBUFFER_HEAD;$/;"	t	language:C++	typeref:struct:tagBUFFER_HEAD
+LPDESCRIPTOR	include/casey/dtcntl.h	/^}DESCRIPTOR,*LPDESCRIPTOR;$/;"	t	language:C++	typeref:struct:tagDESCRIPTOR
+LPDEV_INODE	fs/fs.h	/^}DEV_INODE,*LPDEV_INODE;$/;"	t	language:C++	typeref:struct:tagDEV_INODE
+LPDEV_SUPER_BLOCK	fs/fs.h	/^}DEV_SUPER_BLOCK,*LPDEV_SUPER_BLOCK;$/;"	t	language:C++	typeref:struct:tagDEV_SUPER_BLOCK
+LPDIR_ENTRY	fs/fs.h	/^}DIR_ENTRY,*LPDIR_ENTRY;$/;"	t	language:C++	typeref:struct:tagDIR_ENTRY
+LPGATE	include/casey/dtcntl.h	/^}GATE,*LPGATE;$/;"	t	language:C++	typeref:struct:tagGATE
+LPHDCMD	include/casey/hdcntl.h	/^}HDCMD,*LPHDCMD;$/;"	t	language:C++	typeref:struct:tagHDCMD
+LPHDINFO	include/casey/hdcntl.h	/^}HDINFO,*LPHDINFO;$/;"	t	language:C++	typeref:struct:tagHDINFO
+LPHDIOCTL	include/casey/hdcntl.h	/^}HDIOCTL,*LPHDIOCTL;$/;"	t	language:C++	typeref:struct:tagHDIOCTL
+LPHDRW	include/casey/hdcntl.h	/^}HDRW,*LPHDRW;$/;"	t	language:C++	typeref:struct:tagHDRW
+LPMEM_INODE	fs/fs.h	/^}MEM_INODE,*LPMEM_INODE;$/;"	t	language:C++	typeref:struct:tagMEM_INODE
+LPMEM_SUPER_BLOCK	fs/fs.h	/^}MEM_SUPER_BLOCK,*LPMEM_SUPER_BLOCK;$/;"	t	language:C++	typeref:struct:tagMEM_SUPER_BLOCK
+LPPARTINFO	include/casey/hdcntl.h	/^}PARTINFO,*LPPARTINFO;$/;"	t	language:C++	typeref:struct:tasgPARTINFO
+LPTSS	include/casey/procs.h	/^}TSS,*LPTSS;$/;"	t	language:C++	typeref:struct:tagTSS
+LimitAttr	include/casey/dtcntl.h	/^	__u8 	LimitAttr;                      \/\/Limit high 4 bits ,Attribute Low 4 bits$/;"	m	language:C++	struct:tagDESCRIPTOR
+LimitLow	include/casey/dtcntl.h	/^	__u16	LimitLow;		                \/\/limit Low 16 bits$/;"	m	language:C++	struct:tagDESCRIPTOR
+LoadFile	boot/boots.asm	/^LoadFile:$/;"	l	language:Asm
+LoaderStr	boot/boots.asm	/^	LoaderStr	        db	"LOADER  BIN"$/;"	d	language:Asm
+M	term/rw_con.c	185;"	d	language:C	file:
+MAIL	include/sys/msgno.h	/^}MAIL;$/;"	t	language:C++	typeref:struct:tagMAIL
+MAILBOX	include/sys/msgno.h	/^}MAILBOX;$/;"	t	language:C++	typeref:struct:tagMAILBOX
+MAJOR	include/casey/config.h	25;"	d	language:C++
+MAJOR_SHFT	include/casey/config.h	21;"	d	language:C++
+MAKERGB	kernel/kconio.c	/^inline unsigned char MAKERGB ( bool bkhl,$/;"	f	language:C	signature:( bool bkhl, unsigned char bk,bool fghl,unsigned char fg )
+MAKERGB	term/rw_con.c	/^inline unsigned char MAKERGB ( bool bkhl,$/;"	f	language:C	signature:( bool bkhl, unsigned char bk,bool fghl,unsigned char fg )
+MAKE_DEV	include/casey/config.h	22;"	d	language:C++
+MAKE_HDREG	fs/blk_drv.c	/^inline unsigned char MAKE_HDREG (unsigned char lba,$/;"	f	language:C	signature:(unsigned char lba, unsigned char drv,unsigned char highlba )
+MAP	bin/Makefile	/^MAP			= bin.map$/;"	m	language:Make
+MAP	mm/Makefile	/^MAP			= mm.map$/;"	m	language:Make
+MAP	shell/Makefile	/^MAP			= shell.map$/;"	m	language:Make
+MAPED_MEM	kernel/page/page_map.c	/^u32   MAPED_MEM;                                  \/\/ mem for mapping ...$/;"	v	language:C
+MAP_COLS	term/keys.h	6;"	d	language:C++
+MASK_RAW	term/keys.h	19;"	d	language:C++
+MAX_CHAR_BUF_LEN	include/casey/termio.h	20;"	d	language:C++
+MAX_CONSOLES	include/casey/termio.h	19;"	d	language:C++
+MAX_DEVS	include/casey/config.h	18;"	d	language:C++
+MAX_DRVS	include/casey/hdcntl.h	67;"	d	language:C++
+MAX_ENTER_TIMES	include/casey/kernel.h	12;"	d	language:C++
+MAX_FILPS	fs/fs.h	65;"	d	language:C++
+MAX_GDT_NUM	include/casey/dtcntl.h	14;"	d	language:C++
+MAX_IDT_NUM	include/casey/dtcntl.h	13;"	d	language:C++
+MAX_IRQ_NUM	include/casey/kernel.h	43;"	d	language:C++
+MAX_LDT_NUM	include/casey/dtcntl.h	15;"	d	language:C++
+MAX_LEN	term/decode.c	96;"	d	language:C	file:
+MAX_LOGICS	include/casey/hdcntl.h	72;"	d	language:C++
+MAX_LOGICS_PER_EXT_PART	include/casey/hdcntl.h	69;"	d	language:C++
+MAX_OPEN_FILES	fs/fs.h	64;"	d	language:C++
+MAX_PRIMS	include/casey/hdcntl.h	71;"	d	language:C++
+MAX_PRIMS_PER_DRV	include/casey/hdcntl.h	68;"	d	language:C++
+MAX_PROCS	include/casey/sched.h	28;"	d	language:C++
+MAX_SCAN_CODES	term/keys.h	7;"	d	language:C++
+MAX_SYS_CALL	include/casey/kernel.h	60;"	d	language:C++
+MAX_TASKS	include/casey/sched.h	31;"	d	language:C++
+MAX_THREAD	include/casey/procs.h	36;"	d	language:C++
+MAX_TTY_NR	term/ttys.h	31;"	d	language:C++
+MDD_RECV	include/sys/msgno.h	10;"	d	language:C++
+MDD_SEND	include/sys/msgno.h	9;"	d	language:C++
+MEM_CHK_FAIL	boot/loader.asm	/^MEM_CHK_FAIL:$/;"	l	language:Asm
+MEM_CHK_OK	boot/loader.asm	/^MEM_CHK_OK:$/;"	l	language:Asm
+MEM_INODE	fs/fs.h	/^}MEM_INODE,*LPMEM_INODE;$/;"	t	language:C++	typeref:struct:tagMEM_INODE
+MEM_SUPER_BLOCK	fs/fs.h	/^}MEM_SUPER_BLOCK,*LPMEM_SUPER_BLOCK;$/;"	t	language:C++	typeref:struct:tagMEM_SUPER_BLOCK
+MINOR	include/casey/config.h	26;"	d	language:C++
+MM	Makefile	/^MM			= mm.bin$/;"	m	language:Make
+MM	include/casey/sched.h	35;"	d	language:C++
+MM	mm/Makefile	/^MM			= ..\/mm.bin$/;"	m	language:Make
+MMM_OK	include/sys/msgno.h	85;"	d	language:C++
+MMOBJS	mm/Makefile	/^MMOBJS		= entry.o mmain.o\\$/;"	m	language:Make
+MM_ROCK	include/casey/kernel.h	21;"	d	language:C++
+MPL_SYS	include/sys/msgno.h	66;"	d	language:C++
+MPL_USR	include/sys/msgno.h	67;"	d	language:C++
+MSG_ANY	include/sys/msgno.h	70;"	d	language:C++
+MSG_PST	include/sys/msgno.h	72;"	d	language:C++
+MSG_SND	include/sys/msgno.h	71;"	d	language:C++
+M_CTL	include/casey/dtcntl.h	149;"	d	language:C++
+M_MASK	include/casey/dtcntl.h	151;"	d	language:C++
+M_RET_NOPROCEED	include/sys/msgno.h	63;"	d	language:C++
+M_RET_PROCEED	include/sys/msgno.h	64;"	d	language:C++
+M_WAY_POST	include/sys/msgno.h	60;"	d	language:C++
+M_WAY_SEND	include/sys/msgno.h	61;"	d	language:C++
+Max	include/string.h	12;"	d	language:C++
+MemChkBuf	boot/loader.asm	/^	MemChkBuf		        equ	_MemChkBuf	    + BaseOfLoader * 16$/;"	d	language:Asm
+Min	include/string.h	13;"	d	language:C++
+NAME_LEN	fs/fs.h	114;"	d	language:C++
+NCC	term/ttys.h	72;"	d	language:C++
+NCCS	term/ttys.h	14;"	d	language:C++
+NCCS	term/ttys.h	82;"	d	language:C++
+NL0	term/ttys.h	137;"	d	language:C++
+NL1	term/ttys.h	138;"	d	language:C++
+NLDLY	term/ttys.h	136;"	d	language:C++
+NOFLSH	term/ttys.h	205;"	d	language:C++
+NOPART	include/casey/hdcntl.h	75;"	d	language:C++
+NRML_INIT	include/casey/sched.h	12;"	d	language:C++
+NR_BUFFERS	fs/buffer.c	/^static unsigned long NR_BUFFERS;$/;"	v	language:C	file:
+NR_HASH	fs/buffer.c	11;"	d	language:C	file:
+NR_INODE	fs/inode.c	9;"	d	language:C	file:
+NR_PAGES	kernel/page/page_map.c	/^u32   NR_PAGES    = 0;                            \/\/ mem pages of MAPED_MEM$/;"	v	language:C
+NR_SBLK	fs/super.c	8;"	d	language:C	file:
+NR_SND_MAILS	include/sys/msgno.h	40;"	d	language:C++
+NR_SYSCALL	kernel/syscall.c	/^u32   NR_SYSCALL = 0;$/;"	v	language:C
+NR_SYS_MAILS	include/sys/msgno.h	39;"	d	language:C++
+NR_TASKS	kernel/kmain.c	/^u8    NR_TASKS;$/;"	v	language:C
+NR_USR_MAILS	include/sys/msgno.h	41;"	d	language:C++
+NR_USR_PROCS	kernel/kmain.c	/^u8    NR_USR_PROCS;$/;"	v	language:C
+NULL	include/casey/types.h	40;"	d	language:C++
+NULL	kernel.bin.s	/^/;"	l	language:Asm
+NULL_BK	include/string.h	11;"	d	language:C++
+NUM	include/casey/types.h	44;"	d	language:C++
+NUM_LOCK	term/keys.h	47;"	d	language:C++
+NotFoundStr	boot/boots.asm	/^	NotFoundStr	        db	"No Loader"$/;"	d	language:Asm
+NotFoundStrLen	boot/boots.asm	/^	NotFoundStrLen	    equ	$ - NotFoundStr$/;"	d	language:Asm
+OCRNL	term/ttys.h	131;"	d	language:C++
+OFDEL	term/ttys.h	135;"	d	language:C++
+OFILL	term/ttys.h	134;"	d	language:C++
+OLCUC	term/ttys.h	129;"	d	language:C++
+ONLCR	term/ttys.h	130;"	d	language:C++
+ONLRET	term/ttys.h	133;"	d	language:C++
+ONOCR	term/ttys.h	132;"	d	language:C++
+OPOST	term/ttys.h	128;"	d	language:C++
+O_ACCMODE	include/fcntl.h	4;"	d	language:C++
+O_APPEND	include/fcntl.h	12;"	d	language:C++
+O_CREAT	include/fcntl.h	8;"	d	language:C++
+O_EXCL	include/fcntl.h	9;"	d	language:C++
+O_NDELAY	include/fcntl.h	14;"	d	language:C++
+O_NOCTTY	include/fcntl.h	10;"	d	language:C++
+O_NONBLOCK	include/fcntl.h	13;"	d	language:C++
+O_RDONLY	include/fcntl.h	5;"	d	language:C++
+O_RDWR	include/fcntl.h	7;"	d	language:C++
+O_TRUNC	include/fcntl.h	11;"	d	language:C++
+O_WRONLY	include/fcntl.h	6;"	d	language:C++
+OffsetHigh	include/casey/dtcntl.h	/^	__u16	OffsetHigh;                     \/\/Offset High$/;"	m	language:C++	struct:tagGATE
+OffsetLow	include/casey/dtcntl.h	/^	__u16   OffsetLow;                      \/\/Offset Low$/;"	m	language:C++	struct:tagGATE
+OffsetOfKernel	boot/loader.asm	/^	OffsetOfKernel	equ	0	        ; 0x7d000 - 0x9d000 for kernel.bin$/;"	d	language:Asm
+OffsetOfLoader	boot/boots.asm	/^	OffsetOfLoader		equ	0100h	; LOADER.BIN Loadered  Here [BaseOfLoader:OffsetOfLoader]$/;"	d	language:Asm
+OffsetOfLoader	boot/loader.asm	/^	OffsetOfLoader	equ	0100h	    ; 0x9d000 - 0x9fc00 for loader.bin$/;"	d	language:Asm
+PAD_0	term/keys.h	90;"	d	language:C++
+PAD_1	term/keys.h	91;"	d	language:C++
+PAD_2	term/keys.h	92;"	d	language:C++
+PAD_3	term/keys.h	93;"	d	language:C++
+PAD_4	term/keys.h	94;"	d	language:C++
+PAD_5	term/keys.h	95;"	d	language:C++
+PAD_6	term/keys.h	96;"	d	language:C++
+PAD_7	term/keys.h	97;"	d	language:C++
+PAD_8	term/keys.h	98;"	d	language:C++
+PAD_9	term/keys.h	99;"	d	language:C++
+PAD_DEL	term/keys.h	110;"	d	language:C++
+PAD_DOT	term/keys.h	89;"	d	language:C++
+PAD_DOWN	term/keys.h	101;"	d	language:C++
+PAD_END	term/keys.h	105;"	d	language:C++
+PAD_ENTER	term/keys.h	88;"	d	language:C++
+PAD_HOME	term/keys.h	104;"	d	language:C++
+PAD_INS	term/keys.h	108;"	d	language:C++
+PAD_LEFT	term/keys.h	102;"	d	language:C++
+PAD_MID	term/keys.h	109;"	d	language:C++
+PAD_MINUS	term/keys.h	86;"	d	language:C++
+PAD_PAGEDOWN	term/keys.h	107;"	d	language:C++
+PAD_PAGEUP	term/keys.h	106;"	d	language:C++
+PAD_PLUS	term/keys.h	87;"	d	language:C++
+PAD_RIGHT	term/keys.h	103;"	d	language:C++
+PAD_SLASH	term/keys.h	84;"	d	language:C++
+PAD_STAR	term/keys.h	85;"	d	language:C++
+PAD_UP	term/keys.h	100;"	d	language:C++
+PAGEDOWN	term/keys.h	72;"	d	language:C++
+PAGEUP	term/keys.h	71;"	d	language:C++
+PARENB	term/ttys.h	194;"	d	language:C++
+PARMRK	term/ttys.h	115;"	d	language:C++
+PARODD	term/ttys.h	195;"	d	language:C++
+PARTINFO	include/casey/hdcntl.h	/^}PARTINFO,*LPPARTINFO;$/;"	t	language:C++	typeref:struct:tasgPARTINFO
+PART_TABLE	include/casey/hdcntl.h	/^}PART_TABLE;    $/;"	t	language:C++	typeref:struct:tagPART_TABLE
+PART_TABLE_OFF	include/casey/hdcntl.h	61;"	d	language:C++
+PAUSEBREAK	term/keys.h	66;"	d	language:C++
+PENDIN	term/ttys.h	211;"	d	language:C++
+PFILE_STRUCT	fs/fs.h	/^}FILE_STRUCT,*PFILE_STRUCT;$/;"	t	language:C++	typeref:struct:tagFILE_STRUCT
+PID	include/casey/procs.h	/^} PID;$/;"	t	language:C++	typeref:struct:__anon5
+PLUS	lib/string.c	158;"	d	language:C	file:
+PL_KNRL	include/casey/dtcntl.h	82;"	d	language:C++
+PL_OS	include/casey/dtcntl.h	81;"	d	language:C++
+PL_TASK	include/casey/dtcntl.h	83;"	d	language:C++
+PL_USER	include/casey/dtcntl.h	84;"	d	language:C++
+PMBOX	include/casey/mm.h	17;"	d	language:C++
+PMmsg	boot/loader.asm	/^	PMmsg			        equ	_PMmsg		    + BaseOfLoader * 16$/;"	d	language:Asm
+POWER	term/keys.h	79;"	d	language:C++
+PRC	include/casey/types.h	/^typedef void*                  PRC;$/;"	t	language:C++
+PRINTSCREEN	term/keys.h	65;"	d	language:C++
+PROCESS	include/casey/procs.h	/^}PROCESS;$/;"	t	language:C++	typeref:struct:tagPROCESS
+PROCS_STACK_SIZE	include/casey/mm.h	11;"	d	language:C++
+PROC_STACK	include/casey/mm.h	16;"	d	language:C++
+PUT	kernel/excpcalls.c	93;"	d	language:C	file:
+PageMsg	boot/loader.asm	/^	PageMsg			        equ	_PageMsg	    + BaseOfLoader * 16$/;"	d	language:Asm
+READ	fs/fs.h	123;"	d	language:C++
+REG_ALT_STATUS	include/casey/hdcntl.h	52;"	d	language:C++
+REG_CMD	include/casey/hdcntl.h	34;"	d	language:C++
+REG_DATA	include/casey/hdcntl.h	26;"	d	language:C++
+REG_DEV	include/casey/hdcntl.h	33;"	d	language:C++
+REG_DEV_CTRL	include/casey/hdcntl.h	51;"	d	language:C++
+REG_DRV	include/casey/hdcntl.h	53;"	d	language:C++
+REG_ERR	include/casey/hdcntl.h	28;"	d	language:C++
+REG_FEATRUES	include/casey/hdcntl.h	27;"	d	language:C++
+REG_LBA_HIGH	include/casey/hdcntl.h	32;"	d	language:C++
+REG_LBA_LOW	include/casey/hdcntl.h	30;"	d	language:C++
+REG_LBA_MID	include/casey/hdcntl.h	31;"	d	language:C++
+REG_NSECTS	include/casey/hdcntl.h	29;"	d	language:C++
+REG_STATUS	include/casey/hdcntl.h	35;"	d	language:C++
+RGB_BLACK	include/casey/termio.h	10;"	d	language:C++
+RGB_BLUE	include/casey/termio.h	11;"	d	language:C++
+RGB_DARK_GREEN	include/casey/termio.h	13;"	d	language:C++
+RGB_DARK_RED	include/casey/termio.h	15;"	d	language:C++
+RGB_GREEN	include/casey/termio.h	12;"	d	language:C++
+RGB_PURP	include/casey/termio.h	16;"	d	language:C++
+RGB_RED	include/casey/termio.h	14;"	d	language:C++
+RGB_WHITE	include/casey/termio.h	17;"	d	language:C++
+RIGHT	term/keys.h	76;"	d	language:C++
+ROCKECT	include/casey/mm.h	19;"	d	language:C++
+ROCKS	include/casey/kernel.h	18;"	d	language:C++
+ROOT_DEV	include/casey/config.h	28;"	d	language:C++
+ROOT_IND_NR	fs/fs.h	133;"	d	language:C++
+ROOT_NR	fs/fs.h	132;"	d	language:C++
+RPL_KNRL	include/casey/dtcntl.h	88;"	d	language:C++
+RPL_OS	include/casey/dtcntl.h	87;"	d	language:C++
+RPL_TASK	include/casey/dtcntl.h	89;"	d	language:C++
+RPL_USER	include/casey/dtcntl.h	90;"	d	language:C++
+RamSize	boot/loader.asm	/^	RamSize			        equ	_RamSize	    + BaseOfLoader * 16$/;"	d	language:Asm
+RootTotalSects	boot/loader.asm	/^	RootTotalSects	equ	14		    ; Root Sects$/;"	d	language:Asm
+SA_RPL0	include/casey/dtcntl.h	70;"	d	language:C++
+SA_RPL1	include/casey/dtcntl.h	71;"	d	language:C++
+SA_RPL2	include/casey/dtcntl.h	72;"	d	language:C++
+SA_RPL3	include/casey/dtcntl.h	73;"	d	language:C++
+SA_RPL_MASK	include/casey/dtcntl.h	69;"	d	language:C++
+SA_TIG	include/casey/dtcntl.h	77;"	d	language:C++
+SA_TIL	include/casey/dtcntl.h	78;"	d	language:C++
+SA_TI_MASK	include/casey/dtcntl.h	76;"	d	language:C++
+SCROLL_LOCK	term/keys.h	48;"	d	language:C++
+SECT_SIZE	include/casey/hdcntl.h	64;"	d	language:C++
+SEL	include/casey/dtcntl.h	105;"	d	language:C++
+SELECTOR_DUMMY	include/casey/dtcntl.h	108;"	d	language:C++
+SELECTOR_FLAT_C	include/casey/dtcntl.h	109;"	d	language:C++
+SELECTOR_FLAT_RW	include/casey/dtcntl.h	110;"	d	language:C++
+SELECTOR_KERNEL_CS	include/casey/dtcntl.h	115;"	d	language:C++
+SELECTOR_KERNEL_DS	include/casey/dtcntl.h	116;"	d	language:C++
+SELECTOR_KERNEL_GS	include/casey/dtcntl.h	117;"	d	language:C++
+SELECTOR_LDT	include/casey/dtcntl.h	113;"	d	language:C++
+SELECTOR_TSS	include/casey/dtcntl.h	112;"	d	language:C++
+SELECTOR_VIDEO	include/casey/dtcntl.h	111;"	d	language:C++
+SEND_Q	include/casey/procs.h	/^}SEND_Q;$/;"	t	language:C++	typeref:struct:__anon4
+SHELL	include/casey/sched.h	36;"	d	language:C++
+SHIFT_L	term/keys.h	38;"	d	language:C++
+SHIFT_R	term/keys.h	39;"	d	language:C++
+SIGN	lib/string.c	157;"	d	language:C	file:
+SIZE	include/casey/types.h	43;"	d	language:C++
+SLEEP	term/keys.h	80;"	d	language:C++
+SMALL	lib/string.c	162;"	d	language:C	file:
+SPACE	lib/string.c	159;"	d	language:C	file:
+SPECIAL	lib/string.c	161;"	d	language:C	file:
+STACK_FRAME	include/casey/procs.h	/^}STACK_FRAME;$/;"	t	language:C++	typeref:struct:tagSTACK_FRAME
+STATUS_BSY	include/casey/hdcntl.h	38;"	d	language:C++
+STATUS_CORR	include/casey/hdcntl.h	43;"	d	language:C++
+STATUS_DFSE	include/casey/hdcntl.h	40;"	d	language:C++
+STATUS_DRQ	include/casey/hdcntl.h	42;"	d	language:C++
+STATUS_DRVRDY	include/casey/hdcntl.h	39;"	d	language:C++
+STATUS_DSC	include/casey/hdcntl.h	41;"	d	language:C++
+STATUS_ERR	include/casey/hdcntl.h	45;"	d	language:C++
+STATUS_IDX	include/casey/hdcntl.h	44;"	d	language:C++
+STATUS_NO	include/casey/hdcntl.h	48;"	d	language:C++
+STATUS_TIMEOUT	include/casey/hdcntl.h	49;"	d	language:C++
+STATUS_YES	include/casey/hdcntl.h	47;"	d	language:C++
+STDIN_BUF	include/casey/mm.h	26;"	d	language:C++
+STDOUT_BUF	include/casey/mm.h	27;"	d	language:C++
+S_CTL	include/casey/dtcntl.h	150;"	d	language:C++
+S_IFBLK	include/sys/stat.h	10;"	d	language:C++
+S_IFCHR	include/sys/stat.h	12;"	d	language:C++
+S_IFDIR	include/sys/stat.h	11;"	d	language:C++
+S_IFIFO	include/sys/stat.h	13;"	d	language:C++
+S_IFMT	include/sys/stat.h	8;"	d	language:C++
+S_IFREG	include/sys/stat.h	9;"	d	language:C++
+S_IRGRP	include/sys/stat.h	32;"	d	language:C++
+S_IROTH	include/sys/stat.h	37;"	d	language:C++
+S_IRUSR	include/sys/stat.h	27;"	d	language:C++
+S_IRWXG	include/sys/stat.h	31;"	d	language:C++
+S_IRWXO	include/sys/stat.h	36;"	d	language:C++
+S_IRWXU	include/sys/stat.h	26;"	d	language:C++
+S_ISBLK	include/sys/stat.h	23;"	d	language:C++
+S_ISCHR	include/sys/stat.h	22;"	d	language:C++
+S_ISDIR	include/sys/stat.h	21;"	d	language:C++
+S_ISFIFO	include/sys/stat.h	24;"	d	language:C++
+S_ISGID	include/sys/stat.h	17;"	d	language:C++
+S_ISREG	include/sys/stat.h	20;"	d	language:C++
+S_ISUID	include/sys/stat.h	16;"	d	language:C++
+S_ISVTX	include/sys/stat.h	18;"	d	language:C++
+S_IWGRP	include/sys/stat.h	33;"	d	language:C++
+S_IWOTH	include/sys/stat.h	38;"	d	language:C++
+S_IWUSR	include/sys/stat.h	28;"	d	language:C++
+S_IXGRP	include/sys/stat.h	34;"	d	language:C++
+S_IXOTH	include/sys/stat.h	39;"	d	language:C++
+S_IXUSR	include/sys/stat.h	29;"	d	language:C++
+S_MASK	include/casey/dtcntl.h	152;"	d	language:C++
+Selector	include/casey/dtcntl.h	/^	__u16	Selector;                       \/\/selector $/;"	m	language:C++	struct:tagGATE
+SelectorFlat_C	boot/loader.asm	/^	SelectorFlat_C	equ	FLAT_C - GDT; 8h$/;"	d	language:Asm
+SelectorFlat_RW	boot/loader.asm	/^	SelectorFlat_RW	equ	FLAT_RW- GDT; 10h$/;"	d	language:Asm
+SelectorVideo	boot/loader.asm	/^	SelectorVideo	equ	VIDEO  - GDT; 18h$/;"	d	language:Asm
+SetupPaging	boot/loader.asm	/^SetupPaging:$/;"	l	language:Asm
+SrchFromSect	boot/boots.asm	/^	SrchFromSect	    dw	19		; search from SrchSectNum$/;"	d	language:Asm
+SrchFromSect	boot/loader.asm	/^	SrchFromSect	dw	19		    ; search from SrchSectNum$/;"	d	language:Asm
+StackSpace	boot/loader.asm	/^	StackSpace:	times 1024	db	0$/;"	l	language:Asm
+TAB	term/keys.h	29;"	d	language:C++
+TAB0	term/ttys.h	145;"	d	language:C++
+TAB1	term/ttys.h	146;"	d	language:C++
+TAB2	term/ttys.h	147;"	d	language:C++
+TAB3	term/ttys.h	148;"	d	language:C++
+TABDLY	term/ttys.h	144;"	d	language:C++
+TASK0_STACK_SIZE	kernel/task0/setup.c	13;"	d	language:C	file:
+TASK_FS	include/casey/sched.h	39;"	d	language:C++
+TASK_INIT	include/casey/sched.h	38;"	d	language:C++
+TASK_MM	include/casey/sched.h	41;"	d	language:C++
+TASK_TTY	include/casey/sched.h	40;"	d	language:C++
+TCFLSH	term/ttys.h	47;"	d	language:C++
+TCGETA	term/ttys.h	41;"	d	language:C++
+TCGETS	term/ttys.h	37;"	d	language:C++
+TCSBRK	term/ttys.h	45;"	d	language:C++
+TCSETA	term/ttys.h	42;"	d	language:C++
+TCSETAF	term/ttys.h	44;"	d	language:C++
+TCSETAW	term/ttys.h	43;"	d	language:C++
+TCSETS	term/ttys.h	38;"	d	language:C++
+TCSETSF	term/ttys.h	40;"	d	language:C++
+TCSETSW	term/ttys.h	39;"	d	language:C++
+TCXONC	term/ttys.h	46;"	d	language:C++
+TERM	term/Makefile	/^TERM		=  ..\/termio.bin$/;"	m	language:Make
+TERMMAP	term/Makefile	/^TERMMAP     =  term_map.map$/;"	m	language:Make
+TERMOBJS	term/Makefile	/^TERMOBJS	= entry.o term.o decode.o rw_con.o codemap.o rw_tty.o\\$/;"	m	language:Make
+TERM_BUFFER	include/casey/kernel.h	13;"	d	language:C++
+TERM_BUF_LEN	include/casey/kernel.h	14;"	d	language:C++
+TERM_MODE	term/ttys.h	/^}TERM_MODE;$/;"	t	language:C++	typeref:struct:term_mode_s
+TERM_ROCK	include/casey/kernel.h	20;"	d	language:C++
+TFRQ	include/casey/sched.h	13;"	d	language:C++
+THREAD	include/casey/procs.h	/^}THREAD;    $/;"	t	language:C++	typeref:struct:tagTHREAD
+THREAD_REGS	include/casey/procs.h	/^}THREAD_REGS;$/;"	t	language:C++	typeref:struct:__anon6
+TIMER0	include/casey/sched.h	7;"	d	language:C++
+TIMER1	include/casey/sched.h	8;"	d	language:C++
+TIMER2	include/casey/sched.h	9;"	d	language:C++
+TIOCEXCL	term/ttys.h	48;"	d	language:C++
+TIOCGPGRP	term/ttys.h	51;"	d	language:C++
+TIOCGSOFTCAR	term/ttys.h	61;"	d	language:C++
+TIOCGWINSZ	term/ttys.h	55;"	d	language:C++
+TIOCINQ	term/ttys.h	63;"	d	language:C++
+TIOCMBIC	term/ttys.h	59;"	d	language:C++
+TIOCMBIS	term/ttys.h	58;"	d	language:C++
+TIOCMGET	term/ttys.h	57;"	d	language:C++
+TIOCMSET	term/ttys.h	60;"	d	language:C++
+TIOCM_CAR	term/ttys.h	221;"	d	language:C++
+TIOCM_CD	term/ttys.h	224;"	d	language:C++
+TIOCM_CTS	term/ttys.h	220;"	d	language:C++
+TIOCM_DSR	term/ttys.h	223;"	d	language:C++
+TIOCM_DTR	term/ttys.h	216;"	d	language:C++
+TIOCM_LE	term/ttys.h	215;"	d	language:C++
+TIOCM_RI	term/ttys.h	225;"	d	language:C++
+TIOCM_RNG	term/ttys.h	222;"	d	language:C++
+TIOCM_RTS	term/ttys.h	217;"	d	language:C++
+TIOCM_SR	term/ttys.h	219;"	d	language:C++
+TIOCM_ST	term/ttys.h	218;"	d	language:C++
+TIOCNXCL	term/ttys.h	49;"	d	language:C++
+TIOCOUTQ	term/ttys.h	53;"	d	language:C++
+TIOCSCTTY	term/ttys.h	50;"	d	language:C++
+TIOCSPGRP	term/ttys.h	52;"	d	language:C++
+TIOCSSOFTCAR	term/ttys.h	62;"	d	language:C++
+TIOCSTI	term/ttys.h	54;"	d	language:C++
+TIOCSWINSZ	term/ttys.h	56;"	d	language:C++
+TMOD	include/casey/sched.h	11;"	d	language:C++
+TOSTOP	term/ttys.h	206;"	d	language:C++
+TRUE	include/casey/types.h	34;"	d	language:C++
+TSS	include/casey/procs.h	/^}TSS,*LPTSS;$/;"	t	language:C++	typeref:struct:tagTSS
+TST	Makefile	/^TST			= bin.bin$/;"	m	language:Make
+TS_EXITED	include/casey/sched.h	25;"	d	language:C++
+TS_FULL_WAIT	include/casey/sched.h	23;"	d	language:C++
+TS_LOOP_WAIT	include/casey/sched.h	22;"	d	language:C++
+TS_RECVING	include/casey/sched.h	20;"	d	language:C++
+TS_RUNNING	include/casey/sched.h	17;"	d	language:C++
+TS_SENDING	include/casey/sched.h	19;"	d	language:C++
+TS_STUCK	include/casey/sched.h	18;"	d	language:C++
+TS_WAIT_CHILD	include/casey/sched.h	24;"	d	language:C++
+TS_WAIT_INTR	include/casey/sched.h	21;"	d	language:C++
+TTY	Makefile	/^TTY			= termio.bin$/;"	m	language:Make
+TTY	include/casey/sched.h	34;"	d	language:C++
+TTYM_OK	include/sys/msgno.h	81;"	d	language:C++
+TTYM_READ	include/sys/msgno.h	82;"	d	language:C++
+TTY_BUF_SIZE	term/ttys.h	5;"	d	language:C++
+TTY_QUE	term/ttys.h	/^}TTY_QUE;$/;"	t	language:C++	typeref:struct:tty_q
+TopOfStack	boot/loader.asm	/^	TopOfStack	equ	BaseOfLoader * 16 + $	        ;$/;"	d	language:Asm
+UP	term/keys.h	73;"	d	language:C++
+USER_SPACE	include/casey/mm.h	12;"	d	language:C++
+VDISCARD	term/ttys.h	106;"	d	language:C++
+VEOF	term/ttys.h	97;"	d	language:C++
+VEOL	term/ttys.h	104;"	d	language:C++
+VEOL2	term/ttys.h	109;"	d	language:C++
+VERASE	term/ttys.h	95;"	d	language:C++
+VIDEO	boot/loader.asm	/^	VIDEO:		    Descriptor	0B8000H ,	0FFFFH	,	DA_DRW|DA_32|DA_DPL3$/;"	l	language:Asm
+VIDEO_MEM_BASE	include/casey/termio.h	41;"	d	language:C++
+VINTR	term/ttys.h	93;"	d	language:C++
+VKILL	term/ttys.h	96;"	d	language:C++
+VLNEXT	term/ttys.h	108;"	d	language:C++
+VMIN	term/ttys.h	99;"	d	language:C++
+VQUIT	term/ttys.h	94;"	d	language:C++
+VREPRINT	term/ttys.h	105;"	d	language:C++
+VSTART	term/ttys.h	101;"	d	language:C++
+VSTOP	term/ttys.h	102;"	d	language:C++
+VSUSP	term/ttys.h	103;"	d	language:C++
+VSWTC	term/ttys.h	100;"	d	language:C++
+VT0	term/ttys.h	154;"	d	language:C++
+VT1	term/ttys.h	155;"	d	language:C++
+VTDLY	term/ttys.h	153;"	d	language:C++
+VTIME	term/ttys.h	98;"	d	language:C++
+VWERASE	term/ttys.h	107;"	d	language:C++
+WAIT_Q	include/sys/msgno.h	/^}WAIT_Q;$/;"	t	language:C++	typeref:struct:__anon1
+WAKE	term/keys.h	81;"	d	language:C++
+WRITE	fs/fs.h	124;"	d	language:C++
+X	include/casey/termio.h	/^}X;$/;"	t	language:C++	typeref:struct:__anon3
+XCASE	term/ttys.h	200;"	d	language:C++
+XTABS	term/ttys.h	149;"	d	language:C++
+ZEROPAD	lib/string.c	156;"	d	language:C	file:
+ZMAP_SLOTS	fs/fs.h	89;"	d	language:C++
+_ARDStruct	boot/loader.asm	/^	_ARDStruct:			                            ; Address Range Descriptor Structure$/;"	l	language:Asm
+_INTSIZEOF	include/stdarg.h	10;"	d	language:C++
+_InitKernelStr	boot/loader.asm	/^	_InitKernelStr			db	"Inint Kernel...",0ah,0$/;"	d	language:Asm
+_InitReady	boot/loader.asm	/^	_InitReady			    db	"Kernel Ready!",0ah,0$/;"	d	language:Asm
+_MemChkBuf	boot/loader.asm	/^	_MemChkBuf:	times 1024	db	0$/;"	l	language:Asm
+_PMmsg	boot/loader.asm	/^	_PMmsg:				    db	"Protect Mode Actived!",0ah,0$/;"	d	language:Asm
+_PageMsg	boot/loader.asm	/^	_PageMsg:			    db	0ah,"Paging Ready!",0AH,0$/;"	d	language:Asm
+_RamSize	boot/loader.asm	/^	_RamSize			    db	"Total RAM Size:",0$/;"	d	language:Asm
+__ARG_H__	include/stdarg.h	7;"	d	language:C++
+__ASSERT_H__	include/assert.h	8;"	d	language:C++
+__CONFIG_H__	include/casey/config.h	8;"	d	language:C++
+__DTS_H__	include/casey/dtcntl.h	8;"	d	language:C++
+__EXCPTN_H__	include/casey/excptn.h	8;"	d	language:C++
+__FCNTL_H__	include/fcntl.h	2;"	d	language:C++
+__FS_H__	fs/fs.h	7;"	d	language:C++
+__HDCNTL_H__	include/casey/hdcntl.h	7;"	d	language:C++
+__KERNEL_H__	include/casey/kernel.h	7;"	d	language:C++
+__KEYBD_H__	term/keys.h	2;"	d	language:C++
+__MM_H__	include/casey/mm.h	8;"	d	language:C++
+__MSG_H__	include/sys/msgno.h	2;"	d	language:C++
+__NR_add_thread	include/unistd.h	21;"	d	language:C++
+__NR_badness	include/unistd.h	25;"	d	language:C++
+__NR_block	include/unistd.h	26;"	d	language:C++
+__NR_end_thread	include/unistd.h	22;"	d	language:C++
+__NR_exit	include/unistd.h	16;"	d	language:C++
+__NR_get_pinfo	include/unistd.h	23;"	d	language:C++
+__NR_get_tks	include/unistd.h	14;"	d	language:C++
+__NR_kill	include/unistd.h	17;"	d	language:C++
+__NR_pause	include/unistd.h	20;"	d	language:C++
+__NR_pickmail	include/unistd.h	9;"	d	language:C++
+__NR_postmail	include/unistd.h	7;"	d	language:C++
+__NR_replymail	include/unistd.h	10;"	d	language:C++
+__NR_sendmail	include/unistd.h	8;"	d	language:C++
+__NR_startup	include/unistd.h	15;"	d	language:C++
+__NR_tty_read	include/unistd.h	19;"	d	language:C++
+__NR_tty_write	include/unistd.h	18;"	d	language:C++
+__NR_unblock	include/unistd.h	27;"	d	language:C++
+__NR_wait_hd_intr	include/unistd.h	24;"	d	language:C++
+__NR_waitpid	include/unistd.h	28;"	d	language:C++
+__PROCS_H__	include/casey/procs.h	7;"	d	language:C++
+__SCHED_H__	include/casey/sched.h	2;"	d	language:C++
+__STDIO_H__	include/stdio.h	9;"	d	language:C++
+__STDLIB_H__	include/stdlib.h	8;"	d	language:C++
+__STRING_H__	include/string.h	7;"	d	language:C++
+__SYS_STAT_H__	include/sys/stat.h	2;"	d	language:C++
+__TERMIO_H__	include/casey/termio.h	8;"	d	language:C++
+__TTYS_H__	term/ttys.h	2;"	d	language:C++
+__TYPE_H__	include/casey/types.h	9;"	d	language:C++
+__UNISTD_H__	include/unistd.h	2;"	d	language:C++
+__UNI_TYPES_H__	include/sys/types.h	8;"	d	language:C++
+__bmap	fs/inode.c	/^unsigned long __bmap ( MEM_INODE *m_inode,unsigned long file_blk_no,bool fcrt,bool *created ) $/;"	f	language:C	file:	signature:( MEM_INODE *m_inode,unsigned long file_blk_no,bool fcrt,bool *created )
+__bounds_chk	kernel/exceptn.asm	/^__bounds_chk:$/;"	l	language:Asm
+__breakpt	kernel/exceptn.asm	/^__breakpt:$/;"	l	language:Asm
+__byte	include/casey/types.h	/^typedef unsigned char         __byte;$/;"	t	language:C++
+__clk	kernel/kernel.asm	/^__clk: $/;"	l	language:Asm
+__copr_err	kernel/exceptn.asm	/^__copr_err:             $/;"	l	language:Asm
+__copr_seg_overrun	kernel/exceptn.asm	/^__copr_seg_overrun:$/;"	l	language:Asm
+__copr_unavailable	kernel/exceptn.asm	/^__copr_unavailable:$/;"	l	language:Asm
+__curprocs	kernel/kmain.c	/^PROCESS*  __curprocs      = NULL;$/;"	v	language:C
+__debug	kernel/exceptn.asm	/^__debug:$/;"	l	language:Asm
+__div_err	kernel/exceptn.asm	/^__div_err:$/;"	l	language:Asm
+__do_no_page	kernel/page/page_map.c	/^void __do_no_page ( u32 page_addr  ) $/;"	f	language:C	signature:( u32 page_addr )
+__do_syscall	kernel/kernel.asm	/^__do_syscall:   $/;"	l	language:Asm
+__double_fault	kernel/exceptn.asm	/^__double_fault:$/;"	l	language:Asm
+__exceptn_prc	kernel/excpcalls.c	/^PRC __exceptn_prc[32];$/;"	v	language:C
+__general_protection	kernel/exceptn.asm	/^__general_protection:   $/;"	l	language:Asm
+__hd	kernel/kernel.asm	/^__hd:     $/;"	l	language:Asm
+__i16	include/casey/types.h	/^typedef short                 __i16 ;$/;"	t	language:C++
+__i32	include/casey/types.h	/^typedef long                  __i32 ;$/;"	t	language:C++
+__i64	include/casey/types.h	/^typedef long long             __i64 ;$/;"	t	language:C++
+__i8	include/casey/types.h	/^typedef char                  __i8  ;$/;"	t	language:C++
+__inval_opcode	kernel/exceptn.asm	/^__inval_opcode:$/;"	l	language:Asm
+__inval_tss	kernel/exceptn.asm	/^__inval_tss:            $/;"	l	language:Asm
+__irq_prc	kernel/irq.c	/^PRC __irq_prc[MAX_IRQ_NUM];$/;"	v	language:C
+__k_reenter	kernel/kernel.asm	/^        __k_reenter                                  db      0$/;"	d	language:Asm
+__kernel_cstart	kernel/dtcntl.c	/^void __kernel_cstart ( void ) $/;"	f	language:C	signature:( void )
+__kernel_main	kernel/kmain.c	/^void __kernel_main ( void ) $/;"	f	language:C	signature:( void )
+__keyboard	kernel/kernel.asm	/^__keyboard: $/;"	l	language:Asm
+__mem_size	kernel/kernel.asm	/^        __mem_size                                   dd      0 $/;"	d	language:Asm
+__nmi	kernel/exceptn.asm	/^__nmi:$/;"	l	language:Asm
+__nop__	kernel/irq.c	/^void __nop__ ( void ) $/;"	f	language:C	signature:( void )
+__overflow	kernel/exceptn.asm	/^__overflow:$/;"	l	language:Asm
+__page_fault	kernel/page/page.asm	/^__page_fault:$/;"	l	language:Asm
+__procs_restart	kernel/kernel.asm	/^__procs_restart:$/;"	l	language:Asm
+__seg_unpresent	kernel/exceptn.asm	/^__seg_unpresent:        $/;"	l	language:Asm
+__stack_exception	kernel/exceptn.asm	/^__stack_exception:      $/;"	l	language:Asm
+__switched	kernel/kernel.asm	/^        __switched                                   db      0$/;"	d	language:Asm
+__sys_call	kernel/syscall.c	/^PRC     __sys_call[ MAX_SYS_CALL ] = {0};$/;"	v	language:C
+__ticks	kernel/sched.c	/^u32   __ticks;$/;"	v	language:C
+__tss	kernel/dtcntl.c	/^TSS         __tss;$/;"	v	language:C
+__u16	include/casey/types.h	/^typedef unsigned short        __u16 ;$/;"	t	language:C++
+__u32	include/casey/types.h	/^typedef unsigned long         __u32 ;$/;"	t	language:C++
+__u64	include/casey/types.h	/^typedef unsigned long long    __u64 ;$/;"	t	language:C++
+__u8	include/casey/types.h	/^typedef unsigned char         __u8  ;$/;"	t	language:C++
+_boot_start	boot/boots.asm	/^_boot_start:$/;"	l	language:Asm
+_cpy	boot/loader.asm	/^_cpy:$/;"	l	language:Asm
+_dwBaseAddrHigh	boot/loader.asm	/^		_dwBaseAddrHigh:	dd	0$/;"	d	language:Asm
+_dwBaseAddrLow	boot/loader.asm	/^		_dwBaseAddrLow:		dd	0$/;"	d	language:Asm
+_dwDispPos	boot/loader.asm	/^	_dwDispPos:			    dd	(80 * 8 + 0) * 2	;$/;"	d	language:Asm
+_dwLengthHigh	boot/loader.asm	/^		_dwLengthHigh:		dd	0$/;"	d	language:Asm
+_dwLengthLow	boot/loader.asm	/^		_dwLengthLow:		dd	0$/;"	d	language:Asm
+_dwMCRNumber	boot/loader.asm	/^	_dwMCRNumber:			dd	0	                ; Memory Check Result$/;"	d	language:Asm
+_dwMemSize	boot/loader.asm	/^	_dwMemSize:			    dd	0$/;"	d	language:Asm
+_dwType	boot/loader.asm	/^		_dwType:		    dd	0$/;"	d	language:Asm
+_gets	lib/libc.c	/^char *_gets ( char *buf,int len ) $/;"	f	language:C	signature:( char *buf,int len )
+_loader_start	boot/loader.asm	/^_loader_start:$/;"	l	language:Asm
+_nextph	boot/loader.asm	/^_nextph:$/;"	l	language:Asm
+_start	bin/entry.asm	/^_start:$/;"	l	language:Asm
+_start	fs/entry.asm	/^_start:$/;"	l	language:Asm
+_start	kernel/kernel.asm	/^_start:$/;"	l	language:Asm
+_start	mm/entry.asm	/^_start:$/;"	l	language:Asm
+_start	shell/entry.asm	/^_start:$/;"	l	language:Asm
+_start	term/entry.asm	/^_start:$/;"	l	language:Asm
+add_entry	fs/namei.c	/^BUFFER_HEAD *add_entry ( MEM_INODE *m_dir,char *entry_name,$/;"	f	language:C	signature:( MEM_INODE *m_dir,char *entry_name, unsigned long name_len,DIR_ENTRY **bh_de_ptr )
+add_hash	fs/buffer.c	/^BUFFER_HEAD* add_hash ( BUFFER_HEAD *p ) $/;"	f	language:C	file:	signature:( BUFFER_HEAD *p )
+all	include/casey/hdcntl.h	/^    PARTINFO            all;$/;"	m	language:C++	struct:tagHDINFO
+assert	include/assert.h	17;"	d	language:C++
+assert	include/assert.h	23;"	d	language:C++
+assert_fail	lib/assert.c	/^void assert_fail (const char* expression,$/;"	f	language:C	signature:(const char* expression, const char* local_file, const char* base_file, unsigned long line_nr )
+atoi	lib/string.c	/^int atoi ( const char *src ) $/;"	f	language:C	signature:( const char *src )
+bad	kernel.bin.s	/^/;"	l	language:Asm
+base	include/casey/hdcntl.h	/^    __u32      base;                    \/* base sect_no *\/$/;"	m	language:C++	struct:tasgPARTINFO
+base_of_fs	boot/loader.asm	/^    base_of_fs      equ 05d00h      ; 0x5d000 - 0x7d000 for fs.bin$/;"	d	language:Asm
+base_of_mm	boot/loader.asm	/^    base_of_mm      equ 01d00h      ; 0x1d000 - 0x3d000 for mm.bin$/;"	d	language:Asm
+base_of_shell	boot/loader.asm	/^    base_of_shell   equ 0d00h       ; 0x0d000 - 0x1d000 64 KB for shell.bin$/;"	d	language:Asm
+base_of_tst	boot/loader.asm	/^    base_of_tst     equ 0100h       ; 0x1000 - 0xd000 for tst.bin$/;"	d	language:Asm
+base_of_tty	boot/loader.asm	/^    base_of_tty     equ 03d00h      ; 0x3d000 - 0x5d000 for tty.bin$/;"	d	language:Asm
+bh_blk_nr	fs/fs.h	/^    __u32       bh_blk_nr;                  \/\/ block nr$/;"	m	language:C++	struct:tagBUFFER_HEAD
+bh_buf	fs/fs.h	/^    __byte*     bh_buf ;                    \/\/ point to a block $/;"	m	language:C++	struct:tagBUFFER_HEAD
+bh_cnt	fs/fs.h	/^    __byte      bh_cnt;                     \/\/ how many user using this blk?$/;"	m	language:C++	struct:tagBUFFER_HEAD
+bh_dev	fs/fs.h	/^    __u16       bh_dev;                     \/\/ buffer head device $/;"	m	language:C++	struct:tagBUFFER_HEAD
+bh_dirt	fs/fs.h	/^    __byte      bh_dirt;                    \/\/ data modified bool val$/;"	m	language:C++	struct:tagBUFFER_HEAD
+bh_locked	fs/fs.h	/^    __byte      bh_locked;                  \/\/ buffer head locked bool val$/;"	m	language:C++	struct:tagBUFFER_HEAD
+bh_valid	fs/fs.h	/^    __byte      bh_valid;                   \/\/ data valid bool val$/;"	m	language:C++	struct:tagBUFFER_HEAD
+bh_wait	fs/fs.h	/^    void*       bh_wait;                    \/\/ wait ptr$/;"	m	language:C++	struct:tagBUFFER_HEAD
+blk_rd	fs/blk_rw.c	/^unsigned long blk_rd ( unsigned short dev_no,           \/* dev nr *\/$/;"	f	language:C	signature:( unsigned short dev_no, __u64 *pos,char *dest, long cnt )
+blk_wr	fs/blk_rw.c	/^unsigned long blk_wr ( unsigned short dev_no,           \/* dev nr *\/$/;"	f	language:C	signature:( unsigned short dev_no, __u64 *pos,char *src, long cnt )
+bmap	fs/inode.c	/^unsigned long bmap ( MEM_INODE *m_inode,unsigned long file_blk_no ) $/;"	f	language:C	signature:( MEM_INODE *m_inode,unsigned long file_blk_no )
+bool	include/casey/types.h	/^typedef unsigned char          bool;$/;"	t	language:C++
+boot_indicator	include/casey/hdcntl.h	/^    __u8        boot_indicator;         \/* boot sig *\/$/;"	m	language:C++	struct:tagPART_TABLE
+bounds	kernel.bin.s	/^/;"	l	language:Asm
+bounds_chk	kernel/excpcalls.c	/^static void bounds_chk ( void )$/;"	f	language:C	file:	signature:( void )
+bread	fs/blk_drv.c	/^BUFFER_HEAD *bread ( unsigned short dev_no,unsigned long blk_no ) $/;"	f	language:C	signature:( unsigned short dev_no,unsigned long blk_no )
+bread_page	fs/blk_drv.c	/^void* bread_page ( unsigned long addr,unsigned short dev_no,unsigned long blk_no[4] ) $/;"	f	language:C	signature:( unsigned long addr,unsigned short dev_no,unsigned long blk_no[4] )
+breada	fs/blk_drv.c	/^BUFFER_HEAD* breada ( unsigned short dev_no,unsigned long blk_no ,...) $/;"	f	language:C	signature:( unsigned short dev_no,unsigned long blk_no ,...)
+breadk	kernel.bin.s	/^/;"	l	language:Asm
+break_pt	kernel/excpcalls.c	/^static void break_pt ( void ) $/;"	f	language:C	file:	signature:( void )
+brelse	fs/blk_drv.c	/^void brelse ( BUFFER_HEAD *bh_free )$/;"	f	language:C	signature:( BUFFER_HEAD *bh_free )
+buf	include/casey/termio.h	/^    char            buf[KB_BUF_LEN];$/;"	m	language:C++	struct:tagKBD_QUE
+buf	include/casey/termio.h	/^    char buf[MAX_CHAR_BUF_LEN];$/;"	m	language:C++	struct:tagCOOKED_BUF
+buf	include/casey/termio.h	/^    unsigned char   buf[MAX_CHAR_BUF_LEN];$/;"	m	language:C++	struct:tagCHAR_BUF
+buf	term/ttys.h	/^    char buf[TTY_BUF_SIZE];$/;"	m	language:C++	struct:tty_q
+c_cc	term/ttys.h	/^	unsigned char  c_cc[NCC];	\/* control characters *\/$/;"	m	language:C++	struct:termio
+c_cc	term/ttys.h	/^	unsigned char c_cc[NCCS];	\/* control characters *\/$/;"	m	language:C++	struct:termios
+c_cc	term/ttys.h	/^    unsigned char   c_cc[NCCS];         \/* chars control *\/$/;"	m	language:C++	struct:term_mode_s
+c_cflag	term/ttys.h	/^	unsigned long c_cflag;		\/* control mode flags *\/$/;"	m	language:C++	struct:termios
+c_cflag	term/ttys.h	/^	unsigned short c_cflag;		\/* control mode flags *\/$/;"	m	language:C++	struct:termio
+c_iflag	term/ttys.h	/^	unsigned long c_iflag;		\/* input mode flags *\/$/;"	m	language:C++	struct:termios
+c_iflag	term/ttys.h	/^	unsigned short c_iflag;		\/* input mode flags *\/$/;"	m	language:C++	struct:termio
+c_iflags	term/ttys.h	/^    unsigned long   c_iflags;           \/* input mode *\/$/;"	m	language:C++	struct:term_mode_s
+c_lflag	term/ttys.h	/^	unsigned long c_lflag;		\/* local mode flags *\/$/;"	m	language:C++	struct:termios
+c_lflag	term/ttys.h	/^	unsigned short c_lflag;		\/* local mode flags *\/$/;"	m	language:C++	struct:termio
+c_lflags	term/ttys.h	/^    unsigned long   c_lflags;           \/* local mode *\/$/;"	m	language:C++	struct:term_mode_s
+c_line	term/ttys.h	/^	unsigned char  c_line;		\/* line discipline *\/$/;"	m	language:C++	struct:termio
+c_line	term/ttys.h	/^	unsigned char c_line;		\/* line discipline *\/$/;"	m	language:C++	struct:termios
+c_line	term/ttys.h	/^    unsigned char   c_line;             \/* line displine *\/$/;"	m	language:C++	struct:term_mode_s
+c_oflag	term/ttys.h	/^	unsigned long c_oflag;		\/* output mode flags *\/$/;"	m	language:C++	struct:termios
+c_oflag	term/ttys.h	/^	unsigned short c_oflag;		\/* output mode flags *\/$/;"	m	language:C++	struct:termio
+c_oflags	term/ttys.h	/^    unsigned long   c_oflags;           \/* output mode *\/$/;"	m	language:C++	struct:term_mode_s
+called	fs/super.c	/^static int called = false;$/;"	v	language:C	file:
+ch_buf	term/decode.c	/^CHAR_BUF *ch_buf    = NULL;$/;"	v	language:C
+ch_del	term/decode.c	/^char ch_del ( void ) $/;"	f	language:C	signature:( void )
+ch_in	term/decode.c	/^void ch_in ( char ch ) $/;"	f	language:C	file:	signature:( char ch )
+ch_out	term/decode.c	/^char ch_out ( void ) $/;"	f	language:C	file:	signature:( void )
+chars	term/rw_con.c	/^char chars[100] ;$/;"	v	language:C
+choose_max	kernel/sched.c	/^void choose_max ( PROCESS **proc,short *thread_nr ) $/;"	f	language:C	file:	signature:( PROCESS **proc,short *thread_nr )
+clean_up	ipc/msgcall.c	/^void clean_up ( MAILBOX *mailbox ) $/;"	f	language:C	signature:( MAILBOX *mailbox )
+clear_iblks	fs/inode.c	/^void clear_iblks ( MEM_INODE *m_inode ) $/;"	f	language:C	signature:( MEM_INODE *m_inode )
+cli	include/casey/kernel.h	25;"	d	language:C++
+cli	term/decode.c	17;"	d	language:C	file:
+clock	kernel/sched.c	/^static void clock ( void ) $/;"	f	language:C	file:	signature:( void )
+clrb	fs/bitmap.c	/^unsigned char clrb (unsigned char *addr,unsigned long nr) $/;"	f	language:C	file:	signature:(unsigned char *addr,unsigned long nr)
+cls_con0	kernel/kconio.c	/^void cls_con0 ( void )$/;"	f	language:C	signature:( void )
+cmd	include/casey/hdcntl.h	/^    __u8    cmd;$/;"	m	language:C++	struct:tagHDCMD
+cnt	include/casey/hdcntl.h	/^    __i64       cnt;        \/* copy how many bytes *\/$/;"	m	language:C++	struct:tagHDRW
+cnt	include/casey/hdcntl.h	/^    long                cnt;$/;"	m	language:C++	struct:tagHDINFO
+cnt	include/sys/msgno.h	/^    i32     cnt;$/;"	m	language:C++	struct:__anon1
+cnt	term/ttys.h	/^    unsigned long   cnt;$/;"	m	language:C++	struct:tty_q
+cntler_rdy	fs/blk_drv.c	/^unsigned char cntler_rdy( unsigned char  mask,$/;"	f	language:C	file:	signature:( unsigned char mask, unsigned char status, unsigned long ms_timeout )
+col	term/decode.c	/^static __u8 col = 0 ;$/;"	v	language:C	file:
+con_read	term/rw_con.c	/^void con_read ( void ) $/;"	f	language:C	signature:( void )
+con_write	term/rw_con.c	/^void con_write ( void )$/;"	f	language:C	signature:( void )
+console	include/casey/termio.h	/^    CONSOLE console [MAX_CONSOLES];$/;"	m	language:C++	struct:__anon3
+console	kernel/kconio.c	/^static CONSOLE *console = NULL;$/;"	v	language:C	file:
+console	term/rw_con.c	/^static CONSOLE *console = NULL;$/;"	v	language:C	file:
+cooked_buf	term/rw_con.c	/^COOKED   *cooked_buf;$/;"	v	language:C
+copr_seg_overrun	kernel/excpcalls.c	/^static void copr_seg_overrun ( void )$/;"	f	language:C	file:	signature:( void )
+corp_unpresent	kernel/excpcalls.c	/^static void corp_unpresent ( void ) $/;"	f	language:C	file:	signature:( void )
+corprocessor	kernel.bin.s	/^/;"	l	language:Asm
+cr3	include/casey/procs.h	/^	u32 		cr3;			\/\/ CR3$/;"	m	language:C++	struct:tagTSS
+crash	lib/syscalls.c	/^void crash ( const char *fmt,... ) $/;"	f	language:C	signature:( const char *fmt,... )
+create_block	fs/inode.c	/^unsigned long create_block ( MEM_INODE *m_inode,unsigned long file_blk_no ,bool *created ) $/;"	f	language:C	signature:( MEM_INODE *m_inode,unsigned long file_blk_no ,bool *created )
+cs	include/casey/procs.h	/^	u32 		cs;$/;"	m	language:C++	struct:tagTSS
+cs	include/casey/procs.h	/^	u32 	cs;             \/\/ user cs      (from caller)$/;"	m	language:C++	struct:tagSTACK_FRAME
+cs	include/casey/procs.h	/^    u32       cs;$/;"	m	language:C++	struct:__anon6
+cs	include/casey/procs.h	/^    u32       cs;$/;"	m	language:C++	struct:tagTHREAD
+cs	kernel.bin.s	/^cs  0x%0x eip 0x%0x eflags 0x%0x !$/;"	l	language:Asm
+csects	include/casey/hdcntl.h	/^    __u8    csects;$/;"	m	language:C++	struct:tagHDCMD
+cur	include/casey/hdcntl.h	/^    PART_TABLE  cur,next,unused[2];$/;"	m	language:C++	struct:tagLOGIC_PART_TABLE
+cur_con_nr	include/casey/termio.h	/^    unsigned char cur_con_nr;$/;"	m	language:C++	struct:__anon3
+cur_con_nr	kernel/kconio.c	/^static unsigned char cur_con_nr  = 0;$/;"	v	language:C	file:
+cur_con_nr	term/rw_con.c	/^static unsigned char cur_con_nr  = 0;$/;"	v	language:C	file:
+cur_start_addr	include/casey/termio.h	/^    long   cur_start_addr;     \/\/console show start addr$/;"	m	language:C++	struct:__anon2
+cur_tid	kernel/sched.c	/^short cur_tid;$/;"	v	language:C
+curpos	include/casey/termio.h	/^    long   curpos;             \/\/current cursor pos$/;"	m	language:C++	struct:__anon2
+curtks	include/casey/procs.h	/^    i8        curtks,pl;                        \/* current ticks ,priority *\/$/;"	m	language:C++	struct:tagTHREAD
+debug	kernel/excpcalls.c	/^static void debug ( void ) $/;"	f	language:C	file:	signature:( void )
+debugging	kernel.bin.s	/^/;"	l	language:Asm
+decode_scan_code	term/decode.c	/^void  decode_scan_code ( void )$/;"	f	language:C	signature:( void )
+delay	bin/hello.c	/^void delay (int j)$/;"	f	language:C	signature:(int j)
+delay_ms	lib/syscalls.c	/^void delay_ms ( int ms )     $/;"	f	language:C	signature:( int ms )
+delay_sc	lib/syscalls.c	/^void delay_sc ( int sec ) $/;"	f	language:C	signature:( int sec )
+dest	include/casey/hdcntl.h	/^    void*       *dest;$/;"	m	language:C++	struct:tagHDIOCTL
+dest	include/casey/hdcntl.h	/^    void*       dest;       \/* to which buffer *\/$/;"	m	language:C++	struct:tagHDRW
+dev	include/casey/hdcntl.h	/^    __u8    dev;$/;"	m	language:C++	struct:tagHDCMD
+dir_namei	fs/namei.c	/^MEM_INODE *dir_namei (const char *path,$/;"	f	language:C	file:	signature:(const char *path, unsigned long *name_len,const char **name )
+disp_part_tbl	fs/blk_drv.c	/^unsigned long disp_part_tbl ( unsigned char drv_no ) $/;"	f	language:C	file:	signature:( unsigned char drv_no )
+div_err	kernel/excpcalls.c	/^static void div_err ( void ) $/;"	f	language:C	file:	signature:( void )
+do_close	fs/open.c	/^int do_close (unsigned short pid,int fd)$/;"	f	language:C	signature:(unsigned short pid,int fd)
+do_div	lib/string.c	164;"	d	language:C	file:
+do_dup	fs/open.c	/^int do_dup (int fd)$/;"	f	language:C	signature:(int fd)
+do_lseek	fs/rw.c	/^int do_lseek(unsigned short pid,unsigned int fd,unsigned long offset, int origin)$/;"	f	language:C	signature:(unsigned short pid,unsigned int fd,unsigned long offset, int origin)
+do_open	fs/open.c	/^int do_open (unsigned short pid,const char *path,int flag,int mode)$/;"	f	language:C	signature:(unsigned short pid,const char *path,int flag,int mode)
+do_read	fs/rw.c	/^int do_read (unsigned short pid,unsigned int fd,char * buf,int count)$/;"	f	language:C	signature:(unsigned short pid,unsigned int fd,char * buf,int count)
+do_write	fs/rw.c	/^int do_write (unsigned short pid,unsigned int fd,char * buf,int count)$/;"	f	language:C	signature:(unsigned short pid,unsigned int fd,char * buf,int count)
+double	kernel.bin.s	/^/;"	l	language:Asm
+double_fault	kernel/excpcalls.c	/^static void double_fault ( void ) $/;"	f	language:C	file:	signature:( void )
+ds	include/casey/procs.h	/^	u32		ds;$/;"	m	language:C++	struct:tagSTACK_FRAME
+ds	include/casey/procs.h	/^	u32 		ds;$/;"	m	language:C++	struct:tagTSS
+dump_page_dir_tables	kernel/page/page_map.c	/^void dump_page_dir_tables ( u32 page_addr  ) $/;"	f	language:C	signature:( u32 page_addr )
+dump_page_dirs	kernel/page/page_map.c	/^void dump_page_dirs ( void ) $/;"	f	language:C	signature:( void )
+dwBaseAddrHigh	boot/loader.asm	/^		dwBaseAddrHigh	    equ	_dwBaseAddrHigh	+ BaseOfLoader * 16$/;"	d	language:Asm
+dwBaseAddrLow	boot/loader.asm	/^		dwBaseAddrLow	    equ	_dwBaseAddrLow	+ BaseOfLoader * 16$/;"	d	language:Asm
+dwDispPos	boot/loader.asm	/^	dwDispPos		        equ	_dwDispPos	    + BaseOfLoader * 16$/;"	d	language:Asm
+dwLengthHigh	boot/loader.asm	/^		dwLengthHigh	    equ	_dwLengthHigh	+ BaseOfLoader * 16$/;"	d	language:Asm
+dwLengthLow	boot/loader.asm	/^		dwLengthLow	        equ	_dwLengthLow	+ BaseOfLoader * 16$/;"	d	language:Asm
+dwMCRNumber	boot/loader.asm	/^	dwMCRNumber		        equ	_dwMCRNumber	+ BaseOfLoader * 16$/;"	d	language:Asm
+dwMemSize	boot/loader.asm	/^	dwMemSize		        equ	_dwMemSize	    + BaseOfLoader * 16$/;"	d	language:Asm
+dwType	boot/loader.asm	/^		dwType		        equ	_dwType		    + BaseOfLoader * 16$/;"	d	language:Asm
+eax	include/casey/procs.h	/^	u32		eax;$/;"	m	language:C++	struct:tagSTACK_FRAME
+eax	include/casey/procs.h	/^	u32 		eax;$/;"	m	language:C++	struct:tagTSS
+eax	include/casey/procs.h	/^    u32       eax;$/;"	m	language:C++	struct:__anon6
+eax	include/casey/procs.h	/^    u32       eax;$/;"	m	language:C++	struct:tagTHREAD
+ebp	include/casey/procs.h	/^	u32		ebp;$/;"	m	language:C++	struct:tagSTACK_FRAME
+ebp	include/casey/procs.h	/^	u32 		ebp;$/;"	m	language:C++	struct:tagTSS
+ebp	include/casey/procs.h	/^    u32       ebp;$/;"	m	language:C++	struct:__anon6
+ebp	include/casey/procs.h	/^    u32       ebp;$/;"	m	language:C++	struct:tagTHREAD
+ebx	include/casey/procs.h	/^	u32		ebx;$/;"	m	language:C++	struct:tagSTACK_FRAME
+ebx	include/casey/procs.h	/^	u32 		ebx;$/;"	m	language:C++	struct:tagTSS
+ebx	include/casey/procs.h	/^    u32       ebx;$/;"	m	language:C++	struct:__anon6
+ebx	include/casey/procs.h	/^    u32       ebx;$/;"	m	language:C++	struct:tagTHREAD
+echo	shell/shell.c	/^void echo ( int argc,char argv[][30] ) $/;"	f	language:C	signature:( int argc,char argv[][30] )
+ecx	include/casey/procs.h	/^	u32		ecx;$/;"	m	language:C++	struct:tagSTACK_FRAME
+ecx	include/casey/procs.h	/^	u32 		ecx;$/;"	m	language:C++	struct:tagTSS
+ecx	include/casey/procs.h	/^    u32       ecx;$/;"	m	language:C++	struct:__anon6
+ecx	include/casey/procs.h	/^    u32       ecx;$/;"	m	language:C++	struct:tagTHREAD
+edi	include/casey/procs.h	/^	u32		edi;$/;"	m	language:C++	struct:tagSTACK_FRAME
+edi	include/casey/procs.h	/^	u32 		edi;$/;"	m	language:C++	struct:tagTSS
+edi	include/casey/procs.h	/^    u32       edi;$/;"	m	language:C++	struct:__anon6
+edi	include/casey/procs.h	/^    u32       edi;$/;"	m	language:C++	struct:tagTHREAD
+edx	include/casey/procs.h	/^	u32		edx;$/;"	m	language:C++	struct:tagSTACK_FRAME
+edx	include/casey/procs.h	/^	u32 		edx;$/;"	m	language:C++	struct:tagTSS
+edx	include/casey/procs.h	/^    u32       edx;$/;"	m	language:C++	struct:__anon6
+edx	include/casey/procs.h	/^    u32       edx;$/;"	m	language:C++	struct:tagTHREAD
+eflags	include/casey/procs.h	/^	u32		eflags;         \/\/ user eflags  (from caller)$/;"	m	language:C++	struct:tagSTACK_FRAME
+eflags	include/casey/procs.h	/^	u32 		eflags;$/;"	m	language:C++	struct:tagTSS
+eflags	include/casey/procs.h	/^    u32       eflags;$/;"	m	language:C++	struct:__anon6
+eflags	include/casey/procs.h	/^    u32       eflags;$/;"	m	language:C++	struct:tagTHREAD
+eip	include/casey/procs.h	/^	u32 		eip;			\/\/ eip$/;"	m	language:C++	struct:tagTSS
+eip	include/casey/procs.h	/^	u32 	eip;            \/\/ user eip     (from caller)$/;"	m	language:C++	struct:tagSTACK_FRAME
+eip	include/casey/procs.h	/^    u32       eip;$/;"	m	language:C++	struct:__anon6
+eip	include/casey/procs.h	/^    u32       eip;$/;"	m	language:C++	struct:tagTHREAD
+enable_irq	kernel/irq.c	/^void enable_irq ( __byte irq_num,bool fval )  $/;"	f	language:C	signature:( __byte irq_num,bool fval )
+end	include/unistd.h	96;"	d	language:C++
+end_cyl_no	include/casey/hdcntl.h	/^    __u8        end_cyl_no;             \/* end cylinder no *\/$/;"	m	language:C++	struct:tagPART_TABLE
+end_head_no	include/casey/hdcntl.h	/^    __u8        end_head_no;            \/* end head no *\/$/;"	m	language:C++	struct:tagPART_TABLE
+end_sect_no	include/casey/hdcntl.h	/^    __u8        end_sect_no;            \/* end sect no *\/$/;"	m	language:C++	struct:tagPART_TABLE
+endload	boot/boots.asm	/^endload:$/;"	l	language:Asm
+es	include/casey/procs.h	/^	u32		es;$/;"	m	language:C++	struct:tagSTACK_FRAME
+es	include/casey/procs.h	/^	u32 		es;$/;"	m	language:C++	struct:tagTSS
+esi	include/casey/procs.h	/^	u32		esi;$/;"	m	language:C++	struct:tagSTACK_FRAME
+esi	include/casey/procs.h	/^	u32 		esi;$/;"	m	language:C++	struct:tagTSS
+esi	include/casey/procs.h	/^    u32       esi;$/;"	m	language:C++	struct:__anon6
+esi	include/casey/procs.h	/^    u32       esi;$/;"	m	language:C++	struct:tagTHREAD
+esp	include/casey/procs.h	/^	u32		esp;            \/\/ user esp     (from caller)$/;"	m	language:C++	struct:tagSTACK_FRAME
+esp	include/casey/procs.h	/^	u32 		esp;$/;"	m	language:C++	struct:tagTSS
+esp	include/casey/procs.h	/^    u32       esp;$/;"	m	language:C++	struct:__anon6
+esp	include/casey/procs.h	/^    u32       esp;$/;"	m	language:C++	struct:tagTHREAD
+esp0	include/casey/procs.h	/^	u32 		esp0;			$/;"	m	language:C++	struct:tagTSS
+esp1	include/casey/procs.h	/^	u32 		esp1;$/;"	m	language:C++	struct:tagTSS
+esp2	include/casey/procs.h	/^	u32 		esp2;$/;"	m	language:C++	struct:tagTSS
+euid	include/casey/procs.h	/^    u8              uid,gid,euid;$/;"	m	language:C++	struct:tagPROCESS
+exec	lib/libc.c	/^int exec (int argc,char **argv ,unsigned long size)$/;"	f	language:C	signature:(int argc,char **argv ,unsigned long size)
+execv	fs/exec.c	/^int execv (const char *path )$/;"	f	language:C	signature:(const char *path )
+extern	bin/entry.asm	/^extern main,exit$/;"	l	language:Asm
+extern	fs/entry.asm	/^extern main$/;"	l	language:Asm
+extern	kernel/exceptn.asm	/^extern  __procs_restart,re_restart,KernelStack,__k_reenter,__exceptn_prc$/;"	l	language:Asm
+extern	kernel/kernel.asm	/^extern 	GdtPtr,IdtPtr,__tss$/;"	l	language:Asm
+extern	kernel/kernel.asm	/^extern  __irq_prc$/;"	l	language:Asm
+extern	kernel/kernel.asm	/^extern __curprocs,ret_prc,__sys_call$/;"	l	language:Asm
+extern	kernel/kernel.asm	/^extern __kernel_cstart,__kernel_main$/;"	l	language:Asm
+extern	kernel/page/page.asm	/^extern __do_no_page,__procs_restart,re_restart,KernelStack,__k_reenter$/;"	l	language:Asm
+extern	mm/entry.asm	/^extern main$/;"	l	language:Asm
+extern	shell/entry.asm	/^extern main,exit$/;"	l	language:Asm
+extern	term/entry.asm	/^extern main$/;"	l	language:Asm
+fE0	term/decode.c	/^static bool fE0         = false;                         \/\/$/;"	v	language:C	file:
+f_cnt	fs/fs.h	/^    __u16       f_cnt;                      \/\/ file descriptors count$/;"	m	language:C++	struct:tagFILE_STRUCT
+f_flags	fs/fs.h	/^    __u16       f_flags;                    \/\/ file opt flag ( open \/ rw )$/;"	m	language:C++	struct:tagFILE_STRUCT
+f_inode_ptr	fs/fs.h	/^    MEM_INODE   *f_inode_ptr;               \/\/ ptr to inode nr $/;"	m	language:C++	struct:tagFILE_STRUCT
+f_mode	fs/fs.h	/^    __u16       f_mode;                     \/\/ file opt mode$/;"	m	language:C++	struct:tagFILE_STRUCT
+f_pos	fs/fs.h	/^    __u64       f_pos;                      \/\/ file pos $/;"	m	language:C++	struct:tagFILE_STRUCT
+false	include/casey/types.h	37;"	d	language:C++
+father	include/casey/procs.h	/^    PID       father;                           \/* father pid,tid *\/$/;"	m	language:C++	struct:tagTHREAD
+fcaps	term/decode.c	/^static bool fcaps       = false;                         \/\/caps lock $/;"	v	language:C	file:
+features	include/casey/hdcntl.h	/^    __u8    features;$/;"	m	language:C++	struct:tagHDCMD
+file_rd	fs/file_rw.c	/^unsigned long file_rd(MEM_INODE * inode, FILE_STRUCT* this_file, char * buf, int count)$/;"	f	language:C	signature:(MEM_INODE * inode, FILE_STRUCT* this_file, char * buf, int count)
+file_table	fs/file_tbls.c	/^FILE_STRUCT file_table[MAX_OPEN_FILES];$/;"	v	language:C
+file_wr	fs/file_rw.c	/^unsigned long file_wr ( MEM_INODE *m_wr,$/;"	f	language:C	signature:( MEM_INODE *m_wr, FILE_STRUCT *this_file,char *buf,long cnt )
+filp	fs/fs.h	141;"	d	language:C++
+filp_ptr	fs/file_tbls.c	/^PFILE_STRUCT filp_ptr[MAX_FILPS * MAX_OPEN_FILES];  $/;"	v	language:C
+find_buffer	fs/buffer.c	/^BUFFER_HEAD *find_buffer ( unsigned short dev_no,unsigned long blk_no ) $/;"	f	language:C	signature:( unsigned short dev_no,unsigned long blk_no )
+find_empty_mail_slot	ipc/msgcall.c	/^MAIL* find_empty_mail_slot ( u8 m_type,$/;"	f	language:C	signature:( u8 m_type, i16 dest_pid, i16 dest_tid, u8 m_level, u8 **count )
+find_empty_page	kernel/page/page_map.c	/^u32 find_empty_page ( void ) $/;"	f	language:C	signature:( void )
+find_entry	fs/namei.c	/^BUFFER_HEAD *find_entry ( MEM_INODE *m_dir,char *entry_name,$/;"	f	language:C	signature:( MEM_INODE *m_dir,char *entry_name, unsigned long name_len,DIR_ENTRY **bh_de_ptr )
+find_first_zero	fs/bitmap.c	/^inline unsigned long find_first_zero ( void *start ) $/;"	f	language:C	signature:( void *start )
+find_free_procs	kernel/creatp.c	/^i16 find_free_procs ( void ) $/;"	f	language:C	file:	signature:( void )
+find_mb_mail	ipc/msgcall.c	/^MAIL* find_mb_mail (i16 dest_pid,i16 dest_tid,$/;"	f	language:C	signature:(i16 dest_pid,i16 dest_tid, u16 m_msg,u8 **count,u8 flags )
+flalt	term/decode.c	/^static bool flalt       = false;                         \/\/alter(left)$/;"	v	language:C	file:
+flctl	term/decode.c	/^static bool flctl       = false;                         \/\/ctrl (left)$/;"	v	language:C	file:
+flshft	term/decode.c	/^static bool flshft      = false;                         \/\/shift(left)$/;"	v	language:C	file:
+fnmlock	term/decode.c	/^static bool fnmlock     = false;                         \/\/number lock $/;"	v	language:C	file:
+format	fs/super.c	/^void format ( MEM_SUPER_BLOCK *sb ) $/;"	f	language:C	file:	signature:( MEM_SUPER_BLOCK *sb )
+fralt	term/decode.c	/^static bool fralt       = false;                         \/\/alter(right)$/;"	v	language:C	file:
+frctl	term/decode.c	/^static bool frctl       = false;                         \/\/ctrl (right)$/;"	v	language:C	file:
+free	kernel.bin.s	/^/;"	l	language:Asm
+free_block	fs/bitmap.c	/^void free_block ( unsigned short dev_no,unsigned long blk_nr ) $/;"	f	language:C	signature:( unsigned short dev_no,unsigned long blk_nr )
+free_buffer	fs/buffer.c	/^void free_buffer  ( BUFFER_HEAD *p ) $/;"	f	language:C	signature:( BUFFER_HEAD *p )
+free_dind	fs/inode.c	/^void free_dind ( unsigned short dev_no,unsigned long blk_no ) $/;"	f	language:C	file:	signature:( unsigned short dev_no,unsigned long blk_no )
+free_file_blk	fs/inode.c	/^void free_file_blk ( MEM_INODE *m_inode,unsigned long file_blk_no ) $/;"	f	language:C	signature:( MEM_INODE *m_inode,unsigned long file_blk_no )
+free_ind	fs/inode.c	/^void free_ind ( unsigned short dev_no,unsigned long blk_no ) $/;"	f	language:C	file:	signature:( unsigned short dev_no,unsigned long blk_no )
+free_inode	fs/bitmap.c	/^void free_inode ( MEM_INODE *inode ) $/;"	f	language:C	signature:( MEM_INODE *inode )
+free_list	fs/buffer.c	/^static BUFFER_HEAD *free_list  = NULL;         \/* free_list *\/$/;"	v	language:C	file:
+free_next	fs/fs.h	/^    struct      tagBUFFER_HEAD  *free_next; \/\/ free_list next ptr $/;"	m	language:C++	struct:tagBUFFER_HEAD	typeref:struct:tagBUFFER_HEAD::tagBUFFER_HEAD
+free_page	kernel/page/page_map.c	/^void free_page ( u32 phys_addr ) $/;"	f	language:C	signature:( u32 phys_addr )
+free_page_dir_tables	kernel/page/page_map.c	/^void free_page_dir_tables ( u32 page_addr,u32 page_dir_nr ) $/;"	f	language:C	signature:( u32 page_addr,u32 page_dir_nr )
+free_prev	fs/fs.h	/^    struct      tagBUFFER_HEAD  *free_prev; \/\/ free_list prev ptr $/;"	m	language:C++	struct:tagBUFFER_HEAD	typeref:struct:tagBUFFER_HEAD::tagBUFFER_HEAD
+fresh_page_dir	kernel/page/page_map.c	11;"	d	language:C	file:
+from_pid	include/casey/procs.h	/^    i16  from_pid,from_tid;$/;"	m	language:C++	struct:__anon4
+from_tid	include/casey/procs.h	/^    i16  from_pid,from_tid;$/;"	m	language:C++	struct:__anon4
+frshft	term/decode.c	/^static bool frshft      = false;                         \/\/shift(right)$/;"	v	language:C	file:
+fs	include/casey/procs.h	/^	u32 		fs;$/;"	m	language:C++	struct:tagTSS
+fs	include/casey/procs.h	/^	u32 	fs;$/;"	m	language:C++	struct:tagSTACK_FRAME
+fscroll	term/decode.c	/^static bool fscroll     = false;                         \/\/scroll lock $/;"	v	language:C	file:
+func_key	term/decode.c	/^void func_key ( __u32 key ,bool make)$/;"	f	language:C	file:	signature:( __u32 key ,bool make)
+general	kernel.bin.s	/^/;"	l	language:Asm
+general_protection	kernel/excpcalls.c	/^static void general_protection ( __u32 err_code ) $/;"	f	language:C	file:	signature:( __u32 err_code )
+get_blk	fs/blk_drv.c	/^BUFFER_HEAD *get_blk ( unsigned short dev_no,unsigned long blk_no ) $/;"	f	language:C	signature:( unsigned short dev_no,unsigned long blk_no )
+get_buffer	fs/buffer.c	/^BUFFER_HEAD *get_buffer ( unsigned short dev_no,unsigned long blk_no  )$/;"	f	language:C	signature:( unsigned short dev_no,unsigned long blk_no )
+get_curcon	kernel/kconio.c	/^CONSOLE* get_curcon ( void ) $/;"	f	language:C	signature:( void )
+get_curcon	term/rw_con.c	/^CONSOLE* get_curcon ( void ) $/;"	f	language:C	signature:( void )
+get_data	lib/libc.c	/^char *get_data (short pid,short tid,char *buf,unsigned long len )$/;"	f	language:C	signature:(short pid,short tid,char *buf,unsigned long len )
+get_empty_inode	fs/inode.c	/^MEM_INODE *get_empty_inode ( void ) $/;"	f	language:C	signature:( void )
+get_irow	fs/buffer.c	17;"	d	language:C	file:
+get_last_dir	fs/namei.c	/^MEM_INODE *get_last_dir ( const char *path )$/;"	f	language:C	file:	signature:( const char *path )
+get_part_info	fs/blk_drv.c	/^unsigned char get_part_info ( unsigned short dev_no,unsigned long *base_sect,unsigned long *sects_nr ) $/;"	f	language:C	signature:( unsigned short dev_no,unsigned long *base_sect,unsigned long *sects_nr )
+get_part_table	fs/blk_drv.c	/^void get_part_table ( unsigned char drv_no,unsigned long mbr_start_sect ,int logic_no)$/;"	f	language:C	file:	signature:( unsigned char drv_no,unsigned long mbr_start_sect ,int logic_no)
+get_sblk	fs/super.c	/^MEM_SUPER_BLOCK* get_sblk ( unsigned short dev_no ) $/;"	f	language:C	signature:( unsigned short dev_no )
+getalt	term/decode.c	/^bool getalt ( bool fleft  ) $/;"	f	language:C	signature:( bool fleft )
+getb	include/sys/types.h	20;"	d	language:C++
+getbuf	fs/blk_rw.c	/^void* getbuf ( void *buf,unsigned long len,unsigned short dev_no,$/;"	f	language:C	signature:( void *buf,unsigned long len,unsigned short dev_no, unsigned long blk_nr ,unsigned long offset )
+getcaps	term/decode.c	/^bool getcaps ( void ) $/;"	f	language:C	signature:( void )
+getchs	term/decode.c	/^char* getchs ( char *buf,long maxlen ) $/;"	f	language:C	signature:( char *buf,long maxlen )
+getctl	term/decode.c	/^bool getctl ( bool fleft ) $/;"	f	language:C	signature:( bool fleft )
+getdd	include/sys/types.h	22;"	d	language:C++
+getdw	include/sys/types.h	21;"	d	language:C++
+getm	lib/syscalls.c	/^int getm ( MAIL *m,unsigned char flags ) $/;"	f	language:C	signature:( MAIL *m,unsigned char flags )
+getpt	term/rw_con.c	/^inline int  getpt ( __u32* posx,__u32* posy ) $/;"	f	language:C	signature:( __u32* posx,__u32* posy )
+getrgb	term/rw_con.c	/^inline __byte getrgb ( void ) $/;"	f	language:C	signature:( void )
+getshft	term/decode.c	/^bool getshft ( bool fleft ) $/;"	f	language:C	signature:( bool fleft )
+getw	include/sys/types.h	19;"	d	language:C++
+gid	include/casey/procs.h	/^    u8              uid,gid,euid;$/;"	m	language:C++	struct:tagPROCESS
+global	bin/entry.asm	/^global  _start$/;"	l	language:Asm
+global	fs/entry.asm	/^global  _start$/;"	l	language:Asm
+global	kernel/exceptn.asm	/^global	__copr_unavailable,__double_fault,__copr_seg_overrun,__inval_tss                          $/;"	l	language:Asm
+global	kernel/exceptn.asm	/^global	__seg_unpresent,__stack_exception,__general_protection,__copr_err                       $/;"	l	language:Asm
+global	kernel/exceptn.asm	/^global 	__div_err,__debug,__nmi,__breakpt,__overflow,__bounds_chk,__inval_opcode $/;"	l	language:Asm
+global	kernel/kernel.asm	/^global  KernelStack$/;"	l	language:Asm
+global	kernel/kernel.asm	/^global  __clk,__keyboard,__hd,__do_syscall$/;"	l	language:Asm
+global	kernel/kernel.asm	/^global  __k_reenter$/;"	l	language:Asm
+global	kernel/kernel.asm	/^global  save,__procs_restart,re_restart$/;"	l	language:Asm
+global	kernel/kernel.asm	/^global __mem_size,__switched$/;"	l	language:Asm
+global	kernel/kernel.asm	/^global _start$/;"	l	language:Asm
+global	kernel/page/page.asm	/^global __page_fault$/;"	l	language:Asm
+global	lib/port.asm	/^global  rdports$/;"	l	language:Asm
+global	lib/port.asm	/^global  wrports$/;"	l	language:Asm
+global	mm/entry.asm	/^global  _start$/;"	l	language:Asm
+global	shell/entry.asm	/^global  _start$/;"	l	language:Asm
+global	term/entry.asm	/^global  _start$/;"	l	language:Asm
+gs	include/casey/procs.h	/^	u32 		gs;$/;"	m	language:C++	struct:tagTSS
+gs	include/casey/procs.h	/^	u32 	gs;$/;"	m	language:C++	struct:tagSTACK_FRAME
+h	kernel.bin.s	/^/;"	l	language:Asm
+hash	fs/buffer.c	/^static BUFFER_HEAD *hash[NR_HASH] = {0};       \/* hash table *\/$/;"	v	language:C	file:
+hash_next	fs/fs.h	/^    struct      tagBUFFER_HEAD  *hash_next; \/\/ hash next ptr $/;"	m	language:C++	struct:tagBUFFER_HEAD	typeref:struct:tagBUFFER_HEAD::tagBUFFER_HEAD
+hash_prev	fs/fs.h	/^    struct      tagBUFFER_HEAD  *hash_prev; \/\/ hash prev ptr$/;"	m	language:C++	struct:tagBUFFER_HEAD	typeref:struct:tagBUFFER_HEAD::tagBUFFER_HEAD
+hash_row	fs/buffer.c	18;"	d	language:C	file:
+hd_identify	fs/blk_drv.c	/^void hd_identify ( unsigned char drv_no ) $/;"	f	language:C	file:	signature:( unsigned char drv_no )
+hd_info_init	fs/blk_drv.c	/^void hd_info_init ( void ) $/;"	f	language:C	signature:( void )
+hdisk	kernel/hdsk.c	/^static void hdisk ( void ) $/;"	f	language:C	file:	signature:( void )
+head	include/casey/termio.h	/^    char            head,tail,len;$/;"	m	language:C++	struct:tagKBD_QUE
+head	include/casey/termio.h	/^    short   head,tail,len;$/;"	m	language:C++	struct:tagCHAR_BUF
+head	include/sys/msgno.h	/^    MAIL    *head,*tail;$/;"	m	language:C++	struct:__anon1
+head	term/ttys.h	/^    unsigned long   head,tail;$/;"	m	language:C++	struct:tty_q
+hh	term/rw_tty.c	/^int hh ( void ) $/;"	f	language:C	signature:( void )
+high	include/sys/types.h	16;"	d	language:C++
+i16	include/casey/types.h	/^typedef __i16                   i16;$/;"	t	language:C++
+i32	include/casey/types.h	/^typedef __i32                   i32;$/;"	t	language:C++
+i8	include/casey/types.h	/^typedef __i8                    i8;$/;"	t	language:C++
+i_acc_time	fs/fs.h	/^    __u32       i_acc_time;                 \/\/ latest access time$/;"	m	language:C++	struct:tagMEM_INODE
+i_cnt	fs/fs.h	/^    __u16       i_cnt;                      \/\/ inode used times$/;"	m	language:C++	struct:tagMEM_INODE
+i_crt_time	fs/fs.h	/^    __u32       i_crt_time;                 \/\/ create time$/;"	m	language:C++	struct:tagMEM_INODE
+i_dev	fs/fs.h	/^    __u16       i_dev;                      \/\/ locate dev$/;"	m	language:C++	struct:tagMEM_INODE
+i_dirt	fs/fs.h	/^    __u8        i_dirt;                     \/\/ inode dirt flag$/;"	m	language:C++	struct:tagMEM_INODE
+i_gid	fs/fs.h	/^    __u8        i_gid;                      \/\/ group id$/;"	m	language:C++	struct:tagDEV_INODE
+i_gid	fs/fs.h	/^    __u8        i_gid;                      \/\/ group id$/;"	m	language:C++	struct:tagMEM_INODE
+i_locked	fs/fs.h	/^    __u8        i_locked;                   \/\/ inode locked ?$/;"	m	language:C++	struct:tagMEM_INODE
+i_mode	fs/fs.h	/^    __u16       i_mode;                     \/\/ rwx$/;"	m	language:C++	struct:tagDEV_INODE
+i_mode	fs/fs.h	/^    __u16       i_mode;                     \/\/ rwx$/;"	m	language:C++	struct:tagMEM_INODE
+i_mounted	fs/fs.h	/^    __byte      i_mounted;                  \/\/ already mounted?$/;"	m	language:C++	struct:tagMEM_INODE
+i_mtime	fs/fs.h	/^    __u32       i_mtime;                    \/\/ latest modified time$/;"	m	language:C++	struct:tagDEV_INODE
+i_mtime	fs/fs.h	/^    __u32       i_mtime;                    \/\/ latest modified time$/;"	m	language:C++	struct:tagMEM_INODE
+i_nlinks	fs/fs.h	/^    __u8        i_nlinks;                   \/\/ links for files (different file name use the same inode$/;"	m	language:C++	struct:tagMEM_INODE
+i_nlinks	fs/fs.h	/^    __u8        i_nlinks;                   \/\/ links for files$/;"	m	language:C++	struct:tagDEV_INODE
+i_num	fs/fs.h	/^    __u16       i_num;                      \/\/ inode nr$/;"	m	language:C++	struct:tagMEM_INODE
+i_pipe	fs/fs.h	/^    __u8        i_pipe;                     \/\/ pipe sig$/;"	m	language:C++	struct:tagMEM_INODE
+i_seek	fs/fs.h	/^    __byte      i_seek;                     \/\/ seek sig$/;"	m	language:C++	struct:tagMEM_INODE
+i_size	fs/fs.h	/^    __u32       i_size;                     \/\/ file size ( inbytes )$/;"	m	language:C++	struct:tagDEV_INODE
+i_size	fs/fs.h	/^    __u32       i_size;                     \/\/ file size ( inbytes )$/;"	m	language:C++	struct:tagMEM_INODE
+i_uid	fs/fs.h	/^    __u16       i_uid;                      \/\/ user id $/;"	m	language:C++	struct:tagDEV_INODE
+i_uid	fs/fs.h	/^    __u16       i_uid;                      \/\/ user id $/;"	m	language:C++	struct:tagMEM_INODE
+i_valid	fs/fs.h	/^    __byte      i_valid;                    \/\/ valid flag$/;"	m	language:C++	struct:tagMEM_INODE
+i_wait	fs/fs.h	/^    __u32       *i_wait;$/;"	m	language:C++	struct:tagMEM_INODE
+i_zone	fs/fs.h	/^    __u16       i_zone[9];                  \/\/ 0 - 6 for direct fetch ,7 for 1st redirect fetch ,8 for 2nd...$/;"	m	language:C++	struct:tagDEV_INODE
+i_zone	fs/fs.h	/^    __u16       i_zone[9];                  \/\/ 0 - 6 for direct fetch ,7 for 1st redirect fetch ,8 for 2nd...$/;"	m	language:C++	struct:tagMEM_INODE
+iget	fs/inode.c	/^MEM_INODE* iget ( unsigned short dev_no,unsigned long inode_nr )$/;"	f	language:C	signature:( unsigned short dev_no,unsigned long inode_nr )
+init_buffer	fs/buffer.c	/^void init_buffer ( void ) $/;"	f	language:C	signature:( void )
+init_clock	kernel/sched.c	/^void init_clock ( void ) $/;"	f	language:C	signature:( void )
+init_console	kernel/kconio.c	/^void init_console ( void )$/;"	f	language:C	signature:( void )
+init_exceptn	kernel/excpcalls.c	/^void init_exceptn ( void ) $/;"	f	language:C	signature:( void )
+init_filps	fs/fmain.c	/^void init_filps ( void )$/;"	f	language:C	file:	signature:( void )
+init_hd	kernel/hdsk.c	/^void init_hd ( void ) $/;"	f	language:C	signature:( void )
+init_inodes	fs/inode.c	/^inline void init_inodes ( void ) $/;"	f	language:C	signature:( void )
+init_keybd	kernel/keybd.c	/^void init_keybd ( void ) $/;"	f	language:C	signature:( void )
+init_mm	kernel/page/page_map.c	/^inline void init_mm ( void ) $/;"	f	language:C	signature:( void )
+init_sys_calls	kernel/syscall.c	/^void init_sys_calls ( void  ) $/;"	f	language:C	signature:( void )
+init_task0	kernel/task0/setup.c	/^void init_task0 ( void ) $/;"	f	language:C	signature:( void )
+inode_nr	fs/fs.h	/^    __u16       inode_nr;                    \/\/ inode nr$/;"	m	language:C++	struct:tagDIR_ENTRY
+inode_table	fs/inode.c	/^static MEM_INODE inode_table[NR_INODE] ; $/;"	v	language:C	file:
+intred	kernel/syscall.c	/^u8 intred = 0 ;$/;"	v	language:C
+invalidata_tss	kernel/excpcalls.c	/^static void invalidata_tss ( __u32 err_code )$/;"	f	language:C	file:	signature:( __u32 err_code )
+invalidate	kernel.bin.s	/^/;"	l	language:Asm
+invalidate_opcode	kernel/excpcalls.c	/^static void invalidate_opcode ( void ) $/;"	f	language:C	file:	signature:( void )
+iobase	include/casey/procs.h	/^	u16		    iobase;			\/\/I\/O Base $/;"	m	language:C++	struct:tagTSS
+iput	fs/inode.c	/^void iput ( MEM_INODE *m_puti ) $/;"	f	language:C	signature:( MEM_INODE *m_puti )
+is_digit	lib/string.c	145;"	d	language:C	file:
+is_dir_empty	fs/namei.c	/^unsigned char is_dir_empty ( MEM_INODE *m_dir )$/;"	f	language:C	file:	signature:( MEM_INODE *m_dir )
+isnum	lib/string.c	/^unsigned char isnum ( char ch ) $/;"	f	language:C	signature:( char ch )
+itoa	lib/string.c	/^char *itoa ( unsigned long decem,char *buf,unsigned char base ) $/;"	f	language:C	signature:( unsigned long decem,char *buf,unsigned char base )
+kb_buf	kernel/keybd.c	/^KBD_QUE *kb_buf  = (KBD_QUE*)(TERM_BUFFER); $/;"	v	language:C
+kb_buf	term/decode.c	/^KBD_QUE *kb_buf     = (KBD_QUE*)(STDIN_BUF);$/;"	v	language:C
+kb_get	kernel/keybd.c	/^static __u8  kb_get ( __u8 elem  ) $/;"	f	language:C	file:	signature:( __u8 elem )
+kb_put	term/decode.c	/^static __u8 kb_put ( void  )$/;"	f	language:C	file:	signature:( void )
+kernel_esp	include/casey/procs.h	/^	u32		kernel_esp;     \/\/ not used $/;"	m	language:C++	struct:tagSTACK_FRAME
+kernel_esp	include/casey/procs.h	/^    u32       kernel_esp;$/;"	m	language:C++	struct:__anon6
+kernel_esp	include/casey/procs.h	/^    u32       kernel_esp;$/;"	m	language:C++	struct:tagTHREAD
+kernel_size	boot/loader.asm	/^    kernel_size     equ 0D000h      ; 128 KB for kernel$/;"	d	language:Asm
+keybd	kernel/keybd.c	/^static void keybd ( void ) $/;"	f	language:C	file:	signature:( void )
+keymap	term/codemap.c	/^const unsigned long   keymap[MAX_SCAN_CODES * MAP_COLS] = {$/;"	v	language:C
+kgetpt	kernel/kconio.c	/^inline int  kgetpt ( __u32* posx,__u32* posy ) $/;"	f	language:C	signature:( __u32* posx,__u32* posy )
+kgetrgb	kernel/kconio.c	/^inline __byte kgetrgb ( void ) $/;"	f	language:C	signature:( void )
+kputch	kernel/kconio.c	/^int  kputch ( const char ch ) $/;"	f	language:C	signature:( const char ch )
+kputs	lib/klib/kstring.c	/^int  kputs ( const char* str ) $/;"	f	language:C	signature:( const char* str )
+ksetpt	kernel/kconio.c	/^inline int ksetpt ( __u32 posx,__u32 posy ) $/;"	f	language:C	signature:( __u32 posx,__u32 posy )
+ksetrgb	kernel/kconio.c	/^inline __byte ksetrgb ( __byte crgb )$/;"	f	language:C	signature:( __byte crgb )
+ldt	include/casey/procs.h	/^	u32 		ldt;$/;"	m	language:C++	struct:tagTSS
+ldts	include/casey/procs.h	/^	DESCRIPTOR	    ldts[MAX_LDT_NUM];			\/\/ Ldt s$/;"	m	language:C++	struct:tagPROCESS
+ldtsel	include/casey/procs.h	/^	u16		        ldtsel;		            	\/\/ Ldt Selector     $/;"	m	language:C++	struct:tagPROCESS
+len	include/casey/termio.h	/^    char            head,tail,len;$/;"	m	language:C++	struct:tagKBD_QUE
+len	include/casey/termio.h	/^    short   head,tail,len;$/;"	m	language:C++	struct:tagCHAR_BUF
+link	fs/namei.c	/^int link ( const char *old_name,const char *new_name ) $/;"	f	language:C	signature:( const char *old_name,const char *new_name )
+link	include/casey/procs.h	/^	u32 		link;			\/\/back link$/;"	m	language:C++	struct:tagTSS
+list	fs/fmain.c	/^void list ( int argc,char argv[][30] ) $/;"	f	language:C	file:	signature:( int argc,char argv[][30] )
+ll_rw_blk	fs/blk_drv.c	/^unsigned long ll_rw_blk ( unsigned char  rw_rq,                 \/* request r\/w *\/$/;"	f	language:C	signature:( unsigned char rw_rq, unsigned short dev_no, unsigned long blk_no, unsigned long blks_nr, void * dest )
+ll_rw_phys_sect	fs/blk_drv.c	/^unsigned long ll_rw_phys_sect (unsigned char rw_rq,                  \/* request r\/w *\/$/;"	f	language:C	signature:(unsigned char rw_rq, unsigned char drv_no, unsigned long sect_no, unsigned long sects_nr, void* dest )
+load	boot/loader.asm	/^load:$/;"	l	language:Asm
+load_FAT_table	boot/boots.asm	/^load_FAT_table:$/;"	l	language:Asm
+load_elf	kernel/creatp.c	/^void load_elf ( u32 old_entry_base ,i16 nr_procs ) $/;"	f	language:C	signature:( u32 old_entry_base ,i16 nr_procs )
+load_ok	boot/loader.asm	/^    load_ok         db  " Loaded OK !"$/;"	d	language:Asm
+load_ok_len	boot/loader.asm	/^    load_ok_len     equ $ - load_ok$/;"	d	language:Asm
+load_root	fs/super.c	/^char load_root ( void ) $/;"	f	language:C	signature:( void )
+loading	boot/loader.asm	/^    loading         db  "Loading "$/;"	d	language:Asm
+loading_len	boot/loader.asm	/^    loading_len     equ $ - loading$/;"	d	language:Asm
+locked	include/casey/termio.h	/^    char locked;$/;"	m	language:C++	struct:tagCOOKED_BUF
+locked	include/casey/termio.h	/^    unsigned char   locked ;$/;"	m	language:C++	struct:tagCHAR_BUF
+locked	include/casey/termio.h	/^    unsigned char   locked;$/;"	m	language:C++	struct:tagKBD_QUE
+logic_part_table	include/casey/hdcntl.h	/^    LOGIC_PART_TABLE    logic_part_table[MAX_LOGICS];$/;"	m	language:C++	struct:tagHDINFO
+low	include/sys/types.h	17;"	d	language:C++
+m_atime	include/sys/msgno.h	/^    unsigned long       m_atime;        \/\/ arrive time$/;"	m	language:C++	struct:tagMAIL
+m_data_d	include/sys/msgno.h	/^    unsigned char       m_data_d;       \/\/ data stream direction$/;"	m	language:C++	struct:tagMAIL
+m_dest_pid	include/sys/msgno.h	/^    short               m_dest_pid;     \/\/ to which process $/;"	m	language:C++	struct:tagMAIL
+m_dest_tid	include/sys/msgno.h	/^    short               m_dest_tid;     \/\/ to which thread$/;"	m	language:C++	struct:tagMAIL
+m_fparam	include/sys/msgno.h	/^    unsigned long       m_fparam;       \/\/ first param  $/;"	m	language:C++	struct:tagMAIL
+m_level	include/sys/msgno.h	/^    unsigned char       m_level;        \/\/ mail level $/;"	m	language:C++	struct:tagMAIL
+m_locked	include/sys/msgno.h	/^    unsigned char       m_locked;       \/\/ mail lock (false for unused)$/;"	m	language:C++	struct:tagMAIL
+m_lparam	include/sys/msgno.h	/^    unsigned long       m_lparam;       \/\/ last param $/;"	m	language:C++	struct:tagMAIL
+m_msg	include/sys/msgno.h	/^    unsigned short      m_msg;          \/\/ umsg $/;"	m	language:C++	struct:tagMAIL
+m_next	include/sys/msgno.h	/^    struct  tagMAIL     *m_next;        \/\/ next send $/;"	m	language:C++	struct:tagMAIL	typeref:struct:tagMAIL::tagMAIL
+m_pwd_inode	include/casey/procs.h	/^    u32             m_root_inode,m_pwd_inode;$/;"	m	language:C++	struct:tagPROCESS
+m_ret_type	include/sys/msgno.h	/^    unsigned char       m_ret_type;     \/\/ ONLY validate to sendmail$/;"	m	language:C++	struct:tagMAIL
+m_root_inode	include/casey/procs.h	/^    u32             m_root_inode,m_pwd_inode;$/;"	m	language:C++	struct:tagPROCESS
+m_src_pid	include/sys/msgno.h	/^    short               m_src_pid;      \/\/ from which process $/;"	m	language:C++	struct:tagMAIL
+m_src_tid	include/sys/msgno.h	/^    short               m_src_tid;      \/\/ from which thread         $/;"	m	language:C++	struct:tagMAIL
+m_type	include/sys/msgno.h	/^    unsigned char       m_type;         \/\/ msg type $/;"	m	language:C++	struct:tagMAIL
+m_validate	include/sys/msgno.h	/^    unsigned char       m_validate;     \/\/ is valid ?$/;"	m	language:C++	struct:tagMAIL
+mail_box	include/casey/procs.h	/^    void*           mail_box;                   \/\/ mail box page addr   $/;"	m	language:C++	struct:tagPROCESS
+main	bin/hello.c	/^int main ( void ) $/;"	f	language:C	signature:( void )
+main	fs/fmain.c	/^int main ( void ) $/;"	f	language:C	signature:( void )
+main	kernel/task0/main.c	/^void main ( void ) $/;"	f	language:C	signature:( void )
+main	mm/mmain.c	/^int main ( void ) $/;"	f	language:C	signature:( void )
+main	shell/shell.c	/^int main ( void )$/;"	f	language:C	signature:( void )
+main	term/term.c	/^int main ( void ) $/;"	f	language:C	signature:( void )
+make	kernel.bin.s	/^/;"	l	language:Asm
+make_prc	term/decode.c	/^void make_prc (__u8 make,__u32 key)$/;"	f	language:C	file:	signature:(__u8 make,__u32 key)
+map_page_to_phys	kernel/page/page_map.c	/^u32 map_page_to_phys ( u32 phys_addr,u32 page_addr ) $/;"	f	language:C	signature:( u32 phys_addr,u32 page_addr )
+math	kernel.bin.s	/^/;"	l	language:Asm
+math_fault	kernel/excpcalls.c	/^static void math_fault ( __u32 err_code ) $/;"	f	language:C	file:	signature:( __u32 err_code )
+max_addr	include/casey/termio.h	/^    long   max_addr;           \/\/current console max mem size$/;"	m	language:C++	struct:__anon2
+mb_snd_cnt	include/sys/msgno.h	/^    i16             mb_snd_cnt;         \/* snd mails cnt *\/$/;"	m	language:C++	struct:tagMAILBOX
+mb_sys_cnt	include/sys/msgno.h	/^    i8              mb_sys_cnt;         \/* sys mails cnt *\/$/;"	m	language:C++	struct:tagMAILBOX
+mb_usr_cnt	include/sys/msgno.h	/^    i8              mb_usr_cnt;         \/* usr mails cnt *\/$/;"	m	language:C++	struct:tagMAILBOX
+memcmp	lib/string.c	/^inline int memcmp(const void * cs,const void * ct,int count)$/;"	f	language:C	signature:(const void * cs,const void * ct,int count)
+memcpy	lib/string.c	/^inline void * memcpy(void * dest,const void * src, unsigned long size)$/;"	f	language:C	signature:(void * dest,const void * src, unsigned long size)
+memmove	lib/string.c	/^inline void * memmove(void * dest,const void * src, int size)$/;"	f	language:C	signature:(void * dest,const void * src, int size)
+memset	lib/string.c	/^inline void * memset(void * s,char c,int count)$/;"	f	language:C	signature:(void * s,char c,int count)
+mk_proc_obj	kernel/creatp.c	/^int mk_proc_obj(i16         nr_procs,$/;"	f	language:C	file:	signature:(i16 nr_procs, char prio, u8 pl, u8 rpl, u32 eflags )
+mkdir	fs/namei.c	/^long mkdir ( const char *path ,unsigned short mode) $/;"	f	language:C	signature:( const char *path ,unsigned short mode)
+more	kernel.bin.s	/^/;"	l	language:Asm
+mul	boot/loader.asm	/^    mul     dl$/;"	d	language:Asm
+name	fs/fs.h	/^    char        name[ NAME_LEN ] ;           \/\/ name$/;"	m	language:C++	struct:tagDIR_ENTRY
+namei	fs/namei.c	/^MEM_INODE *namei ( const char *path ) $/;"	f	language:C	signature:( const char *path )
+new_block	fs/bitmap.c	/^unsigned long new_block ( unsigned short dev_no ) $/;"	f	language:C	signature:( unsigned short dev_no )
+new_inode	fs/bitmap.c	/^MEM_INODE* new_inode ( unsigned short dev_no ) $/;"	f	language:C	signature:( unsigned short dev_no )
+next	include/casey/hdcntl.h	/^    PART_TABLE  cur,next,unused[2];$/;"	m	language:C++	struct:tagLOGIC_PART_TABLE
+nmi	kernel/excpcalls.c	/^static void nmi ( void ) $/;"	f	language:C	file:	signature:( void )
+no	kernel.bin.s	/^/;"	l	language:Asm
+no_err_code	kernel/exceptn.asm	/^no_err_code:$/;"	l	language:Asm
+nop	include/casey/kernel.h	24;"	d	language:C++
+not_found	boot/loader.asm	/^	not_found	    db	"PANIC !==> NO  "$/;"	d	language:Asm
+not_found_len	boot/loader.asm	/^    not_found_len   equ $ - not_found $/;"	d	language:Asm
+number	lib/string.c	/^static char * number(char * str, int num, int base, int size, int precision$/;"	f	language:C	file:	signature:(char * str, int num, int base, int size, int precision ,int type)
+off_fs	boot/loader.asm	/^    off_fs          equ 0$/;"	d	language:Asm
+off_mm	boot/loader.asm	/^    off_mm          equ 0$/;"	d	language:Asm
+off_shell	boot/loader.asm	/^    off_shell       equ 0$/;"	d	language:Asm
+off_t	include/sys/types.h	/^typedef unsigned long   off_t;$/;"	t	language:C++
+off_tst	boot/loader.asm	/^    off_tst         equ 0      $/;"	d	language:Asm
+off_tty	boot/loader.asm	/^    off_tty         equ 0$/;"	d	language:Asm
+open_namei	fs/namei.c	/^int open_namei ( const char *path,unsigned short flag,$/;"	f	language:C	signature:( const char *path,unsigned short flag, unsigned short mode,MEM_INODE **dest_inode )
+org_addr	include/casey/termio.h	/^    long   org_addr;           \/\/org addr $/;"	m	language:C++	struct:__anon2
+over	kernel.bin.s	/^/;"	l	language:Asm
+over_flow	kernel/excpcalls.c	/^static void over_flow ( void )$/;"	f	language:C	file:	signature:( void )
+page	kernel.bin.s	/^/;"	l	language:Asm
+page_cnt	kernel/page/page_map.c	/^u8    *page_cnt   = NULL;                         \/\/ pages cnt of MAPED_MEM pages$/;"	v	language:C
+page_dir_table	boot/loader.asm	/^	page_dir_table	equ	100000h	    ; page_dir_table from 1M$/;"	d	language:Asm
+page_table	boot/loader.asm	/^    page_table      equ 101000h     ; 1M + 4K$/;"	d	language:Asm
+page_table_page	kernel.bin.s	/^/;"	l	language:Asm
+panic	kernel/panic.c	/^int panic ( const char* fmt,... ) $/;"	f	language:C	signature:( const char* fmt,... )
+pausebrk	term/codemap.c	/^const unsigned char pausebrk[] = {$/;"	v	language:C
+pf_ret	kernel/page/page.asm	/^pf_ret:$/;"	l	language:Asm
+pid	include/casey/procs.h	/^    i16             pid;                        \/\/ current process id$/;"	m	language:C++	struct:tagPROCESS
+pid	include/casey/procs.h	/^    short pid,tid; $/;"	m	language:C++	struct:__anon5
+pid_t	include/sys/types.h	/^typedef short           pid_t;$/;"	t	language:C++
+pl	include/casey/procs.h	/^    i8        curtks,pl;                        \/* current ticks ,priority *\/$/;"	m	language:C++	struct:tagTHREAD
+pop	boot/boots.asm	/^	pop	    ds$/;"	d	language:Asm
+pop	boot/loader.asm	/^	pop	    ds$/;"	d	language:Asm
+pop	boot/loader.asm	/^	pop	    dx$/;"	d	language:Asm
+pop	boot/loader.asm	/^    pop     di$/;"	d	language:Asm
+pop	boot/loader.asm	/^    pop     dx$/;"	d	language:Asm
+pop	kernel/kernel.asm	/^        pop	    ds$/;"	d	language:Asm
+pos	include/casey/hdcntl.h	/^    __u64       pos;        \/* from where (in bytes) *\/$/;"	m	language:C++	struct:tagHDRW
+pos	kernel.bin.s	/^/;"	l	language:Asm
+post	include/sys/msgno.h	/^    WAIT_Q          post,send;$/;"	m	language:C++	struct:tagMAILBOX
+post	kernel.bin.s	/^/;"	l	language:Asm
+postm	lib/syscalls.c	/^int postm ( MAIL *m ) $/;"	f	language:C	signature:( MAIL *m )
+prepare_fs_mem	kernel/creatp.c	/^int prepare_fs_mem ( i16 nr_procs ) $/;"	f	language:C	file:	signature:( i16 nr_procs )
+prepare_mem	kernel/creatp.c	/^int prepare_mem ( i16 nr_procs ) $/;"	f	language:C	file:	signature:( i16 nr_procs )
+prepare_mm_mem	kernel/creatp.c	/^int prepare_mm_mem ( i16 nr_procs ) $/;"	f	language:C	file:	signature:( i16 nr_procs )
+prepare_shell_mem	kernel/creatp.c	/^int prepare_shell_mem ( i16 nr_procs ) $/;"	f	language:C	signature:( i16 nr_procs )
+prepare_tty_mem	kernel/creatp.c	/^int prepare_tty_mem ( i16 nr_procs ) $/;"	f	language:C	file:	signature:( i16 nr_procs )
+prepare_usr_mem	kernel/creatp.c	/^int prepare_usr_mem ( i16 nr_procs ) $/;"	f	language:C	file:	signature:( i16 nr_procs )
+prev_proc	kernel/sched.c	/^static PROCESS *prev_proc = &task0;$/;"	v	language:C	file:
+prev_tid	kernel/sched.c	/^static short prev_tid = 0;$/;"	v	language:C	file:
+prim_part_table	include/casey/hdcntl.h	/^    PART_TABLE          prim_part_table[MAX_PRIMS];$/;"	m	language:C++	struct:tagHDINFO
+printf	lib/printf.c	/^int printf ( const char *fmt ,... )$/;"	f	language:C	signature:( const char *fmt ,... )
+printk	lib/klib/kstring.c	/^int printk ( const char* fmt ,... ) $/;"	f	language:C	signature:( const char* fmt ,... )
+printx	term/rw_con.c	/^int printx ( const char* fmt ,... ) $/;"	f	language:C	signature:( const char* fmt ,... )
+procs_ptr	kernel/kmain.c	/^PROCESS*  procs_ptr[MAX_PROCS] = {0};$/;"	v	language:C
+prtscrn_down	term/codemap.c	/^const unsigned char prtscrn_down[] = {$/;"	v	language:C
+prtscrn_up	term/codemap.c	/^const unsigned char prtscrn_up  [] = {$/;"	v	language:C
+pt	boot/boots.asm	/^	pt		            dw	((80 * 0 + 0) * 2)$/;"	d	language:Asm
+pt	boot/loader.asm	/^	pt		        dw	((80 * 2 + 0) * 2)$/;"	d	language:Asm
+push	boot/boots.asm	/^	push	ds$/;"	d	language:Asm
+push	boot/loader.asm	/^	push	ds$/;"	d	language:Asm
+push	boot/loader.asm	/^	push	dx$/;"	d	language:Asm
+push	boot/loader.asm	/^    push    di$/;"	d	language:Asm
+push	boot/loader.asm	/^    push    dx$/;"	d	language:Asm
+push	kernel/exceptn.asm	/^        push	ds$/;"	d	language:Asm
+push	kernel/kernel.asm	/^        push	ds$/;"	d	language:Asm
+push	kernel/page/page.asm	/^        push	ds$/;"	d	language:Asm
+put_sblk	fs/super.c	/^void put_sblk ( unsigned short dev_no ) $/;"	f	language:C	signature:( unsigned short dev_no )
+putchar	lib/printf.c	/^int putchar ( char ch )$/;"	f	language:C	signature:( char ch )
+puts	lib/printf.c	/^int puts ( const char *src )$/;"	f	language:C	signature:( const char *src )
+rdport	fs/blk_drv.c	/^unsigned char   rdport  ( unsigned short port )$/;"	f	language:C	signature:( unsigned short port )
+rdport	kernel/dtcntl.c	/^unsigned char   rdport  ( unsigned short port )$/;"	f	language:C	signature:( unsigned short port )
+rdport	term/rw_con.c	/^static unsigned char rdport(unsigned short port) $/;"	f	language:C	file:	signature:(unsigned short port)
+rdports	lib/port.asm	/^rdports:$/;"	l	language:Asm
+re_restart	kernel/kernel.asm	/^re_restart:$/;"	l	language:Asm
+read_dev_inode	fs/inode.c	/^void read_dev_inode ( MEM_INODE *m_rd_inode ) $/;"	f	language:C	file:	signature:( MEM_INODE *m_rd_inode )
+read_q	term/ttys.h	/^    TTY_QUE         read_q;             \/* tty read que *\/$/;"	m	language:C++	struct:tty_s
+read_sblk	fs/super.c	/^MEM_SUPER_BLOCK* read_sblk ( unsigned short dev_no )$/;"	f	language:C	signature:( unsigned short dev_no )
+regs	include/casey/procs.h	/^	STACK_FRAME 	regs;                       \/\/ regs              $/;"	m	language:C++	struct:tagPROCESS
+release	kernel/exit.c	/^void release ( PROCESS *p ) $/;"	f	language:C	file:	signature:( PROCESS *p )
+request	include/casey/hdcntl.h	/^    __u32       request;$/;"	m	language:C++	struct:tagHDIOCTL
+ret_addr	include/casey/procs.h	/^	u32		ret_addr;$/;"	m	language:C++	struct:tagSTACK_FRAME
+ret_addr	include/casey/procs.h	/^    u32       ret_addr;$/;"	m	language:C++	struct:__anon6
+ret_addr	include/casey/procs.h	/^    u32       ret_addr;$/;"	m	language:C++	struct:tagTHREAD
+ret_prc	kernel/sched.c	/^void ret_prc ( u32 prev_tid_ret_val ) $/;"	f	language:C	signature:( u32 prev_tid_ret_val )
+rgb	include/casey/termio.h	/^    char   rgb;                \/\/console rgb $/;"	m	language:C++	struct:__anon2
+rid_irq_prc	kernel/irq.c	/^inline void rid_irq_prc ( __u32 irq_no ) $/;"	f	language:C	signature:( __u32 irq_no )
+rid_sys_call	include/casey/kernel.h	74;"	d	language:C++
+rmdir	fs/namei.c	/^long rmdir ( const char *path ) $/;"	f	language:C	signature:( const char *path )
+s_hdinfo	fs/blk_drv.c	/^static HDINFO s_hdinfo[MAX_DRVS] ;$/;"	v	language:C	file:
+save	kernel/kernel.asm	/^save:$/;"	l	language:Asm
+sb_dev	fs/fs.h	/^    __u16       sb_dev;                      \/\/ dev num$/;"	m	language:C++	struct:tagMEM_SUPER_BLOCK
+sb_dirt	fs/fs.h	/^    __byte      sb_dirt;                     \/\/ modified flag$/;"	m	language:C++	struct:tagMEM_SUPER_BLOCK
+sb_first_datazone	fs/fs.h	/^    __u16       sb_first_datazone;           \/\/ first data logic blk nr$/;"	m	language:C++	struct:tagDEV_SUPER_BLOCK
+sb_first_datazone	fs/fs.h	/^    __u16       sb_first_datazone;           \/\/ first data logic blk nr$/;"	m	language:C++	struct:tagMEM_SUPER_BLOCK
+sb_i_mounted	fs/fs.h	/^    MEM_INODE   *sb_i_mounted;               \/\/ mounted fs inode nr$/;"	m	language:C++	struct:tagMEM_SUPER_BLOCK
+sb_i_nr	fs/fs.h	/^    MEM_INODE   *sb_i_nr;                    \/\/ mounted fs root dir inode nr$/;"	m	language:C++	struct:tagMEM_SUPER_BLOCK
+sb_imap_bh_ptr	fs/fs.h	/^    BUFFER_HEAD *sb_imap_bh_ptr[IMAP_SLOTS]; \/\/ imap buffer head ptr$/;"	m	language:C++	struct:tagMEM_SUPER_BLOCK
+sb_imap_blocks	fs/fs.h	/^    __u16       sb_imap_blocks;              \/\/ inode map blks $/;"	m	language:C++	struct:tagDEV_SUPER_BLOCK
+sb_imap_blocks	fs/fs.h	/^    __u16       sb_imap_blocks;              \/\/ inode map blks $/;"	m	language:C++	struct:tagMEM_SUPER_BLOCK
+sb_locked	fs/fs.h	/^    __u8        sb_locked;                   \/\/ locked ?$/;"	m	language:C++	struct:tagMEM_SUPER_BLOCK
+sb_log_zone_size	fs/fs.h	/^    __u16       sb_log_zone_size;            \/\/ log2(data_blks\/logic blks)$/;"	m	language:C++	struct:tagDEV_SUPER_BLOCK
+sb_log_zone_size	fs/fs.h	/^    __u16       sb_log_zone_size;            \/\/ log2(data_blks\/logic blks)$/;"	m	language:C++	struct:tagMEM_SUPER_BLOCK
+sb_magic	fs/fs.h	/^    __u16       sb_magic;                    \/\/ fs magic num$/;"	m	language:C++	struct:tagDEV_SUPER_BLOCK
+sb_magic	fs/fs.h	/^    __u16       sb_magic;                    \/\/ fs magic num$/;"	m	language:C++	struct:tagMEM_SUPER_BLOCK
+sb_max_size	fs/fs.h	/^    __u32       sb_max_size;                 \/\/ file max size$/;"	m	language:C++	struct:tagDEV_SUPER_BLOCK
+sb_max_size	fs/fs.h	/^    __u32       sb_max_size;                 \/\/ file max size$/;"	m	language:C++	struct:tagMEM_SUPER_BLOCK
+sb_ninodes	fs/fs.h	/^    __u16       sb_ninodes;                  \/\/ total inodes $/;"	m	language:C++	struct:tagDEV_SUPER_BLOCK
+sb_ninodes	fs/fs.h	/^    __u16       sb_ninodes;                  \/\/ total inodes $/;"	m	language:C++	struct:tagMEM_SUPER_BLOCK
+sb_nzones	fs/fs.h	/^    __u16       sb_nzones;                   \/\/ totol logic blks $/;"	m	language:C++	struct:tagDEV_SUPER_BLOCK
+sb_nzones	fs/fs.h	/^    __u16       sb_nzones;                   \/\/ totol logic blks $/;"	m	language:C++	struct:tagMEM_SUPER_BLOCK
+sb_rd_only	fs/fs.h	/^    __byte      sb_rd_only;                  \/\/ read only flag$/;"	m	language:C++	struct:tagMEM_SUPER_BLOCK
+sb_time	fs/fs.h	/^    __u32       sb_time;                     \/\/ modified time$/;"	m	language:C++	struct:tagMEM_SUPER_BLOCK
+sb_wait	fs/fs.h	/^    __u32*      sb_wait;                     \/\/ wait ptr$/;"	m	language:C++	struct:tagMEM_SUPER_BLOCK
+sb_zmap_bh_ptr	fs/fs.h	/^    BUFFER_HEAD *sb_zmap_bh_ptr[ZMAP_SLOTS]; \/\/ zmap buffer head ptr$/;"	m	language:C++	struct:tagMEM_SUPER_BLOCK
+sb_zmap_blocks	fs/fs.h	/^    __u16       sb_zmap_blocks;              \/\/ logical map blks $/;"	m	language:C++	struct:tagDEV_SUPER_BLOCK
+sb_zmap_blocks	fs/fs.h	/^    __u16       sb_zmap_blocks;              \/\/ logical map blks $/;"	m	language:C++	struct:tagMEM_SUPER_BLOCK
+schedule	kernel/sched.c	/^void schedule ( void ) $/;"	f	language:C	signature:( void )
+scroll_down	kernel/kconio.c	/^void scroll_down (unsigned char lines)$/;"	f	language:C	file:	signature:(unsigned char lines)
+scroll_down	term/rw_con.c	/^void scroll_down (unsigned char lines)$/;"	f	language:C	file:	signature:(unsigned char lines)
+scroll_up	kernel/kconio.c	/^void scroll_up (unsigned char lines)$/;"	f	language:C	file:	signature:(unsigned char lines)
+scroll_up	term/rw_con.c	/^void scroll_up (unsigned char lines)$/;"	f	language:C	file:	signature:(unsigned char lines)
+secondary	term/ttys.h	/^    TTY_QUE         secondary;          \/* secondary *\/$/;"	m	language:C++	struct:tty_s
+sects	include/casey/hdcntl.h	/^    __u32       sects;$/;"	m	language:C++	struct:tagPART_TABLE
+seg2phys	kernel/dtcntl.c	/^inline __u32 seg2phys ( __u16 seg ) $/;"	f	language:C	signature:( __u16 seg )
+seg_unpresent	kernel/excpcalls.c	/^static void seg_unpresent ( __u32 err_code )$/;"	f	language:C	file:	signature:( __u32 err_code )
+segment	kernel.bin.s	/^/;"	l	language:Asm
+self	kernel.bin.s	/^/;"	l	language:Asm
+send	include/sys/msgno.h	/^    WAIT_Q          post,send;$/;"	m	language:C++	struct:tagMAILBOX
+send	kernel.bin.s	/^/;"	l	language:Asm
+send_q	include/casey/procs.h	/^    SEND_Q    send_q;                           \/* send que *\/$/;"	m	language:C++	struct:tagTHREAD
+send_to_pid	include/casey/procs.h	/^    i16  send_to_pid,send_to_tid;$/;"	m	language:C++	struct:__anon4
+send_to_tid	include/casey/procs.h	/^    i16  send_to_pid,send_to_tid;$/;"	m	language:C++	struct:__anon4
+set_cur_con	kernel/kconio.c	/^void set_cur_con ( CONSOLE *pcon ) $/;"	f	language:C	file:	signature:( CONSOLE *pcon )
+set_cur_con	term/rw_con.c	/^void set_cur_con ( CONSOLE *pcon ) $/;"	f	language:C	file:	signature:( CONSOLE *pcon )
+set_curcon	kernel/kconio.c	/^CONSOLE* set_curcon ( unsigned char cur_con ) $/;"	f	language:C	signature:( unsigned char cur_con )
+set_curcon	term/rw_con.c	/^CONSOLE* set_curcon ( unsigned char cur_con ) $/;"	f	language:C	file:	signature:( unsigned char cur_con )
+set_hd_cmd	fs/blk_drv.c	/^static void set_hd_cmd ( HDCMD *pcmd ) $/;"	f	language:C	file:	signature:( HDCMD *pcmd )
+set_intr_gate	kernel/dtcntl.c	76;"	d	language:C	file:
+set_irq_prc	kernel/irq.c	/^inline void set_irq_prc ( __u32 irq_no,PRC prc ) $/;"	f	language:C	signature:( __u32 irq_no,PRC prc )
+set_ldt	kernel/dtcntl.c	/^void set_ldt ( __u32 nr_procs,__u8 nr_ldt,$/;"	f	language:C	signature:( __u32 nr_procs,__u8 nr_ldt, __u32 base,__u32 limit,__u16 attri )
+set_pos	kernel/kconio.c	/^void set_pos ( long pos ) $/;"	f	language:C	signature:( long pos )
+set_pos	term/rw_con.c	/^void set_pos ( long pos ) $/;"	f	language:C	signature:( long pos )
+set_start_addr	kernel/kconio.c	/^void set_start_addr ( unsigned long addr ) $/;"	f	language:C	file:	signature:( unsigned long addr )
+set_start_addr	term/rw_con.c	/^void set_start_addr ( unsigned long addr ) $/;"	f	language:C	file:	signature:( unsigned long addr )
+set_sys_call	include/casey/kernel.h	72;"	d	language:C++
+set_sys_gate	kernel/dtcntl.c	78;"	d	language:C	file:
+set_trap_gate	kernel/dtcntl.c	74;"	d	language:C	file:
+setalt	term/decode.c	/^void setalt ( bool fleft ,bool fval )$/;"	f	language:C	signature:( bool fleft ,bool fval )
+setb	fs/bitmap.c	/^unsigned char setb (unsigned char *addr,unsigned long nr)$/;"	f	language:C	file:	signature:(unsigned char *addr,unsigned long nr)
+setbuf	fs/blk_rw.c	/^void* setbuf ( unsigned short dev_no,unsigned long blk_nr,$/;"	f	language:C	signature:( unsigned short dev_no,unsigned long blk_nr, unsigned long offset,void *src,unsigned long len )
+setcaps	term/decode.c	/^void setcaps ( bool fval  ) $/;"	f	language:C	signature:( bool fval )
+setctl	term/decode.c	/^void setctl ( bool fleft ,bool fval )$/;"	f	language:C	signature:( bool fleft ,bool fval )
+setcurpos	kernel/kconio.c	/^void setcurpos ( __u32 curpos ) $/;"	f	language:C	signature:( __u32 curpos )
+setcurpos	term/rw_con.c	/^void setcurpos ( __u32 curpos ) $/;"	f	language:C	signature:( __u32 curpos )
+setpt	term/rw_con.c	/^inline int setpt ( __u32 posx,__u32 posy ) $/;"	f	language:C	signature:( __u32 posx,__u32 posy )
+setrgb	term/rw_con.c	/^inline __byte setrgb ( __byte crgb )$/;"	f	language:C	signature:( __byte crgb )
+setshft	term/decode.c	/^void setshft ( bool fleft ,bool fval )$/;"	f	language:C	signature:( bool fleft ,bool fval )
+size	include/casey/hdcntl.h	/^    __u32       size;$/;"	m	language:C++	struct:tagHDIOCTL
+size	include/casey/hdcntl.h	/^    __u32      size;                    \/* how many sects_nr *\/$/;"	m	language:C++	struct:tasgPARTINFO
+size	include/sys/types.h	18;"	d	language:C++
+size_t	include/sys/types.h	/^typedef unsigned long   size_t;$/;"	t	language:C++
+skip_atoi	lib/string.c	/^static int skip_atoi(const char **s)$/;"	f	language:C	file:	signature:(const char **s)
+sleep_on	kernel/sched.c	/^void sleep_on ( PROCESS *dest,short thread_nr )$/;"	f	language:C	signature:( PROCESS *dest,short thread_nr )
+snd_m	include/sys/msgno.h	/^    MAIL            snd_m[NR_SND_MAILS];\/* snd mail slots *\/$/;"	m	language:C++	struct:tagMAILBOX
+soft_intr	include/casey/procs.h	/^    u8        soft_intr;                        \/* soft ware interrupt flag *\/$/;"	m	language:C++	struct:tagTHREAD
+soft_intr_flag	include/casey/procs.h	/^    u8              soft_intr_flag;             \/\/ soft interrupt flag$/;"	m	language:C++	struct:tagPROCESS
+special	kernel.bin.s	/^/;"	l	language:Asm
+spin	lib/assert.c	/^void spin ( const char *fmt,... ) $/;"	f	language:C	signature:( const char *fmt,... )
+splitargv	shell/shell.c	/^int splitargv ( char *src,char argv[][30],int max_nr ) $/;"	f	language:C	file:	signature:( char *src,char argv[][30],int max_nr )
+sprintf	lib/string.c	/^int sprintf ( char* dbuf,const char* fmt,... )$/;"	f	language:C	signature:( char* dbuf,const char* fmt,... )
+src	include/casey/hdcntl.h	/^    void*       *src;$/;"	m	language:C++	struct:tagHDIOCTL
+src_name	boot/loader.asm	/^	src_name	    db	"KERNEL  BIN"$/;"	d	language:Asm
+ss	include/casey/procs.h	/^	u32		ss;             \/\/ user ss      (from caller)$/;"	m	language:C++	struct:tagSTACK_FRAME
+ss	include/casey/procs.h	/^	u32 		ss;$/;"	m	language:C++	struct:tagTSS
+ss0	include/casey/procs.h	/^	u32 		ss0;			\/\/ level 0 stack$/;"	m	language:C++	struct:tagTSS
+ss1	include/casey/procs.h	/^	u32 		ss1;			\/\/ level 1 stack$/;"	m	language:C++	struct:tagTSS
+ss2	include/casey/procs.h	/^	u32 		ss2;			\/\/ level 2 stack $/;"	m	language:C++	struct:tagTSS
+stack	kernel.bin.s	/^/;"	l	language:Asm
+stack_err	kernel/excpcalls.c	/^static void stack_err ( __u32 err_code ) $/;"	f	language:C	file:	signature:( __u32 err_code )
+start_cyl_no	include/casey/hdcntl.h	/^    __u8        start_cyl_no;           \/* start clyinder no *\/$/;"	m	language:C++	struct:tagPART_TABLE
+start_head_no	include/casey/hdcntl.h	/^    __u8        start_head_no;          \/* start hear no *\/ $/;"	m	language:C++	struct:tagPART_TABLE
+start_phys_sect_no	include/casey/hdcntl.h	/^    __u32       start_phys_sect_no;     \/* start phys_sect_no *\/$/;"	m	language:C++	struct:tagPART_TABLE
+start_sect_no	include/casey/hdcntl.h	/^    __u8        start_sect_no;          \/* start sect no *\/$/;"	m	language:C++	struct:tagPART_TABLE
+state	include/casey/procs.h	/^    u8        state;                            \/* thread state *\/$/;"	m	language:C++	struct:tagTHREAD
+sti	include/casey/kernel.h	23;"	d	language:C++
+sti	term/decode.c	18;"	d	language:C	file:
+strcat	lib/string.c	/^char *strcat ( char* dest,const char *src )$/;"	f	language:C	signature:( char* dest,const char *src )
+strcmp	lib/string.c	/^int strcmp ( const char *str1,const char *str2 ) $/;"	f	language:C	signature:( const char *str1,const char *str2 )
+strcpy	lib/string.c	/^char *strcpy ( char *dest,const char *src )$/;"	f	language:C	signature:( char *dest,const char *src )
+strlen	lib/string.c	/^int strlen ( const char *src ) $/;"	f	language:C	signature:( const char *src )
+strncmp	lib/string.c	/^int strncmp ( const char *str1,const char *str2,int len  ) $/;"	f	language:C	signature:( const char *str1,const char *str2,int len )
+strncpy	lib/string.c	/^char* strncpy ( char *dest,const char *src,int len ) $/;"	f	language:C	signature:( char *dest,const char *src,int len )
+strtol	lib/string.c	/^long strtol ( const char *src,char **err_pos,int base ) $/;"	f	language:C	signature:( const char *src,char **err_pos,int base )
+super_blk	fs/super.c	/^static MEM_SUPER_BLOCK super_blk [NR_SBLK];$/;"	v	language:C	file:
+switch_to	kernel/sched.c	/^void switch_to (PROCESS *proc,short tid ) $/;"	f	language:C	signature:(PROCESS *proc,short tid )
+sync_all	fs/fmain.c	36;"	d	language:C	file:
+sync_blks	fs/buffer.c	/^unsigned char sync_blks ( unsigned short dev_no,unsigned long sync_blk_nr ) $/;"	f	language:C	signature:( unsigned short dev_no,unsigned long sync_blk_nr )
+sync_bmaps	fs/buffer.c	/^void sync_bmaps ( unsigned short dev_no )$/;"	f	language:C	signature:( unsigned short dev_no )
+sync_dev_inodes	fs/inode.c	/^void sync_dev_inodes ( void  )$/;"	f	language:C	signature:( void )
+sys_add_thread	kernel/syscall.c	/^u32 sys_add_thread (void* thread_entry,u8 state )$/;"	f	language:C	file:	signature:(void* thread_entry,u8 state )
+sys_badness	kernel/syscall.c	/^u32 sys_badness ( void ) $/;"	f	language:C	file:	signature:( void )
+sys_block	kernel/syscall.c	/^u32 sys_block ( i16 tid ) $/;"	f	language:C	file:	signature:( i16 tid )
+sys_call_0	include/unistd.h	31;"	d	language:C++
+sys_call_1	include/unistd.h	42;"	d	language:C++
+sys_call_2	include/unistd.h	53;"	d	language:C++
+sys_call_3	include/unistd.h	65;"	d	language:C++
+sys_creatp	kernel/creatp.c	/^i32 sys_creatp (int argc,char **argv,char **envp) $/;"	f	language:C	signature:(int argc,char **argv,char **envp)
+sys_end_thread	kernel/syscall.c	/^u32  sys_end_thread ( i16 t_id ) $/;"	f	language:C	file:	signature:( i16 t_id )
+sys_exit	kernel/exit.c	/^unsigned long sys_exit ( unsigned long exit_code ) $/;"	f	language:C	signature:( unsigned long exit_code )
+sys_get_pinfo	kernel/syscall.c	/^u32 sys_get_pinfo ( u32 *tasks_nr )$/;"	f	language:C	file:	signature:( u32 *tasks_nr )
+sys_get_tks	kernel/syscall.c	/^u32 sys_get_tks ( void ) $/;"	f	language:C	file:	signature:( void )
+sys_m	include/sys/msgno.h	/^    MAIL            sys_m[NR_SYS_MAILS];\/* sys mail slots *\/$/;"	m	language:C++	struct:tagMAILBOX
+sys_pause	kernel/sched.c	/^u32 sys_pause (void) $/;"	f	language:C	signature:(void)
+sys_pickmail	ipc/pick.c	/^u32 sys_pickmail ( MAIL *pmail,u8 flags )$/;"	f	language:C	signature:( MAIL *pmail,u8 flags )
+sys_postmail	ipc/post.c	/^u32 sys_postmail ( MAIL *pmail )$/;"	f	language:C	signature:( MAIL *pmail )
+sys_replymail	ipc/pick.c	/^u32 sys_replymail ( MAIL *pmail )$/;"	f	language:C	signature:( MAIL *pmail )
+sys_sendmail	ipc/send.c	/^u32 sys_sendmail ( MAIL *pmail )$/;"	f	language:C	signature:( MAIL *pmail )
+sys_startup	kernel/creatp.c	/^u32 sys_startup (void) $/;"	f	language:C	signature:(void)
+sys_tty_read	kernel/syscall.c	/^u32 sys_tty_read ( u8 *buf,u32 len )$/;"	f	language:C	file:	signature:( u8 *buf,u32 len )
+sys_tty_write	kernel/syscall.c	/^u32 sys_tty_write ( const char *str,u32 len  ) $/;"	f	language:C	file:	signature:( const char *str,u32 len )
+sys_unblock	kernel/syscall.c	/^u32 sys_unblock ( i16 tid ) $/;"	f	language:C	file:	signature:( i16 tid )
+sys_wait_hd_intr	kernel/syscall.c	/^u32 sys_wait_hd_intr ( void ) $/;"	f	language:C	file:	signature:( void )
+sys_waitpid	kernel/wait.c	/^unsigned long sys_waitpid (short pid,unsigned char *state)$/;"	f	language:C	signature:(short pid,unsigned char *state)
+system_id	include/casey/hdcntl.h	/^    __u8        system_id;              \/* part system id *\/$/;"	m	language:C++	struct:tagPART_TABLE
+t_id	include/casey/procs.h	/^    i16       t_id;                             \/* current thread id *\/$/;"	m	language:C++	struct:tagTHREAD
+t_ret_val	include/casey/procs.h	/^    u32       t_ret_val;                        \/* scheduled thread return value *\/$/;"	m	language:C++	struct:tagTHREAD
+tagBUFFER_HEAD	fs/fs.h	/^typedef struct tagBUFFER_HEAD{$/;"	s	language:C++
+tagCHAR_BUF	include/casey/termio.h	/^typedef struct tagCHAR_BUF{$/;"	s	language:C++
+tagCOOKED_BUF	include/casey/termio.h	/^typedef struct tagCOOKED_BUF{$/;"	s	language:C++
+tagDESCRIPTOR	include/casey/dtcntl.h	/^typedef struct tagDESCRIPTOR{$/;"	s	language:C++
+tagDEV_INODE	fs/fs.h	/^typedef struct tagDEV_INODE{$/;"	s	language:C++
+tagDEV_SUPER_BLOCK	fs/fs.h	/^typedef struct tagDEV_SUPER_BLOCK{$/;"	s	language:C++
+tagDIR_ENTRY	fs/fs.h	/^typedef struct tagDIR_ENTRY{$/;"	s	language:C++
+tagFILE_STRUCT	fs/fs.h	/^typedef struct tagFILE_STRUCT{$/;"	s	language:C++
+tagGATE	include/casey/dtcntl.h	/^typedef struct tagGATE{$/;"	s	language:C++
+tagHDCMD	include/casey/hdcntl.h	/^typedef struct tagHDCMD{$/;"	s	language:C++
+tagHDINFO	include/casey/hdcntl.h	/^typedef struct tagHDINFO{$/;"	s	language:C++
+tagHDIOCTL	include/casey/hdcntl.h	/^typedef struct tagHDIOCTL{$/;"	s	language:C++
+tagHDRW	include/casey/hdcntl.h	/^typedef struct tagHDRW{$/;"	s	language:C++
+tagKBD_QUE	include/casey/termio.h	/^typedef struct tagKBD_QUE{$/;"	s	language:C++
+tagLOGIC_PART_TABLE	include/casey/hdcntl.h	/^typedef struct tagLOGIC_PART_TABLE{$/;"	s	language:C++
+tagMAIL	include/sys/msgno.h	/^typedef struct  tagMAIL{$/;"	s	language:C++
+tagMAILBOX	include/sys/msgno.h	/^typedef struct tagMAILBOX{$/;"	s	language:C++
+tagMEM_INODE	fs/fs.h	/^typedef struct tagMEM_INODE{$/;"	s	language:C++
+tagMEM_SUPER_BLOCK	fs/fs.h	/^typedef struct tagMEM_SUPER_BLOCK{$/;"	s	language:C++
+tagPART_TABLE	include/casey/hdcntl.h	/^typedef struct tagPART_TABLE{$/;"	s	language:C++
+tagPROCESS	include/casey/procs.h	/^typedef struct tagPROCESS{$/;"	s	language:C++
+tagSTACK_FRAME	include/casey/procs.h	/^typedef struct tagSTACK_FRAME{$/;"	s	language:C++
+tagTHREAD	include/casey/procs.h	/^typedef struct tagTHREAD{$/;"	s	language:C++
+tagTSS	include/casey/procs.h	/^typedef struct tagTSS{  $/;"	s	language:C++
+tail	include/casey/termio.h	/^    char            head,tail,len;$/;"	m	language:C++	struct:tagKBD_QUE
+tail	include/casey/termio.h	/^    short   head,tail,len;$/;"	m	language:C++	struct:tagCHAR_BUF
+tail	include/sys/msgno.h	/^    MAIL    *head,*tail;$/;"	m	language:C++	struct:__anon1
+tail	term/ttys.h	/^    unsigned long   head,tail;$/;"	m	language:C++	struct:tty_q
+taken	include/casey/procs.h	/^    u8        taken;                            \/* token flag *\/$/;"	m	language:C++	struct:tagTHREAD
+tasgPARTINFO	include/casey/hdcntl.h	/^typedef struct tasgPARTINFO{$/;"	s	language:C++
+task0	kernel/task0/setup.c	/^PROCESS task0;$/;"	v	language:C
+task0_stack	kernel/task0/setup.c	/^static  __byte  task0_stack[TASK0_STACK_SIZE] = {0};$/;"	v	language:C	file:
+term_mode	term/ttys.h	/^    TERM_MODE       term_mode;          \/* terminal mode *\/$/;"	m	language:C++	struct:tty_s
+term_mode_s	term/ttys.h	/^typedef struct term_mode_s {            \/* terminal attribute struct *\/$/;"	s	language:C++
+termio	term/ttys.h	/^struct termio {$/;"	s	language:C++
+termios	term/ttys.h	/^struct termios {$/;"	s	language:C++
+thread	include/casey/procs.h	/^    THREAD          thread[MAX_THREAD];         \/\/ threads max nr$/;"	m	language:C++	struct:tagPROCESS
+thread_nr	include/casey/procs.h	/^    u8              thread_nr;                  \/\/ current thread nr$/;"	m	language:C++	struct:tagPROCESS
+tid	include/casey/procs.h	/^    short pid,tid; $/;"	m	language:C++	struct:__anon5
+time_t	include/sys/types.h	/^typedef unsigned long   time_t;$/;"	t	language:C++
+times	boot/boots.asm	/^times 	510-($-$$)	db	0	        ; fill 510 bytes$/;"	l	language:Asm
+trap	include/casey/procs.h	/^	u16		    trap;$/;"	m	language:C++	struct:tagTSS
+true	include/casey/types.h	36;"	d	language:C++
+try_to_send	ipc/send.c	/^char try_to_send (MAIL *pmail)$/;"	f	language:C	file:	signature:(MAIL *pmail)
+trying	kernel.bin.s	/^/;"	l	language:Asm
+tty	include/casey/procs.h	/^    i16             tty;                        \/\/ tty nr $/;"	m	language:C++	struct:tagPROCESS
+tty_q	term/ttys.h	/^typedef struct tty_q {$/;"	s	language:C++
+tty_s	term/ttys.h	/^typedef struct tty_s{$/;"	s	language:C++
+u16	include/casey/types.h	/^typedef __u16                   u16;$/;"	t	language:C++
+u32	include/casey/types.h	/^typedef __u32                   u32;$/;"	t	language:C++
+u8	include/casey/types.h	/^typedef __u8                    u8;$/;"	t	language:C++
+uid	include/casey/procs.h	/^    u8              uid,gid,euid;$/;"	m	language:C++	struct:tagPROCESS
+unknown	kernel.bin.s	/^/;"	l	language:Asm
+unknown_exceptn	kernel/excpcalls.c	/^static void unknown_exceptn ( void )$/;"	f	language:C	file:	signature:( void )
+unlink	fs/namei.c	/^int unlink ( const char *name ) $/;"	f	language:C	signature:( const char *name )
+unused	include/casey/hdcntl.h	/^    PART_TABLE  cur,next,unused[2];$/;"	m	language:C++	struct:tagLOGIC_PART_TABLE
+unused	include/sys/msgno.h	/^    i8              unused[4];$/;"	m	language:C++	struct:tagMAILBOX
+usr_m	include/sys/msgno.h	/^    MAIL            usr_m[NR_USR_MAILS];\/* usr mail slots *\/$/;"	m	language:C++	struct:tagMAILBOX
+va_arg	include/stdarg.h	12;"	d	language:C++
+va_end	include/stdarg.h	13;"	d	language:C++
+va_list	include/stdarg.h	/^typedef char* 	    	va_list;$/;"	t	language:C++
+va_start	include/stdarg.h	11;"	d	language:C++
+vir2phys	include/casey/dtcntl.h	161;"	d	language:C++
+vsprintf	lib/string.c	/^int vsprintf(char *buf, const char *fmt, va_list args)$/;"	f	language:C	signature:(char *buf, const char *fmt, va_list args)
+wait_pid	term/ttys.h	/^    unsigned short  wait_pid,wait_tid;$/;"	m	language:C++	struct:tty_q
+wait_tid	kernel/syscall.c	/^u32 wait_tid = -1 ;$/;"	v	language:C
+wait_tid	term/ttys.h	/^    unsigned short  wait_pid,wait_tid;$/;"	m	language:C++	struct:tty_q
+wake_up	kernel/sched.c	/^void wake_up ( PROCESS *dest,short thread_nr )$/;"	f	language:C	signature:( PROCESS *dest,short thread_nr )
+winsize	term/ttys.h	/^struct winsize {$/;"	s	language:C++
+write	term/ttys.h	/^    void (*write)   (struct tty_s *tty);\/* tty write function ptr *\/$/;"	m	language:C++	struct:tty_s
+write_dev_inode	fs/inode.c	/^void write_dev_inode ( MEM_INODE *m_wr_inode ) $/;"	f	language:C	file:	signature:( MEM_INODE *m_wr_inode )
+write_q	term/ttys.h	/^    TTY_QUE         write_q;            \/* write que *\/$/;"	m	language:C++	struct:tty_s
+wrong	kernel.bin.s	/^/;"	l	language:Asm
+wrport	fs/blk_drv.c	/^unsigned char   wrport  (unsigned short port,unsigned char val)$/;"	f	language:C	signature:(unsigned short port,unsigned char val)
+wrport	kernel/dtcntl.c	/^unsigned char   wrport  (unsigned short port,unsigned char val)$/;"	f	language:C	signature:(unsigned short port,unsigned char val)
+wrport	term/rw_con.c	11;"	d	language:C	file:
+wrports	lib/port.asm	/^wrports:$/;"	l	language:Asm
+ws_col	term/ttys.h	/^	unsigned short ws_col;$/;"	m	language:C++	struct:winsize
+ws_row	term/ttys.h	/^	unsigned short ws_row;$/;"	m	language:C++	struct:winsize
+ws_xpixel	term/ttys.h	/^	unsigned short ws_xpixel;$/;"	m	language:C++	struct:winsize
+ws_ypixel	term/ttys.h	/^	unsigned short ws_ypixel;$/;"	m	language:C++	struct:winsize
+wt_denied	kernel/page/page.asm	/^wt_denied:$/;"	l	language:Asm
+x	kernel/kconio.c	/^static X *x = (X*)(TERM_ROCK);$/;"	v	language:C	file:
+x	term/decode.c	/^static X *x = (X*)(ROCKECT);$/;"	v	language:C	file:
+x	term/rw_con.c	/^static X *x = (X*)(ROCKECT);$/;"	v	language:C	file:
+xputch	term/rw_con.c	/^int  xputch ( const char ch ) $/;"	f	language:C	signature:( const char ch )
+xputcmd	term/rw_con.c	/^int xputcmd ( const char cmd ) $/;"	f	language:C	signature:( const char cmd )
+xputs	term/rw_con.c	/^int  xputs ( const char* str ) $/;"	f	language:C	signature:( const char* str )

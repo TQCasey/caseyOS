@@ -1,0 +1,302 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASM	Makefile	/^ASM		    = nasm$/;"	m
+ASMKFLAGS	Makefile	/^ASMKFLAGS	= -I ..\/include\/ -f elf$/;"	m
+BLK_SIZE	fs.h	122;"	d
+BUFFER_HEAD	fs.h	/^}BUFFER_HEAD,*LPBUFFER_HEAD;$/;"	t	typeref:struct:tagBUFFER_HEAD
+BUF_END	buffer.c	10;"	d	file:
+BUF_START	buffer.c	9;"	d	file:
+CASEY_MAGIC	fs.h	136;"	d
+CC	Makefile	/^CC	    	= gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS		= -I ..\/include\/ -fno-builtin -fno-stack-protector -c -Wall$/;"	m
+DEV_INODE	fs.h	/^}DEV_INODE,*LPDEV_INODE;$/;"	t	typeref:struct:tagDEV_INODE
+DEV_SUPER_BLOCK	fs.h	/^}DEV_SUPER_BLOCK,*LPDEV_SUPER_BLOCK;$/;"	t	typeref:struct:tagDEV_SUPER_BLOCK
+DIR_ENTRY	fs.h	/^}DIR_ENTRY,*LPDIR_ENTRY;$/;"	t	typeref:struct:tagDIR_ENTRY
+ENTRIES_PER_BLK	fs.h	126;"	d
+ENTRYPOINT	Makefile	/^ENTRYPOINT	= 0x0$/;"	m
+FILE_STRUCT	fs.h	/^}FILE_STRUCT,*PFILE_STRUCT;$/;"	t	typeref:struct:tagFILE_STRUCT
+FMAP	Makefile	/^FMAP        =  fs_map.map$/;"	m
+FS	Makefile	/^FS			=  ..\/fsmain.bin$/;"	m
+FSOBJS	Makefile	/^FSOBJS		= entry.o fmain.o buffer.o blk_drv.o bitmap.o super.o inode.o blk_rw.o\\$/;"	m
+FS_MAIN	fs.h	129;"	d
+FS_SYNC	fs.h	130;"	d
+HZ	blk_drv.c	12;"	d	file:
+IMAP_SLOTS	fs.h	88;"	d
+INODES_PER_BLK	fs.h	125;"	d
+InitFS	fmain.c	26;"	d	file:
+LD	Makefile	/^LD		    = ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS		= -Ttext $(ENTRYPOINT)$/;"	m
+LPBUFFER_HEAD	fs.h	/^}BUFFER_HEAD,*LPBUFFER_HEAD;$/;"	t	typeref:struct:tagBUFFER_HEAD
+LPDEV_INODE	fs.h	/^}DEV_INODE,*LPDEV_INODE;$/;"	t	typeref:struct:tagDEV_INODE
+LPDEV_SUPER_BLOCK	fs.h	/^}DEV_SUPER_BLOCK,*LPDEV_SUPER_BLOCK;$/;"	t	typeref:struct:tagDEV_SUPER_BLOCK
+LPDIR_ENTRY	fs.h	/^}DIR_ENTRY,*LPDIR_ENTRY;$/;"	t	typeref:struct:tagDIR_ENTRY
+LPMEM_INODE	fs.h	/^}MEM_INODE,*LPMEM_INODE;$/;"	t	typeref:struct:tagMEM_INODE
+LPMEM_SUPER_BLOCK	fs.h	/^}MEM_SUPER_BLOCK,*LPMEM_SUPER_BLOCK;$/;"	t	typeref:struct:tagMEM_SUPER_BLOCK
+MAKE_HDREG	blk_drv.c	/^inline unsigned char MAKE_HDREG (unsigned char lba,$/;"	f	signature:(unsigned char lba, unsigned char drv,unsigned char highlba )
+MAX_FILPS	fs.h	65;"	d
+MAX_OPEN_FILES	fs.h	64;"	d
+MEM_INODE	fs.h	/^}MEM_INODE,*LPMEM_INODE;$/;"	t	typeref:struct:tagMEM_INODE
+MEM_SUPER_BLOCK	fs.h	/^}MEM_SUPER_BLOCK,*LPMEM_SUPER_BLOCK;$/;"	t	typeref:struct:tagMEM_SUPER_BLOCK
+NAME_LEN	fs.h	114;"	d
+NR_BUFFERS	buffer.c	/^static unsigned long NR_BUFFERS;$/;"	v	file:
+NR_HASH	buffer.c	11;"	d	file:
+NR_INODE	inode.c	9;"	d	file:
+NR_SBLK	super.c	8;"	d	file:
+PFILE_STRUCT	fs.h	/^}FILE_STRUCT,*PFILE_STRUCT;$/;"	t	typeref:struct:tagFILE_STRUCT
+READ	fs.h	123;"	d
+ROOT_IND_NR	fs.h	133;"	d
+ROOT_NR	fs.h	132;"	d
+WRITE	fs.h	124;"	d
+ZMAP_SLOTS	fs.h	89;"	d
+__FS_H__	fs.h	7;"	d
+__bmap	inode.c	/^unsigned long __bmap ( MEM_INODE *m_inode,unsigned long file_blk_no,bool fcrt,bool *created ) $/;"	f	file:	signature:( MEM_INODE *m_inode,unsigned long file_blk_no,bool fcrt,bool *created )
+_start	entry.asm	/^_start:$/;"	l
+add_hash	buffer.c	/^BUFFER_HEAD* add_hash ( BUFFER_HEAD *p ) $/;"	f	file:	signature:( BUFFER_HEAD *p )
+bh_blk_nr	fs.h	/^    __u32       bh_blk_nr;                  \/\/ block nr$/;"	m	struct:tagBUFFER_HEAD	access:public
+bh_buf	fs.h	/^    __byte*     bh_buf ;                    \/\/ point to a block $/;"	m	struct:tagBUFFER_HEAD	access:public
+bh_cnt	fs.h	/^    __byte      bh_cnt;                     \/\/ how many user using this blk?$/;"	m	struct:tagBUFFER_HEAD	access:public
+bh_dev	fs.h	/^    __u16       bh_dev;                     \/\/ buffer head device $/;"	m	struct:tagBUFFER_HEAD	access:public
+bh_dirt	fs.h	/^    __byte      bh_dirt;                    \/\/ data modified bool val$/;"	m	struct:tagBUFFER_HEAD	access:public
+bh_locked	fs.h	/^    __byte      bh_locked;                  \/\/ buffer head locked bool val$/;"	m	struct:tagBUFFER_HEAD	access:public
+bh_valid	fs.h	/^    __byte      bh_valid;                   \/\/ data valid bool val$/;"	m	struct:tagBUFFER_HEAD	access:public
+bh_wait	fs.h	/^    void*       bh_wait;                    \/\/ wait ptr$/;"	m	struct:tagBUFFER_HEAD	access:public
+blk_rd	blk_rw.c	/^unsigned long blk_rd ( unsigned short dev_no,           \/* dev nr *\/$/;"	f	signature:( unsigned short dev_no, __u64 *pos,char *dest, long cnt )
+blk_wr	blk_rw.c	/^unsigned long blk_wr ( unsigned short dev_no,           \/* dev nr *\/$/;"	f	signature:( unsigned short dev_no, __u64 *pos,char *src, long cnt )
+bmap	fs.h	/^extern unsigned long bmap ( MEM_INODE *m_inode,unsigned long file_blk_no ); $/;"	p	signature:( MEM_INODE *m_inode,unsigned long file_blk_no )
+bmap	inode.c	/^unsigned long bmap ( MEM_INODE *m_inode,unsigned long file_blk_no ) $/;"	f	signature:( MEM_INODE *m_inode,unsigned long file_blk_no )
+bread	blk_drv.c	/^BUFFER_HEAD *bread ( unsigned short dev_no,unsigned long blk_no ) $/;"	f	signature:( unsigned short dev_no,unsigned long blk_no )
+bread	fs.h	/^extern BUFFER_HEAD *bread ( unsigned short dev_no,unsigned long blk_no ) ;$/;"	p	signature:( unsigned short dev_no,unsigned long blk_no )
+bread_page	blk_drv.c	/^void* bread_page ( unsigned long addr,unsigned short dev_no,unsigned long blk_no[4] ) $/;"	f	signature:( unsigned long addr,unsigned short dev_no,unsigned long blk_no[4] )
+bread_page	fs.h	/^extern void* bread_page ( unsigned long addr,unsigned short dev_no,unsigned long blk_no[4] ); $/;"	p	signature:( unsigned long addr,unsigned short dev_no,unsigned long blk_no[4] )
+breada	blk_drv.c	/^BUFFER_HEAD* breada ( unsigned short dev_no,unsigned long blk_no ,...) $/;"	f	signature:( unsigned short dev_no,unsigned long blk_no ,...)
+breada	fs.h	/^extern BUFFER_HEAD* breada ( unsigned short dev_no,unsigned long blk_no ,...); $/;"	p	signature:( unsigned short dev_no,unsigned long blk_no ,...)
+brelse	blk_drv.c	/^void brelse ( BUFFER_HEAD *bh_free )$/;"	f	signature:( BUFFER_HEAD *bh_free )
+brelse	fs.h	/^extern void brelse ( BUFFER_HEAD *bh_free );$/;"	p	signature:( BUFFER_HEAD *bh_free )
+called	super.c	/^static int called = false;$/;"	v	file:
+clear_iblks	fs.h	/^extern void clear_iblks ( MEM_INODE *m_inode ); $/;"	p	signature:( MEM_INODE *m_inode )
+clear_iblks	inode.c	/^void clear_iblks ( MEM_INODE *m_inode ) $/;"	f	signature:( MEM_INODE *m_inode )
+clrb	bitmap.c	/^unsigned char clrb (unsigned char *addr,unsigned long nr) $/;"	f	file:	signature:(unsigned char *addr,unsigned long nr)
+cntler_rdy	blk_drv.c	/^unsigned char cntler_rdy( unsigned char  mask,$/;"	f	file:	signature:( unsigned char mask, unsigned char status, unsigned long ms_timeout )
+create_block	fs.h	/^extern unsigned long create_block ( MEM_INODE *m_inode,unsigned long file_blk_no ,bool *created) ;$/;"	p	signature:( MEM_INODE *m_inode,unsigned long file_blk_no ,bool *created)
+create_block	inode.c	/^unsigned long create_block ( MEM_INODE *m_inode,unsigned long file_blk_no ,bool *created ) $/;"	f	signature:( MEM_INODE *m_inode,unsigned long file_blk_no ,bool *created )
+disp_part_tbl	blk_drv.c	/^unsigned long disp_part_tbl ( unsigned char drv_no ) $/;"	f	file:	signature:( unsigned char drv_no )
+extern	entry.asm	/^extern main$/;"	l
+f_cnt	fs.h	/^    __u16       f_cnt;                      \/\/ file descriptors count$/;"	m	struct:tagFILE_STRUCT	access:public
+f_flags	fs.h	/^    __u16       f_flags;                    \/\/ file opt flag ( open \/ rw )$/;"	m	struct:tagFILE_STRUCT	access:public
+f_inode_ptr	fs.h	/^    MEM_INODE   *f_inode_ptr;               \/\/ ptr to inode nr $/;"	m	struct:tagFILE_STRUCT	access:public
+f_mode	fs.h	/^    __u16       f_mode;                     \/\/ file opt mode$/;"	m	struct:tagFILE_STRUCT	access:public
+f_pos	fs.h	/^    __u64       f_pos;                      \/\/ file pos $/;"	m	struct:tagFILE_STRUCT	access:public
+filp	fs.h	141;"	d
+find_buffer	buffer.c	/^BUFFER_HEAD *find_buffer ( unsigned short dev_no,unsigned long blk_no ) $/;"	f	signature:( unsigned short dev_no,unsigned long blk_no )
+find_buffer	fs.h	/^extern BUFFER_HEAD *find_buffer (unsigned short dev_no,unsigned long blk_no );$/;"	p	signature:(unsigned short dev_no,unsigned long blk_no )
+find_first_zero	bitmap.c	/^inline unsigned long find_first_zero ( void *start ) $/;"	f	signature:( void *start )
+format	super.c	/^void format ( MEM_SUPER_BLOCK *sb ) $/;"	f	file:	signature:( MEM_SUPER_BLOCK *sb )
+free_block	bitmap.c	/^void free_block ( unsigned short dev_no,unsigned long blk_nr ) $/;"	f	signature:( unsigned short dev_no,unsigned long blk_nr )
+free_block	fs.h	/^extern void free_block ( unsigned short dev_no,unsigned long blk_nr ) ;$/;"	p	signature:( unsigned short dev_no,unsigned long blk_nr )
+free_buffer	buffer.c	/^void free_buffer  ( BUFFER_HEAD *p ) $/;"	f	signature:( BUFFER_HEAD *p )
+free_buffer	fs.h	/^extern void free_buffer  ( BUFFER_HEAD *p ); $/;"	p	signature:( BUFFER_HEAD *p )
+free_dind	inode.c	/^void free_dind ( unsigned short dev_no,unsigned long blk_no ) $/;"	f	file:	signature:( unsigned short dev_no,unsigned long blk_no )
+free_file_blk	fs.h	/^extern void free_file_blk ( MEM_INODE *m_inode,unsigned long file_blk_no ); $/;"	p	signature:( MEM_INODE *m_inode,unsigned long file_blk_no )
+free_file_blk	inode.c	/^void free_file_blk ( MEM_INODE *m_inode,unsigned long file_blk_no ) $/;"	f	signature:( MEM_INODE *m_inode,unsigned long file_blk_no )
+free_ind	inode.c	/^void free_ind ( unsigned short dev_no,unsigned long blk_no ) $/;"	f	file:	signature:( unsigned short dev_no,unsigned long blk_no )
+free_inode	bitmap.c	/^void free_inode ( MEM_INODE *inode ) $/;"	f	signature:( MEM_INODE *inode )
+free_list	buffer.c	/^static BUFFER_HEAD *free_list  = NULL;         \/* free_list *\/$/;"	v	file:
+free_next	fs.h	/^    struct      tagBUFFER_HEAD  *free_next; \/\/ free_list next ptr $/;"	m	struct:tagBUFFER_HEAD	typeref:struct:tagBUFFER_HEAD::tagBUFFER_HEAD	access:public
+free_prev	fs.h	/^    struct      tagBUFFER_HEAD  *free_prev; \/\/ free_list prev ptr $/;"	m	struct:tagBUFFER_HEAD	typeref:struct:tagBUFFER_HEAD::tagBUFFER_HEAD	access:public
+get_blk	blk_drv.c	/^BUFFER_HEAD *get_blk ( unsigned short dev_no,unsigned long blk_no ) $/;"	f	signature:( unsigned short dev_no,unsigned long blk_no )
+get_blk	fs.h	/^extern BUFFER_HEAD *get_blk ( unsigned short dev_no,unsigned long blk_no ); $/;"	p	signature:( unsigned short dev_no,unsigned long blk_no )
+get_buffer	buffer.c	/^BUFFER_HEAD *get_buffer ( unsigned short dev_no,unsigned long blk_no  )$/;"	f	signature:( unsigned short dev_no,unsigned long blk_no )
+get_buffer	fs.h	/^extern BUFFER_HEAD *get_buffer ( unsigned short dev_no,unsigned long blk_no );$/;"	p	signature:( unsigned short dev_no,unsigned long blk_no )
+get_empty_inode	inode.c	/^MEM_INODE *get_empty_inode ( void ) $/;"	f	signature:( void )
+get_irow	buffer.c	17;"	d	file:
+get_part_info	blk_drv.c	/^unsigned char get_part_info ( unsigned short dev_no,unsigned long *base_sect,unsigned long *sects_nr ) $/;"	f	signature:( unsigned short dev_no,unsigned long *base_sect,unsigned long *sects_nr )
+get_part_info	fs.h	/^extern unsigned char get_part_info ( unsigned short dev_no,unsigned long *base_sect,$/;"	p	signature:( unsigned short dev_no,unsigned long *base_sect, unsigned long *sects_nr )
+get_part_table	blk_drv.c	/^void get_part_table ( unsigned char drv_no,unsigned long mbr_start_sect ,int logic_no)$/;"	f	file:	signature:( unsigned char drv_no,unsigned long mbr_start_sect ,int logic_no)
+get_sblk	fs.h	/^extern MEM_SUPER_BLOCK* get_sblk ( unsigned short dev_no ) ;$/;"	p	signature:( unsigned short dev_no )
+get_sblk	super.c	/^MEM_SUPER_BLOCK* get_sblk ( unsigned short dev_no ) $/;"	f	signature:( unsigned short dev_no )
+getbuf	blk_rw.c	/^void* getbuf ( void *buf,unsigned long len,unsigned short dev_no,$/;"	f	signature:( void *buf,unsigned long len,unsigned short dev_no, unsigned long blk_nr ,unsigned long offset )
+global	entry.asm	/^global  _start$/;"	l
+hash	buffer.c	/^static BUFFER_HEAD *hash[NR_HASH] = {0};       \/* hash table *\/$/;"	v	file:
+hash_next	fs.h	/^    struct      tagBUFFER_HEAD  *hash_next; \/\/ hash next ptr $/;"	m	struct:tagBUFFER_HEAD	typeref:struct:tagBUFFER_HEAD::tagBUFFER_HEAD	access:public
+hash_prev	fs.h	/^    struct      tagBUFFER_HEAD  *hash_prev; \/\/ hash prev ptr$/;"	m	struct:tagBUFFER_HEAD	typeref:struct:tagBUFFER_HEAD::tagBUFFER_HEAD	access:public
+hash_row	buffer.c	18;"	d	file:
+hd_identify	blk_drv.c	/^void hd_identify ( unsigned char drv_no ) $/;"	f	file:	signature:( unsigned char drv_no )
+hd_info_init	blk_drv.c	/^void hd_info_init ( void ) $/;"	f	signature:( void )
+hd_info_init	fmain.c	/^extern void hd_info_init ( void ) ;$/;"	p	file:	signature:( void )
+i_acc_time	fs.h	/^    __u32       i_acc_time;                 \/\/ latest access time$/;"	m	struct:tagMEM_INODE	access:public
+i_cnt	fs.h	/^    __u16       i_cnt;                      \/\/ inode used times$/;"	m	struct:tagMEM_INODE	access:public
+i_crt_time	fs.h	/^    __u32       i_crt_time;                 \/\/ create time$/;"	m	struct:tagMEM_INODE	access:public
+i_dev	fs.h	/^    __u16       i_dev;                      \/\/ locate dev$/;"	m	struct:tagMEM_INODE	access:public
+i_dirt	fs.h	/^    __u8        i_dirt;                     \/\/ inode dirt flag$/;"	m	struct:tagMEM_INODE	access:public
+i_gid	fs.h	/^    __u8        i_gid;                      \/\/ group id$/;"	m	struct:tagDEV_INODE	access:public
+i_gid	fs.h	/^    __u8        i_gid;                      \/\/ group id$/;"	m	struct:tagMEM_INODE	access:public
+i_locked	fs.h	/^    __u8        i_locked;                   \/\/ inode locked ?$/;"	m	struct:tagMEM_INODE	access:public
+i_mode	fs.h	/^    __u16       i_mode;                     \/\/ rwx$/;"	m	struct:tagDEV_INODE	access:public
+i_mode	fs.h	/^    __u16       i_mode;                     \/\/ rwx$/;"	m	struct:tagMEM_INODE	access:public
+i_mounted	fs.h	/^    __byte      i_mounted;                  \/\/ already mounted?$/;"	m	struct:tagMEM_INODE	access:public
+i_mtime	fs.h	/^    __u32       i_mtime;                    \/\/ latest modified time$/;"	m	struct:tagDEV_INODE	access:public
+i_mtime	fs.h	/^    __u32       i_mtime;                    \/\/ latest modified time$/;"	m	struct:tagMEM_INODE	access:public
+i_nlinks	fs.h	/^    __u8        i_nlinks;                   \/\/ links for files (different file name use the same inode$/;"	m	struct:tagMEM_INODE	access:public
+i_nlinks	fs.h	/^    __u8        i_nlinks;                   \/\/ links for files$/;"	m	struct:tagDEV_INODE	access:public
+i_num	fs.h	/^    __u16       i_num;                      \/\/ inode nr$/;"	m	struct:tagMEM_INODE	access:public
+i_pipe	fs.h	/^    __u8        i_pipe;                     \/\/ pipe sig$/;"	m	struct:tagMEM_INODE	access:public
+i_seek	fs.h	/^    __byte      i_seek;                     \/\/ seek sig$/;"	m	struct:tagMEM_INODE	access:public
+i_size	fs.h	/^    __u32       i_size;                     \/\/ file size ( inbytes )$/;"	m	struct:tagDEV_INODE	access:public
+i_size	fs.h	/^    __u32       i_size;                     \/\/ file size ( inbytes )$/;"	m	struct:tagMEM_INODE	access:public
+i_uid	fs.h	/^    __u16       i_uid;                      \/\/ user id $/;"	m	struct:tagDEV_INODE	access:public
+i_uid	fs.h	/^    __u16       i_uid;                      \/\/ user id $/;"	m	struct:tagMEM_INODE	access:public
+i_valid	fs.h	/^    __byte      i_valid;                    \/\/ valid flag$/;"	m	struct:tagMEM_INODE	access:public
+i_wait	fs.h	/^    __u32       *i_wait;$/;"	m	struct:tagMEM_INODE	access:public
+i_zone	fs.h	/^    __u16       i_zone[9];                  \/\/ 0 - 6 for direct fetch ,7 for 1st redirect fetch ,8 for 2nd...$/;"	m	struct:tagDEV_INODE	access:public
+i_zone	fs.h	/^    __u16       i_zone[9];                  \/\/ 0 - 6 for direct fetch ,7 for 1st redirect fetch ,8 for 2nd...$/;"	m	struct:tagMEM_INODE	access:public
+iget	fs.h	/^extern  MEM_INODE* iget ( unsigned short dev_no,unsigned long inode_nr );$/;"	p	signature:( unsigned short dev_no,unsigned long inode_nr )
+iget	inode.c	/^MEM_INODE* iget ( unsigned short dev_no,unsigned long inode_nr )$/;"	f	signature:( unsigned short dev_no,unsigned long inode_nr )
+init_buffer	buffer.c	/^void init_buffer ( void ) $/;"	f	signature:( void )
+init_buffer	fmain.c	/^extern void init_buffer ( void ) ;$/;"	p	file:	signature:( void )
+init_inodes	fmain.c	/^extern void init_inodes ( void ); $/;"	p	file:	signature:( void )
+init_inodes	inode.c	/^inline void init_inodes ( void ) $/;"	f	signature:( void )
+inode_nr	fs.h	/^    __u16       inode_nr;                    \/\/ inode nr$/;"	m	struct:tagDIR_ENTRY	access:public
+inode_table	inode.c	/^static MEM_INODE inode_table[NR_INODE] ; $/;"	v	file:
+iput	fs.h	/^extern void iput ( MEM_INODE *m_puti );$/;"	p	signature:( MEM_INODE *m_puti )
+iput	inode.c	/^void iput ( MEM_INODE *m_puti ) $/;"	f	signature:( MEM_INODE *m_puti )
+ll_rw_blk	blk_drv.c	/^unsigned long ll_rw_blk ( unsigned char  rw_rq,                 \/* request r\/w *\/$/;"	f	signature:( unsigned char rw_rq, unsigned short dev_no, unsigned long blk_no, unsigned long blks_nr, void * dest )
+ll_rw_blk	fs.h	/^unsigned long ll_rw_blk ( unsigned char  rw_rq,                       \/* request r\/w *\/$/;"	p	signature:( unsigned char rw_rq, unsigned short dev_no, unsigned long blk_no, unsigned long blks_nr, void * dest )
+ll_rw_phys_sect	blk_drv.c	/^unsigned long ll_rw_phys_sect (unsigned char rw_rq,                  \/* request r\/w *\/$/;"	f	signature:(unsigned char rw_rq, unsigned char drv_no, unsigned long sect_no, unsigned long sects_nr, void* dest )
+ll_rw_phys_sect	fs.h	/^unsigned long ll_rw_phys_sect ( unsigned char rw_rq,                  \/* request r\/w *\/$/;"	p	signature:( unsigned char rw_rq, unsigned char drv_no, unsigned long sect_no, unsigned long sects_nr, void* dest )
+load_root	fmain.c	/^extern char load_root ( void );$/;"	p	file:	signature:( void )
+load_root	super.c	/^char load_root ( void ) $/;"	f	signature:( void )
+main	fmain.c	/^int main ( void ) $/;"	f	signature:( void )
+name	fs.h	/^    char        name[ NAME_LEN ] ;           \/\/ name$/;"	m	struct:tagDIR_ENTRY	access:public
+new_block	bitmap.c	/^unsigned long new_block ( unsigned short dev_no ) $/;"	f	signature:( unsigned short dev_no )
+new_block	fs.h	/^extern unsigned long new_block ( unsigned short dev_no ); $/;"	p	signature:( unsigned short dev_no )
+new_inode	bitmap.c	/^MEM_INODE* new_inode ( unsigned short dev_no ) $/;"	f	signature:( unsigned short dev_no )
+put_sblk	fs.h	/^extern void put_sblk ( unsigned short dev_no ); $/;"	p	signature:( unsigned short dev_no )
+put_sblk	super.c	/^void put_sblk ( unsigned short dev_no ) $/;"	f	signature:( unsigned short dev_no )
+rdport	blk_drv.c	/^unsigned char   rdport  ( unsigned short port )$/;"	f	signature:( unsigned short port )
+rdports	blk_drv.c	/^extern void   *rdports(short port,const char *dest,unsigned long  size);$/;"	p	file:	signature:(short port,const char *dest,unsigned long size)
+read_dev_inode	inode.c	/^void read_dev_inode ( MEM_INODE *m_rd_inode ) $/;"	f	file:	signature:( MEM_INODE *m_rd_inode )
+read_sblk	fs.h	/^extern MEM_SUPER_BLOCK* read_sblk ( unsigned short dev_no );$/;"	p	signature:( unsigned short dev_no )
+read_sblk	super.c	/^MEM_SUPER_BLOCK* read_sblk ( unsigned short dev_no )$/;"	f	signature:( unsigned short dev_no )
+s_hdinfo	blk_drv.c	/^static HDINFO s_hdinfo[MAX_DRVS] ;$/;"	v	file:
+sb_dev	fs.h	/^    __u16       sb_dev;                      \/\/ dev num$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+sb_dirt	fs.h	/^    __byte      sb_dirt;                     \/\/ modified flag$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+sb_first_datazone	fs.h	/^    __u16       sb_first_datazone;           \/\/ first data logic blk nr$/;"	m	struct:tagDEV_SUPER_BLOCK	access:public
+sb_first_datazone	fs.h	/^    __u16       sb_first_datazone;           \/\/ first data logic blk nr$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+sb_i_mounted	fs.h	/^    MEM_INODE   *sb_i_mounted;               \/\/ mounted fs inode nr$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+sb_i_nr	fs.h	/^    MEM_INODE   *sb_i_nr;                    \/\/ mounted fs root dir inode nr$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+sb_imap_bh_ptr	fs.h	/^    BUFFER_HEAD *sb_imap_bh_ptr[IMAP_SLOTS]; \/\/ imap buffer head ptr$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+sb_imap_blocks	fs.h	/^    __u16       sb_imap_blocks;              \/\/ inode map blks $/;"	m	struct:tagDEV_SUPER_BLOCK	access:public
+sb_imap_blocks	fs.h	/^    __u16       sb_imap_blocks;              \/\/ inode map blks $/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+sb_locked	fs.h	/^    __u8        sb_locked;                   \/\/ locked ?$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+sb_log_zone_size	fs.h	/^    __u16       sb_log_zone_size;            \/\/ log2(data_blks\/logic blks)$/;"	m	struct:tagDEV_SUPER_BLOCK	access:public
+sb_log_zone_size	fs.h	/^    __u16       sb_log_zone_size;            \/\/ log2(data_blks\/logic blks)$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+sb_magic	fs.h	/^    __u16       sb_magic;                    \/\/ fs magic num$/;"	m	struct:tagDEV_SUPER_BLOCK	access:public
+sb_magic	fs.h	/^    __u16       sb_magic;                    \/\/ fs magic num$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+sb_max_size	fs.h	/^    __u32       sb_max_size;                 \/\/ file max size$/;"	m	struct:tagDEV_SUPER_BLOCK	access:public
+sb_max_size	fs.h	/^    __u32       sb_max_size;                 \/\/ file max size$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+sb_ninodes	fs.h	/^    __u16       sb_ninodes;                  \/\/ total inodes $/;"	m	struct:tagDEV_SUPER_BLOCK	access:public
+sb_ninodes	fs.h	/^    __u16       sb_ninodes;                  \/\/ total inodes $/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+sb_nzones	fs.h	/^    __u16       sb_nzones;                   \/\/ totol logic blks $/;"	m	struct:tagDEV_SUPER_BLOCK	access:public
+sb_nzones	fs.h	/^    __u16       sb_nzones;                   \/\/ totol logic blks $/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+sb_rd_only	fs.h	/^    __byte      sb_rd_only;                  \/\/ read only flag$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+sb_time	fs.h	/^    __u32       sb_time;                     \/\/ modified time$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+sb_wait	fs.h	/^    __u32*      sb_wait;                     \/\/ wait ptr$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+sb_zmap_bh_ptr	fs.h	/^    BUFFER_HEAD *sb_zmap_bh_ptr[ZMAP_SLOTS]; \/\/ zmap buffer head ptr$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+sb_zmap_blocks	fs.h	/^    __u16       sb_zmap_blocks;              \/\/ logical map blks $/;"	m	struct:tagDEV_SUPER_BLOCK	access:public
+sb_zmap_blocks	fs.h	/^    __u16       sb_zmap_blocks;              \/\/ logical map blks $/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+set_hd_cmd	blk_drv.c	/^static void set_hd_cmd ( HDCMD *pcmd ) $/;"	f	file:	signature:( HDCMD *pcmd )
+setb	bitmap.c	/^unsigned char setb (unsigned char *addr,unsigned long nr)$/;"	f	file:	signature:(unsigned char *addr,unsigned long nr)
+setbuf	blk_rw.c	/^void* setbuf ( unsigned short dev_no,unsigned long blk_nr,$/;"	f	signature:( unsigned short dev_no,unsigned long blk_nr, unsigned long offset,void *src,unsigned long len )
+super_blk	super.c	/^static MEM_SUPER_BLOCK super_blk [NR_SBLK];$/;"	v	file:
+sync_blks	buffer.c	/^unsigned char sync_blks ( unsigned short dev_no,unsigned long sync_blk_nr ) $/;"	f	signature:( unsigned short dev_no,unsigned long sync_blk_nr )
+sync_blks	fs.h	/^extern unsigned char sync_blks ( unsigned short dev_no,unsigned long sync_blk_nr );$/;"	p	signature:( unsigned short dev_no,unsigned long sync_blk_nr )
+sync_bmaps	buffer.c	/^void sync_bmaps ( unsigned short dev_no )$/;"	f	signature:( unsigned short dev_no )
+sync_bmaps	fs.h	/^extern void sync_bmaps ( unsigned short dev_no );$/;"	p	signature:( unsigned short dev_no )
+sync_dev_inodes	fs.h	/^extern void sync_dev_inodes ( void  ); $/;"	p	signature:( void )
+sync_dev_inodes	inode.c	/^void sync_dev_inodes ( void  )$/;"	f	signature:( void )
+tagBUFFER_HEAD	fs.h	/^typedef struct tagBUFFER_HEAD{$/;"	s
+tagBUFFER_HEAD::bh_blk_nr	fs.h	/^    __u32       bh_blk_nr;                  \/\/ block nr$/;"	m	struct:tagBUFFER_HEAD	access:public
+tagBUFFER_HEAD::bh_buf	fs.h	/^    __byte*     bh_buf ;                    \/\/ point to a block $/;"	m	struct:tagBUFFER_HEAD	access:public
+tagBUFFER_HEAD::bh_cnt	fs.h	/^    __byte      bh_cnt;                     \/\/ how many user using this blk?$/;"	m	struct:tagBUFFER_HEAD	access:public
+tagBUFFER_HEAD::bh_dev	fs.h	/^    __u16       bh_dev;                     \/\/ buffer head device $/;"	m	struct:tagBUFFER_HEAD	access:public
+tagBUFFER_HEAD::bh_dirt	fs.h	/^    __byte      bh_dirt;                    \/\/ data modified bool val$/;"	m	struct:tagBUFFER_HEAD	access:public
+tagBUFFER_HEAD::bh_locked	fs.h	/^    __byte      bh_locked;                  \/\/ buffer head locked bool val$/;"	m	struct:tagBUFFER_HEAD	access:public
+tagBUFFER_HEAD::bh_valid	fs.h	/^    __byte      bh_valid;                   \/\/ data valid bool val$/;"	m	struct:tagBUFFER_HEAD	access:public
+tagBUFFER_HEAD::bh_wait	fs.h	/^    void*       bh_wait;                    \/\/ wait ptr$/;"	m	struct:tagBUFFER_HEAD	access:public
+tagBUFFER_HEAD::free_next	fs.h	/^    struct      tagBUFFER_HEAD  *free_next; \/\/ free_list next ptr $/;"	m	struct:tagBUFFER_HEAD	typeref:struct:tagBUFFER_HEAD::tagBUFFER_HEAD	access:public
+tagBUFFER_HEAD::free_prev	fs.h	/^    struct      tagBUFFER_HEAD  *free_prev; \/\/ free_list prev ptr $/;"	m	struct:tagBUFFER_HEAD	typeref:struct:tagBUFFER_HEAD::tagBUFFER_HEAD	access:public
+tagBUFFER_HEAD::hash_next	fs.h	/^    struct      tagBUFFER_HEAD  *hash_next; \/\/ hash next ptr $/;"	m	struct:tagBUFFER_HEAD	typeref:struct:tagBUFFER_HEAD::tagBUFFER_HEAD	access:public
+tagBUFFER_HEAD::hash_prev	fs.h	/^    struct      tagBUFFER_HEAD  *hash_prev; \/\/ hash prev ptr$/;"	m	struct:tagBUFFER_HEAD	typeref:struct:tagBUFFER_HEAD::tagBUFFER_HEAD	access:public
+tagDEV_INODE	fs.h	/^typedef struct tagDEV_INODE{$/;"	s
+tagDEV_INODE::i_gid	fs.h	/^    __u8        i_gid;                      \/\/ group id$/;"	m	struct:tagDEV_INODE	access:public
+tagDEV_INODE::i_mode	fs.h	/^    __u16       i_mode;                     \/\/ rwx$/;"	m	struct:tagDEV_INODE	access:public
+tagDEV_INODE::i_mtime	fs.h	/^    __u32       i_mtime;                    \/\/ latest modified time$/;"	m	struct:tagDEV_INODE	access:public
+tagDEV_INODE::i_nlinks	fs.h	/^    __u8        i_nlinks;                   \/\/ links for files$/;"	m	struct:tagDEV_INODE	access:public
+tagDEV_INODE::i_size	fs.h	/^    __u32       i_size;                     \/\/ file size ( inbytes )$/;"	m	struct:tagDEV_INODE	access:public
+tagDEV_INODE::i_uid	fs.h	/^    __u16       i_uid;                      \/\/ user id $/;"	m	struct:tagDEV_INODE	access:public
+tagDEV_INODE::i_zone	fs.h	/^    __u16       i_zone[9];                  \/\/ 0 - 6 for direct fetch ,7 for 1st redirect fetch ,8 for 2nd...$/;"	m	struct:tagDEV_INODE	access:public
+tagDEV_SUPER_BLOCK	fs.h	/^typedef struct tagDEV_SUPER_BLOCK{$/;"	s
+tagDEV_SUPER_BLOCK::sb_first_datazone	fs.h	/^    __u16       sb_first_datazone;           \/\/ first data logic blk nr$/;"	m	struct:tagDEV_SUPER_BLOCK	access:public
+tagDEV_SUPER_BLOCK::sb_imap_blocks	fs.h	/^    __u16       sb_imap_blocks;              \/\/ inode map blks $/;"	m	struct:tagDEV_SUPER_BLOCK	access:public
+tagDEV_SUPER_BLOCK::sb_log_zone_size	fs.h	/^    __u16       sb_log_zone_size;            \/\/ log2(data_blks\/logic blks)$/;"	m	struct:tagDEV_SUPER_BLOCK	access:public
+tagDEV_SUPER_BLOCK::sb_magic	fs.h	/^    __u16       sb_magic;                    \/\/ fs magic num$/;"	m	struct:tagDEV_SUPER_BLOCK	access:public
+tagDEV_SUPER_BLOCK::sb_max_size	fs.h	/^    __u32       sb_max_size;                 \/\/ file max size$/;"	m	struct:tagDEV_SUPER_BLOCK	access:public
+tagDEV_SUPER_BLOCK::sb_ninodes	fs.h	/^    __u16       sb_ninodes;                  \/\/ total inodes $/;"	m	struct:tagDEV_SUPER_BLOCK	access:public
+tagDEV_SUPER_BLOCK::sb_nzones	fs.h	/^    __u16       sb_nzones;                   \/\/ totol logic blks $/;"	m	struct:tagDEV_SUPER_BLOCK	access:public
+tagDEV_SUPER_BLOCK::sb_zmap_blocks	fs.h	/^    __u16       sb_zmap_blocks;              \/\/ logical map blks $/;"	m	struct:tagDEV_SUPER_BLOCK	access:public
+tagDIR_ENTRY	fs.h	/^typedef struct tagDIR_ENTRY{$/;"	s
+tagDIR_ENTRY::inode_nr	fs.h	/^    __u16       inode_nr;                    \/\/ inode nr$/;"	m	struct:tagDIR_ENTRY	access:public
+tagDIR_ENTRY::name	fs.h	/^    char        name[ NAME_LEN ] ;           \/\/ name$/;"	m	struct:tagDIR_ENTRY	access:public
+tagFILE_STRUCT	fs.h	/^typedef struct tagFILE_STRUCT{$/;"	s
+tagFILE_STRUCT::f_cnt	fs.h	/^    __u16       f_cnt;                      \/\/ file descriptors count$/;"	m	struct:tagFILE_STRUCT	access:public
+tagFILE_STRUCT::f_flags	fs.h	/^    __u16       f_flags;                    \/\/ file opt flag ( open \/ rw )$/;"	m	struct:tagFILE_STRUCT	access:public
+tagFILE_STRUCT::f_inode_ptr	fs.h	/^    MEM_INODE   *f_inode_ptr;               \/\/ ptr to inode nr $/;"	m	struct:tagFILE_STRUCT	access:public
+tagFILE_STRUCT::f_mode	fs.h	/^    __u16       f_mode;                     \/\/ file opt mode$/;"	m	struct:tagFILE_STRUCT	access:public
+tagFILE_STRUCT::f_pos	fs.h	/^    __u64       f_pos;                      \/\/ file pos $/;"	m	struct:tagFILE_STRUCT	access:public
+tagMEM_INODE	fs.h	/^typedef struct tagMEM_INODE{$/;"	s
+tagMEM_INODE::i_acc_time	fs.h	/^    __u32       i_acc_time;                 \/\/ latest access time$/;"	m	struct:tagMEM_INODE	access:public
+tagMEM_INODE::i_cnt	fs.h	/^    __u16       i_cnt;                      \/\/ inode used times$/;"	m	struct:tagMEM_INODE	access:public
+tagMEM_INODE::i_crt_time	fs.h	/^    __u32       i_crt_time;                 \/\/ create time$/;"	m	struct:tagMEM_INODE	access:public
+tagMEM_INODE::i_dev	fs.h	/^    __u16       i_dev;                      \/\/ locate dev$/;"	m	struct:tagMEM_INODE	access:public
+tagMEM_INODE::i_dirt	fs.h	/^    __u8        i_dirt;                     \/\/ inode dirt flag$/;"	m	struct:tagMEM_INODE	access:public
+tagMEM_INODE::i_gid	fs.h	/^    __u8        i_gid;                      \/\/ group id$/;"	m	struct:tagMEM_INODE	access:public
+tagMEM_INODE::i_locked	fs.h	/^    __u8        i_locked;                   \/\/ inode locked ?$/;"	m	struct:tagMEM_INODE	access:public
+tagMEM_INODE::i_mode	fs.h	/^    __u16       i_mode;                     \/\/ rwx$/;"	m	struct:tagMEM_INODE	access:public
+tagMEM_INODE::i_mounted	fs.h	/^    __byte      i_mounted;                  \/\/ already mounted?$/;"	m	struct:tagMEM_INODE	access:public
+tagMEM_INODE::i_mtime	fs.h	/^    __u32       i_mtime;                    \/\/ latest modified time$/;"	m	struct:tagMEM_INODE	access:public
+tagMEM_INODE::i_nlinks	fs.h	/^    __u8        i_nlinks;                   \/\/ links for files (different file name use the same inode$/;"	m	struct:tagMEM_INODE	access:public
+tagMEM_INODE::i_num	fs.h	/^    __u16       i_num;                      \/\/ inode nr$/;"	m	struct:tagMEM_INODE	access:public
+tagMEM_INODE::i_pipe	fs.h	/^    __u8        i_pipe;                     \/\/ pipe sig$/;"	m	struct:tagMEM_INODE	access:public
+tagMEM_INODE::i_seek	fs.h	/^    __byte      i_seek;                     \/\/ seek sig$/;"	m	struct:tagMEM_INODE	access:public
+tagMEM_INODE::i_size	fs.h	/^    __u32       i_size;                     \/\/ file size ( inbytes )$/;"	m	struct:tagMEM_INODE	access:public
+tagMEM_INODE::i_uid	fs.h	/^    __u16       i_uid;                      \/\/ user id $/;"	m	struct:tagMEM_INODE	access:public
+tagMEM_INODE::i_valid	fs.h	/^    __byte      i_valid;                    \/\/ valid flag$/;"	m	struct:tagMEM_INODE	access:public
+tagMEM_INODE::i_wait	fs.h	/^    __u32       *i_wait;$/;"	m	struct:tagMEM_INODE	access:public
+tagMEM_INODE::i_zone	fs.h	/^    __u16       i_zone[9];                  \/\/ 0 - 6 for direct fetch ,7 for 1st redirect fetch ,8 for 2nd...$/;"	m	struct:tagMEM_INODE	access:public
+tagMEM_SUPER_BLOCK	fs.h	/^typedef struct tagMEM_SUPER_BLOCK{$/;"	s
+tagMEM_SUPER_BLOCK::sb_dev	fs.h	/^    __u16       sb_dev;                      \/\/ dev num$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+tagMEM_SUPER_BLOCK::sb_dirt	fs.h	/^    __byte      sb_dirt;                     \/\/ modified flag$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+tagMEM_SUPER_BLOCK::sb_first_datazone	fs.h	/^    __u16       sb_first_datazone;           \/\/ first data logic blk nr$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+tagMEM_SUPER_BLOCK::sb_i_mounted	fs.h	/^    MEM_INODE   *sb_i_mounted;               \/\/ mounted fs inode nr$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+tagMEM_SUPER_BLOCK::sb_i_nr	fs.h	/^    MEM_INODE   *sb_i_nr;                    \/\/ mounted fs root dir inode nr$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+tagMEM_SUPER_BLOCK::sb_imap_bh_ptr	fs.h	/^    BUFFER_HEAD *sb_imap_bh_ptr[IMAP_SLOTS]; \/\/ imap buffer head ptr$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+tagMEM_SUPER_BLOCK::sb_imap_blocks	fs.h	/^    __u16       sb_imap_blocks;              \/\/ inode map blks $/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+tagMEM_SUPER_BLOCK::sb_locked	fs.h	/^    __u8        sb_locked;                   \/\/ locked ?$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+tagMEM_SUPER_BLOCK::sb_log_zone_size	fs.h	/^    __u16       sb_log_zone_size;            \/\/ log2(data_blks\/logic blks)$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+tagMEM_SUPER_BLOCK::sb_magic	fs.h	/^    __u16       sb_magic;                    \/\/ fs magic num$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+tagMEM_SUPER_BLOCK::sb_max_size	fs.h	/^    __u32       sb_max_size;                 \/\/ file max size$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+tagMEM_SUPER_BLOCK::sb_ninodes	fs.h	/^    __u16       sb_ninodes;                  \/\/ total inodes $/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+tagMEM_SUPER_BLOCK::sb_nzones	fs.h	/^    __u16       sb_nzones;                   \/\/ totol logic blks $/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+tagMEM_SUPER_BLOCK::sb_rd_only	fs.h	/^    __byte      sb_rd_only;                  \/\/ read only flag$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+tagMEM_SUPER_BLOCK::sb_time	fs.h	/^    __u32       sb_time;                     \/\/ modified time$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+tagMEM_SUPER_BLOCK::sb_wait	fs.h	/^    __u32*      sb_wait;                     \/\/ wait ptr$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+tagMEM_SUPER_BLOCK::sb_zmap_bh_ptr	fs.h	/^    BUFFER_HEAD *sb_zmap_bh_ptr[ZMAP_SLOTS]; \/\/ zmap buffer head ptr$/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+tagMEM_SUPER_BLOCK::sb_zmap_blocks	fs.h	/^    __u16       sb_zmap_blocks;              \/\/ logical map blks $/;"	m	struct:tagMEM_SUPER_BLOCK	access:public
+write_dev_inode	inode.c	/^void write_dev_inode ( MEM_INODE *m_wr_inode ) $/;"	f	file:	signature:( MEM_INODE *m_wr_inode )
+wrport	blk_drv.c	/^extern unsigned char wrport ( unsigned short port,unsigned char val );$/;"	p	file:	signature:( unsigned short port,unsigned char val )
+wrport	blk_drv.c	/^unsigned char   wrport  (unsigned short port,unsigned char val)$/;"	f	signature:(unsigned short port,unsigned char val)
+wrports	blk_drv.c	/^extern unsigned long  wrports(short port,const char *src ,unsigned long  size);$/;"	p	file:	signature:(short port,const char *src ,unsigned long size)

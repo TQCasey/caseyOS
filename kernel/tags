@@ -1,0 +1,202 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASM	Makefile	/^ASM		    = nasm$/;"	m
+ASMKFLAGS	Makefile	/^ASMKFLAGS	= -I ..\/include\/ -f elf$/;"	m
+CAST_PTR	syscall.c	24;"	d	file:
+CC	Makefile	/^CC	    	= gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS		= -g -I ..\/include\/ -fno-builtin -fno-stack-protector -c -Wall$/;"	m
+CSInit	kernel.asm	/^CSInit:        $/;"	l
+ENTRYPOINT	Makefile	/^ENTRYPOINT  = 0x1000$/;"	m
+GDT	dtcntl.c	/^DESCRIPTOR 	GDT[MAX_GDT_NUM];   \/\/NEW GDT$/;"	v
+GdtPtr	dtcntl.c	/^__u8 		GdtPtr[6];      	\/\/Low 16 bits <-- limit,high 32 bits <-- base $/;"	v
+IDT	dtcntl.c	/^GATE        IDT[MAX_IDT_NUM];$/;"	v
+IdtPtr	dtcntl.c	/^__u8        IdtPtr[6] = {0};$/;"	v
+Init8253	sched.c	/^static void Init8253 ( void )$/;"	f	file:
+Init8259A	dtcntl.c	/^static void Init8259A ( void )$/;"	f	file:
+InitClock	sched.c	/^void InitClock ( void ) $/;"	f
+InitDT	dtcntl.c	/^void InitDT ( DESCRIPTOR *pDesc,$/;"	f
+InitGDTPtr	dtcntl.c	/^static void InitGDTPtr ( void ) $/;"	f	file:
+InitIDTDesc	dtcntl.c	/^static void InitIDTDesc ( __u8 vectno,		          \/\/vect num$/;"	f	file:
+InitIDTPtr	dtcntl.c	/^static void InitIDTPtr ( void ) $/;"	f	file:
+InitIRQPrc	dtcntl.c	/^static void InitIRQPrc ( void )$/;"	f	file:
+InitIntPrc	dtcntl.c	/^static void InitIntPrc ( void ) $/;"	f	file:
+InitKeyboard	keybd.c	/^void InitKeyboard ( void ) $/;"	f
+InitProcsLdt	dtcntl.c	/^void InitProcsLdt ( PROCESS *procs_p  ) $/;"	f
+InitTSS	dtcntl.c	/^static void InitTSS ( void ) $/;"	f	file:
+KERNEL	Makefile	/^KERNEL		= ..\/kernel.bin$/;"	m
+KLIB	Makefile	/^KLIB		= ..\/lib\/klib\/klib.a$/;"	m
+KMAP	Makefile	/^KMAP		= kernel_map.map$/;"	m
+KOBJS	Makefile	/^KOBJS		= kernel.o dtcntl.o kmain.o excpcalls.o irq.o sched.o sys.o exceptn.o syscall.o\\$/;"	m
+KernelStack	kernel.asm	/^        KernelStack:$/;"	l
+LD	Makefile	/^LD		    = ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS		= -g -Ttext $(ENTRYPOINT)$/;"	m
+MAKERGB	kconio.c	/^inline unsigned char MAKERGB ( bool bkhl,$/;"	f
+MAPED_MEM	page/page_map.c	/^__u32   MAPED_MEM;                                  \/\/ mem for mapping ...$/;"	v
+NR_PAGES	page/page_map.c	/^__u32   NR_PAGES    = 0;                            \/\/ mem pages of MAPED_MEM$/;"	v
+NR_SYSCALL	syscall.c	/^__u32   NR_SYSCALL = 0;$/;"	v
+NR_TASKS	kmain.c	/^__u8    NR_TASKS;$/;"	v
+NR_USR_PROCS	kmain.c	/^__u8    NR_USR_PROCS;$/;"	v
+PUT	excpcalls.c	93;"	d	file:
+__bounds_chk	exceptn.asm	/^__bounds_chk:$/;"	l
+__breakpt	exceptn.asm	/^__breakpt:$/;"	l
+__clk	kernel.asm	/^__clk: $/;"	l
+__copr_err	exceptn.asm	/^__copr_err:             $/;"	l
+__copr_seg_overrun	exceptn.asm	/^__copr_seg_overrun:$/;"	l
+__copr_unavailable	exceptn.asm	/^__copr_unavailable:$/;"	l
+__curprocs	kmain.c	/^PROCESS*  __curprocs      = NULL;$/;"	v
+__debug	exceptn.asm	/^__debug:$/;"	l
+__div_err	exceptn.asm	/^__div_err:$/;"	l
+__do_no_page	page/page_map.c	/^void __do_no_page ( __u32 page_addr  ) $/;"	f
+__do_syscall	sys.asm	/^__do_syscall:   $/;"	l
+__double_fault	exceptn.asm	/^__double_fault:$/;"	l
+__exceptn_prc	excpcalls.c	/^PRC __exceptn_prc[32];$/;"	v
+__general_protection	exceptn.asm	/^__general_protection:   $/;"	l
+__hd	kernel.asm	/^__hd:     $/;"	l
+__inval_opcode	exceptn.asm	/^__inval_opcode:$/;"	l
+__inval_tss	exceptn.asm	/^__inval_tss:            $/;"	l
+__irq_prc	irq.c	/^PRC __irq_prc[MAX_IRQ_NUM];$/;"	v
+__k_reenter	kernel.asm	/^        __k_reenter                                  db      0$/;"	d
+__kernel_cstart	dtcntl.c	/^void __kernel_cstart ( void ) $/;"	f
+__kernel_main	kmain.c	/^void __kernel_main ( void ) $/;"	f
+__keyboard	kernel.asm	/^__keyboard: $/;"	l
+__mem_size	kernel.asm	/^        __mem_size                                   dd      0 $/;"	d
+__nmi	exceptn.asm	/^__nmi:$/;"	l
+__nop__	irq.c	/^void __nop__ ( void ) $/;"	f
+__overflow	exceptn.asm	/^__overflow:$/;"	l
+__page_fault	page/page.asm	/^__page_fault:$/;"	l
+__procs_restart	kernel.asm	/^__procs_restart:$/;"	l
+__seg_unpresent	exceptn.asm	/^__seg_unpresent:        $/;"	l
+__stack_exception	exceptn.asm	/^__stack_exception:      $/;"	l
+__sys_call	syscall.c	/^PRC     __sys_call[ MAX_SYS_CALL ] = {0};$/;"	v
+__ticks	sched.c	/^unsigned long   __ticks,old_t_id;$/;"	v
+__tss	dtcntl.c	/^TSS         __tss;$/;"	v
+_start	kernel.asm	/^_start:$/;"	l
+bounds_chk	excpcalls.c	/^static void bounds_chk ( void )$/;"	f	file:
+break_pt	excpcalls.c	/^static void break_pt ( void ) $/;"	f	file:
+choose_max	sched.c	/^void choose_max ( PROCESS **proc,__u32 *thread_nr ) $/;"	f	file:
+clock	sched.c	/^static void clock ( void ) $/;"	f	file:
+cls_con0	kconio.c	/^void cls_con0 ( void )$/;"	f
+console	kconio.c	/^static CONSOLE *console = NULL;$/;"	v	file:
+copr_seg_overrun	excpcalls.c	/^static void copr_seg_overrun ( void )$/;"	f	file:
+corp_unpresent	excpcalls.c	/^static void corp_unpresent ( void ) $/;"	f	file:
+cpy_from_src	ipc/msgcall.c	/^static void *cpy_from_src = NULL,*cpy_to_dest = NULL;$/;"	v	file:
+cpy_len	ipc/msgcall.c	/^static unsigned cpy_len = 0;$/;"	v	file:
+cpy_mem	fork.c	/^static int cpy_mem ( __u32 nr_procs ) $/;"	f	file:
+cpy_procs	fork.c	/^static int cpy_procs ( __u32 nr_procs ) $/;"	f	file:
+cpy_to_dest	ipc/msgcall.c	/^static void *cpy_from_src = NULL,*cpy_to_dest = NULL;$/;"	v	file:
+cur_con_nr	kconio.c	/^static unsigned char cur_con_nr  = 0;$/;"	v	file:
+debug	excpcalls.c	/^static void debug ( void ) $/;"	f	file:
+div_err	excpcalls.c	/^static void div_err ( void ) $/;"	f	file:
+double_fault	excpcalls.c	/^static void double_fault ( void ) $/;"	f	file:
+dump_page_dir_tables	page/page_map.c	/^void dump_page_dir_tables ( __u32 page_addr  ) $/;"	f	file:
+dump_page_dirs	page/page_map.c	/^void dump_page_dirs ( void ) $/;"	f	file:
+enable_irq	irq.c	/^void enable_irq ( __byte irq_num,bool fval )  $/;"	f
+extern	exceptn.asm	/^extern  __procs_restart,re_restart,KernelStack,__k_reenter,__exceptn_prc$/;"	l
+extern	kernel.asm	/^extern 	GdtPtr,IdtPtr,__tss$/;"	l
+extern	kernel.asm	/^extern  __irq_prc$/;"	l
+extern	kernel.asm	/^extern __curprocs$/;"	l
+extern	kernel.asm	/^extern __kernel_cstart,__kernel_main$/;"	l
+extern	page/page.asm	/^extern __do_no_page,__procs_restart,re_restart,KernelStack,__k_reenter$/;"	l
+extern	sys.asm	/^extern save,__sys_call,ret_prc$/;"	l
+find_empty_mail_slot	ipc/msgcall.c	/^MAIL* find_empty_mail_slot ( unsigned char m_type,short dest_pid,short dest_tid$/;"	f	file:
+find_empty_page	page/page_map.c	/^__u32 find_empty_page ( void ) $/;"	f
+find_free_procs	fork.c	/^static int find_free_procs ( void ) $/;"	f	file:
+find_spec_mail	ipc/msgcall.c	/^MAIL* find_spec_mail ( unsigned char m_type,short dest_pid,$/;"	f	file:
+free_page	page/page_map.c	/^static void free_page ( __u32 phys_addr ) $/;"	f	file:
+free_page_dir_tables	page/page_map.c	/^static void free_page_dir_tables ( __u32 page_addr,__u32 page_dir_nr ) $/;"	f	file:
+fresh_page_dir	page/page_map.c	11;"	d	file:
+general_protection	excpcalls.c	/^static void general_protection ( __u32 err_code ) $/;"	f	file:
+get_curcon	kconio.c	/^CONSOLE* get_curcon ( void ) $/;"	f
+global	exceptn.asm	/^global	__copr_unavailable,__double_fault,__copr_seg_overrun,__inval_tss                          $/;"	l
+global	exceptn.asm	/^global	__seg_unpresent,__stack_exception,__general_protection,__copr_err                       $/;"	l
+global	exceptn.asm	/^global 	__div_err,__debug,__nmi,__breakpt,__overflow,__bounds_chk,__inval_opcode $/;"	l
+global	kernel.asm	/^global  KernelStack$/;"	l
+global	kernel.asm	/^global  __clk,__keyboard,__hd$/;"	l
+global	kernel.asm	/^global  __k_reenter$/;"	l
+global	kernel.asm	/^global  save,__procs_restart,re_restart$/;"	l
+global	kernel.asm	/^global __mem_size$/;"	l
+global	kernel.asm	/^global _start$/;"	l
+global	page/page.asm	/^global __page_fault$/;"	l
+global	sys.asm	/^global __do_syscall$/;"	l
+hdisk	hd.c	/^static void hdisk ( void ) $/;"	f	file:
+init	kmain.c	/^PROCESS init;$/;"	v
+init_console	kconio.c	/^void init_console ( void )$/;"	f
+init_exceptn	excpcalls.c	/^void init_exceptn ( void ) $/;"	f
+init_hd_intr	hd.c	/^void init_hd_intr ( void ) $/;"	f
+init_mm	page/page_map.c	/^inline void init_mm ( void ) $/;"	f
+init_stack	kmain.c	/^static  __byte init_stack[PROCS_STACK_SIZE] = {0};$/;"	v	file:
+init_sys_calls	syscall.c	/^void init_sys_calls ( void  ) $/;"	f
+intred	syscall.c	/^unsigned char intred = 0 ;$/;"	v
+invalidata_tss	excpcalls.c	/^static void invalidata_tss ( __u32 err_code )$/;"	f	file:
+invalidate_opcode	excpcalls.c	/^static void invalidate_opcode ( void ) $/;"	f	file:
+kb_buf	keybd.c	/^KBD_QUE *kb_buf  = (KBD_QUE*)(TERM_BUFFER); $/;"	v
+kb_get	keybd.c	/^static __u8  kb_get ( __u8 elem  ) $/;"	f	file:
+keybd	keybd.c	/^static void keybd ( void ) $/;"	f	file:
+kgetpt	kconio.c	/^inline int  kgetpt ( __u32* posx,__u32* posy ) $/;"	f
+kgetrgb	kconio.c	/^inline __byte kgetrgb ( void ) $/;"	f
+kputch	kconio.c	/^int  kputch ( const char ch ) $/;"	f
+ksetpt	kconio.c	/^inline int ksetpt ( __u32 posx,__u32 posy ) $/;"	f
+ksetrgb	kconio.c	/^inline __byte ksetrgb ( __byte crgb )$/;"	f
+load_elf	fork.c	/^void load_elf ( __u32 old_entry_base ,__u32 nr_procs ) $/;"	f
+map_page_to_phys	page/page_map.c	/^__u32 map_page_to_phys ( __u32 phys_addr,__u32 page_addr ) $/;"	f
+math_fault	excpcalls.c	/^static void math_fault ( __u32 err_code ) $/;"	f	file:
+nmi	excpcalls.c	/^static void nmi ( void ) $/;"	f	file:
+no_err_code	exceptn.asm	/^no_err_code:$/;"	l
+old_t_id	sched.c	/^unsigned long   __ticks,old_t_id;$/;"	v
+over_flow	excpcalls.c	/^static void over_flow ( void )$/;"	f	file:
+page_cnt	page/page_map.c	/^__u8    *page_cnt   = NULL;                         \/\/ pages cnt of MAPED_MEM pages$/;"	v
+panic	panic.c	/^int panic ( const char* fmt,... ) $/;"	f
+pf_ret	page/page.asm	/^pf_ret:$/;"	l
+pop	kernel.asm	/^        pop	    ds$/;"	d
+procs_ptr	kmain.c	/^PROCESS*  procs_ptr[MAX_PROCS] = {0};$/;"	v
+push	exceptn.asm	/^        push	ds$/;"	d
+push	kernel.asm	/^        push	ds$/;"	d
+push	page/page.asm	/^        push	ds$/;"	d
+rdport	dtcntl.c	/^unsigned char   rdport  ( unsigned short port )$/;"	f
+re_restart	kernel.asm	/^re_restart:$/;"	l
+ret_prc	sched.c	/^void ret_prc ( unsigned long ret_val ) $/;"	f
+rid_irq_prc	irq.c	/^inline void rid_irq_prc ( __u32 irq_no ) $/;"	f
+save	kernel.asm	/^save:$/;"	l
+schedule	sched.c	/^void schedule ( void ) $/;"	f
+seg2phys	dtcntl.c	/^inline __u32 seg2phys ( __u16 seg ) $/;"	f
+seg_unpresent	excpcalls.c	/^static void seg_unpresent ( __u32 err_code )$/;"	f	file:
+set_cur_con	kconio.c	/^void set_cur_con ( CONSOLE *pcon ) $/;"	f	file:
+set_curcon	kconio.c	/^CONSOLE* set_curcon ( unsigned char cur_con ) $/;"	f
+set_intr_gate	dtcntl.c	76;"	d	file:
+set_irq_prc	irq.c	/^inline void set_irq_prc ( __u32 irq_no,PRC prc ) $/;"	f
+set_ldt	dtcntl.c	/^void set_ldt ( __u32 nr_procs,__u8 nr_ldt,$/;"	f
+set_start_addr	kconio.c	/^void set_start_addr ( unsigned long addr ) $/;"	f	file:
+set_sys_gate	dtcntl.c	78;"	d	file:
+set_trap_gate	dtcntl.c	74;"	d	file:
+setcurpos	kconio.c	/^void setcurpos ( __u32 curpos ) $/;"	f
+sleep_on	sched.c	/^inline void sleep_on ( PROCESS *dest,__u32 thread_nr )$/;"	f
+stack_err	excpcalls.c	/^static void stack_err ( __u32 err_code ) $/;"	f	file:
+switch_to	sched.c	/^void switch_to (PROCESS *proc,unsigned long tid ) $/;"	f
+sys_add_thread	syscall.c	/^static __u32 sys_add_thread ( __u32 thread_entry,__u8 state )$/;"	f	file:
+sys_badness	syscall.c	/^unsigned long sys_badness ( void ) $/;"	f	file:
+sys_block	syscall.c	/^unsigned long sys_block ( unsigned long tid ) $/;"	f	file:
+sys_exit	exit.c	/^unsigned long sys_exit ( unsigned long exit_code ) $/;"	f
+sys_fork	fork.c	/^pid_t sys_fork ( void ) $/;"	f
+sys_get_pinfo	syscall.c	/^static unsigned long sys_get_pinfo ( unsigned long *tasks_nr )$/;"	f	file:
+sys_get_tks	syscall.c	/^static __u32 sys_get_tks ( void ) $/;"	f	file:
+sys_pause	sched.c	/^unsigned long sys_pause (void) $/;"	f
+sys_pickmail	ipc/msgcall.c	/^unsigned long sys_pickmail ( MAIL *pmail )$/;"	f
+sys_postmail	ipc/msgcall.c	/^unsigned long sys_postmail ( MAIL *pmail )$/;"	f
+sys_replymail	ipc/msgcall.c	/^unsigned long sys_replymail ( MAIL *pmail )$/;"	f
+sys_rid_thread	syscall.c	/^static unsigned long  sys_rid_thread ( unsigned long t_id ) $/;"	f	file:
+sys_sendmail	ipc/msgcall.c	/^unsigned long sys_sendmail ( MAIL *pmail )$/;"	f
+sys_tty_write	syscall.c	/^static __u32 sys_tty_write ( const char *str,__u32 len  ) $/;"	f	file:
+sys_unblock	syscall.c	/^unsigned long sys_unblock ( unsigned long tid ) $/;"	f	file:
+sys_wait_hd_intr	syscall.c	/^static unsigned long sys_wait_hd_intr ( void ) $/;"	f	file:
+task_Init_init	kmain.c	/^static void task_Init_init ( void ) $/;"	f	file:
+try_to_send	ipc/msgcall.c	/^char try_to_send (MAIL *pmail)$/;"	f	file:
+unknown_exceptn	excpcalls.c	/^static void unknown_exceptn ( void )$/;"	f	file:
+wait_tid	syscall.c	/^unsigned long wait_tid = -1 ;$/;"	v
+wake_up	sched.c	/^inline void wake_up ( PROCESS *dest,__u32 thread_nr )$/;"	f
+wrport	dtcntl.c	/^unsigned char   wrport  (unsigned short port,unsigned char val)$/;"	f
+wt_denied	page/page.asm	/^wt_denied:$/;"	l
+x	kconio.c	/^static X *x = (X*)(TERM_ROCK);$/;"	v	file:
